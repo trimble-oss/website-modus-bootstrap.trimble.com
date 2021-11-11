@@ -1,0 +1,92 @@
+{{- define "main" }}
+
+<header class="container-fluid px-0 pt-5 pt-md-1">
+  <div class="container py-md-3 pt-4">
+    <div class="row py-lg-3">
+      <div class="col-12 py-4 text-center">
+        <h1 class="display-3 font-weight-bold pt-4 mt-5 text-white {{- if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+          {{- .Title | title -}}
+        </h1>
+        <h2 class="mt-4 col-12 col-sm-11 mx-auto text-white px-sm-1 px-md-2 px-lg-3 px-xl-4">
+          {{- .Params.description -}}
+        </h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main role="main" class="my-5 container">
+  {{ if .Params.componentsHome }}
+
+  <div class="container mb-5">
+    <div class="row">
+      {{ range first 29 (where .Site.RegularPages ".Section" "components") }}
+      {{- partial "card-component.html" . -}}
+      {{- end -}}
+    </div>
+  </div>
+
+  {{- else }}
+
+  <div class="row">
+    <div class="col-12 col-md-3 col-lg-2 menu-left">
+      {{ partial "menu-left.html" . }}
+    </div>
+    <div class="col-12 col-md-9 col-lg-10 col-xl-8">
+      <article id="main" class="pr-3">
+        {{ if .Params.componentsHome }}
+        <div class="row">
+          <div class="col">
+            <form class="w-100 mb-2">
+              <label for="search" class="sr-only">Search for components</label>
+              <input class="form-control form-control-lg w-100 search" id="search" placeholder="Start typing to filter..." inputmode="search" autocomplete="off" title="" />
+            </form>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ if and (gt .WordCount 9350 ) (not .Params.hideToc) }}
+        <details class="mb-3 d-print-none d-xl-none">
+          <summary class="mb-1 user-select-none">Contents</summary>
+          {{ .TableOfContents }}
+        </details>
+        {{- end -}}
+
+        {{ .Content }}
+
+        <footer class="mt-4 pt-3">
+          {{- if .Params.styleguideURL -}}
+          <div class="d-xl-none">
+            <h5 class="pt-2">More Information</h5>
+            <a href="https://modus.trimble.com/{{- .Params.styleguideURL -}}" class="nav-link text-dark text-decoration-none ml-0 pl-0 filter-desaturate" target="_blank" rel="noopener">Modus Style Guide</a>
+          </div>
+          {{- end -}}
+
+          <!-- this displays date that markdown file was last committed to Git -->
+          {{- if not .Params.hideDate -}}
+          {{- if ne .Lastmod .Date -}}
+          <span class="text-secondary small"
+            ><i> Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year }}. </i></span
+          >
+          {{- end -}}
+          {{- end -}}
+        </footer>
+      </article>
+    </div>
+
+    <div class="col-xl-2 d-none d-xl-block menu-right">
+      {{ if and (gt .WordCount 99 ) (not .Params.hideToc) }}
+      {{ partial "menu-right.html" . }}
+      {{- end -}}
+    </div>
+
+    {{- end -}}
+  </div>
+</main>
+
+<script src="/js/clipboard.min.js"></script>
+<script>
+  new ClipboardJS(".btn");
+</script>
+
+{{- end -}}

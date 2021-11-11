@@ -1,0 +1,237 @@
+baseurl: https://modus-bootstrap.trimble.com
+title: Trimble Modus Bootstrap Developer Guide
+languageCode: en-US
+locale: en-US
+
+enableInlineShortcodes: true
+enableGitInfo: true
+googleAnalytics: "G-T2EGGYVY8J"
+
+params:
+  title: Modus Bootstrap Developer Guide
+  description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
+  modusBootstrapVersion: "1.3.0"
+  modusLayoutVersion: "1.3.0"
+  modusIconsVersion: "0.5.1"
+  bootstrapVersion: "4.6"
+  author: "Trimble"
+
+publishdir: "./build/"
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "404"]
+
+taxonomies:
+  tag: ""
+  group: ""
+
+pygmentsUseClasses: true
+
+outputs:
+  home: ["HTML", "JSON"]
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+menu:
+  main:
+    - name: Getting Started
+      url: "/getting-started/"
+      weight: 1
+    - name: Layout
+      url: "/layout/"
+      weight: 2
+    - name: Foundations
+      url: "/foundations/typography/"
+      weight: 3
+    - name: Components
+      url: "/components/"
+      weight: 4
+    - Name: Utilities
+      url: "/utilities/borders/"
+      weight: 5
+
+  start:
+    - name: Getting Started
+      url: "/getting-started/"
+      weight: 1
+    - name: Device Support
+      url: "/device-support/"
+      weight: 3
+    - name: Status
+      url: "/status/"
+      weight: 4
+    - Name: Changelog
+      url: "/changelog/"
+      weight: 5
+
+  layout:
+    - name: Layout
+      url: "/layout/"
+      weight: 1
+    - name: Starter Projects
+      url: "/layout/starter-projects/"
+      weight: 2
+
+  foundations:
+    - name: Typography
+      url: /foundations/typography/
+      weight: 1
+    - name: Color Palette
+      url: /foundations/color-palette/
+      weight: 2
+    - name: Shadows & Depth
+      url: /foundations/shadows-and-depth/
+      weight: 3
+    - name: Grid & Spacing
+      url: /foundations/grid-and-spacing/
+      weight: 4
+    - name: Icons
+      url: /foundations/icons/
+      weight: 5
+
+  components:
+    - name: Accordions
+      url: /components/accordions/
+    - name: Alerts
+      url: /components/alerts/
+    - name: Badges
+      url: /components/badges/
+    - name: Breadcrumbs
+      url: /components/breadcrumbs/
+    - name: Buttons
+      url: /components/buttons/
+#    - name: Button Group
+#      url: /components/button-group/
+    - name: Cards
+      url: /components/cards/
+    - name: Chips
+      url: /components/chips/
+    - name: Checkboxes
+      url: /components/Checkboxes/
+    - name: Dropdowns
+      url: /components/dropdowns/
+    - name: Inputs
+      url: /components/inputs/
+    - name: Lists
+      url: /components/lists/
+    - name: Messages
+      url: /components/messages/
+    - name: Modals
+      url: /components/modals/
+    - name: Navbar
+      url: /components/navbar/
+    - name: Pagination
+      url: /components/pagination/
+    - name: Progress Bars
+      url: /components/progress-bars/
+    - name: Radio Buttons
+      url: /components/radio-buttons/
+    - name: Sliders
+      url: /components/sliders/
+    - name: Spinners
+      url: /components/spinners/
+    - name: Switches
+      url: /components/switches/
+    - name: Tables
+      url: /components/tables/
+    - name: Tabs
+      url: /components/tabs/
+    - name: Toasts
+      url: /components/toasts/
+    - name: Tooltips
+      url: /components/tooltips/
+
+  utilities:
+    - name: "Borders"
+      url: /utilities/borders/
+    - name: Clearfix
+      url: /utilities/clearfix/
+    - name: Close Icon
+      url: /utilities/close-icon/
+    - name: Display
+      url: /utilities/display/
+    - name: Embed
+      url: /utilities/embed/
+    - name: Flex
+      url: /utilities/flex/
+    - name: Float
+      url: /utilities/float/
+    - name: Interactions
+      url: /utilities/interactions/
+    - name: Layout
+      url: /utilities/layout/
+    - name: Overflow
+      url: /utilities/overflow/
+    - name: Position
+      url: /utilities/position/
+    - name: Screen Readers
+      url: /utilities/screen-readers/
+    - name: Sizing
+      url: /utilities/sizing/
+    - name: Padding and Margin
+      url: /utilities/padding-and-margin/
+    - name: Text
+      url: /utilities/text/
+    - name: Vertical Alignment
+      url: /utilities/vertical-alignment/
+    - name: Visibility
+      url: /utilities/visibility/
+
+module:
+  mounts:
+    - source: static/
+      target: static/
+    - source: assets/static/favicon.ico
+      target: static/favicon.ico
+    - source: assets/static/robots.txt
+      target: static/robots.txt
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: static/js/bootstrap.bundle.min.js
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
+      target: static/js/bootstrap.bundle.min.js.map
+    - source: node_modules/list.js/dist/list.min.js
+      target: static/js/list.min.js
+    - source: node_modules/list.js/dist/list.min.js.map
+      target: static/js/list.min.js.map
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    style: monokai
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+
+# https://gohugo.io/getting-started/configuration/#configure-minify
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepEndTags: false
+      keepWhitespace: true
+    js:
+      keepVarNames: true
+    xml:
+      keepWhitespace: true

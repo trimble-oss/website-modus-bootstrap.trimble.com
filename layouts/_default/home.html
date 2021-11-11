@@ -1,0 +1,144 @@
+{{ define "main" }}
+
+<main role="main" id="main">
+
+  <div class="container-fluid pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 pt-5 mt-xl-5">
+          <h1 class="text-trimble-blue mt-4 display-4 font-weight-bold text-center text-lg-left">
+            Modus Bootstrap
+            <p class="text-trimble-blue font-weight-light display-4" style="line-height: 1.2;">
+              Developer Guide</p>
+          </h1>
+          <p class="lead text-trimble-blue-dark pt-3 mb-lg-5 text-center text-lg-left mr-lg-5">
+            Quickly design and customize responsive mobile-first sites with Modus Bootstrap, featuring a responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.</p>
+        </div>
+        <div class="col-10 col-sm-9 col-lg-6 mx-auto mt-lg-5 mb-n4">
+          <div class="mt-lg-5">
+            <img src="/img/modus-laptop-phone.svg" width="620" height="395" class="img-fluid text-center mx-auto mt-lg-5 mt-xl-1"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light">
+    <div class="container py-5">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 text-center">
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/code.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-4">
+              <div class="card-home">
+                <p class="card-text px-xl-3">Download from npm, CDN and find out how to use with Angular projects.</p>
+              </div>
+              <div class="mt-1">
+                <a href="/getting-started/" class="btn btn-primary rounded text-center">
+                  Getting Started »
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/window.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-4">
+              <div class="card-home">
+                <p class="card-text px-xl-3">An optional responsive app layout you can use
+                  for your web applications.</p>
+              </div>
+              <a href="/layout/" class="btn btn-primary rounded text-center">
+                Layout »
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/text-height.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-4">
+              <div class="card-home">
+                <p class="card-text px-xl-3">Typography, Color Palette, Depth, Grid & Spacing and Icons.</p>
+              </div>
+              <a href="/foundations/" class="btn btn-primary rounded text-center">
+                Foundations »
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/toggle-on.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-4">
+              <div class="card-home">
+                <p class="card-text px-xl-3">Modus-Bootstrap includes dozens of prebuilt components to kick-start your project.
+                </p>
+              </div>
+              <div class="text-center w-100">
+                <a href="/components/" class="btn btn-primary rounded text-center">
+                  Components »
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/tools.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-5">
+              <div class="card-home">
+                <p class="card-text px-xl-3">Utility classes are a powerful ally in combatting CSS bloat and poor page
+                  performance.</p>
+              </div>
+              <a href="/utilities/" class="btn btn-primary rounded text-center">
+                Utilities »
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="h-100">
+            <div class="text-center mb-3">
+              {{ partial "icons/fa/light/envelope.svg" (dict "class" "text-secondary opacity-50 my-1" "width" "64" "height" "64") }}
+            </div>
+            <div class="px-4">
+              <div class="card-home">
+                <p class="card-text px-xl-3">Subscribe to the mailing list and be the first to find out about new releases.</p>
+              </div>
+              <a href="mailto:modus-ug+subscribe@trimble.com"
+                onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=440,toolbar=1,resizable=0'); return false;"
+                class="btn btn-primary rounded text-center">
+                Subscribe »
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+{{ end }}

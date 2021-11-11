@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anderseandersen.html-class-suggestions",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "mkaufman.HTMLHint",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint"
+  ]
+}

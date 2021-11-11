@@ -1,0 +1,26 @@
+<div class="sticky-top sticky-offset">
+  <h5 class="pt-2 ml-3">
+    On this page
+  </h5>
+  {{ .TableOfContents }}
+{{ if .Params.changelog }}
+<a href="/modus-bootstrap.xml" class="btn btn-primary btn-sm ml-3">
+  {{ partial "icons/fa/solid/rss-square.svg" (dict "class" "text-secondary mt-n1 ml-n1" "width" "14" "height" "14") }}
+  Subscribe RSS
+</a>
+{{- end -}}
+<script>
+  $(function () {
+    jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0');
+    jQuery('#TableOfContents a').addClass('nav-link');
+  });
+</script>
+{{- if .Params.styleguideURL -}}
+<h5 class="pt-2 ml-3">
+More Information
+</h5>
+<ul class="list-unstyled pl-0 ml-0">
+<li><a href="https://modus.trimble.com/{{- .Params.styleguideURL -}}" class="nav-link text-dark text-decoration-none filter-desaturate" target="_blank" rel="noopener">Modus Style Guide</a></li>
+</ul>
+{{- end -}}
+</div>

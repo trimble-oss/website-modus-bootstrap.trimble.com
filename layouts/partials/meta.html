@@ -1,0 +1,131 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+
+<!-- Loads Modus from CDN -->
+{{- if not .Params.SamplePage -}}
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-{{ .Site.Params.modusBootstrapVersion }}.css">
+{{ else }}
+<link rel="stylesheet" href="{{ .Params.modusCSS }}">
+{{ end }}
+
+<!-- if URL param includes ?Next -->
+<script>
+  if (window.location.search.search(/[?&]next(?:$|&)/) !== -1) {
+
+    var $ = document; // shortcut
+    var cssId = 'next';  // you could encode the css path itself to generate id..
+    if (!$.getElementById(cssId))
+    {
+        var head  = $.getElementsByTagName('head')[0];
+        var link  = $.createElement('link');
+        link.id   = cssId;
+        link.rel  = 'stylesheet';
+        link.href = 'https://styles-dev.trimblemaps.com/css/modus.css';
+        head.appendChild(link);
+    }
+
+}
+</script>
+
+<!-- To speed up the homepage rendering time these CSS & JS files load on every page except homepage where they aren't used -->
+{{- if not .IsHome -}}
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+{{- end -}}
+
+{{- if .Params.loadModusLayout }}
+{{- if not .Params.SamplePage -}}
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.css">
+<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.js"></script>
+{{ else }}
+<link rel="stylesheet" href="{{ .Params.modusLayoutCSS }}">
+<script src="{{ .Params.modusLayoutJS }}"></script>
+{{- end -}}
+{{- end -}}
+
+<!-- IE11 Polyfills -->
+<script nomodule src="https://polyfill.io/v3/polyfill.min.js"></script>
+
+<!-- Compiles and minifies the sites SASS files from /assets/css/ -->
+{{- if not .Params.SamplePage -}}
+{{- $sassOptions := (dict "enableSourceMap" true) -}}
+{{ $styles := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{ now.Format "2006-01-02"}}">
+{{ end }}
+
+<!-- Displays Built with Hugo Meta Tag on homepage only-->
+<!-- Google Search Console Verification for homepage only -->
+{{- if .IsHome -}}
+{{ hugo.Generator }}
+<meta name="google-site-verification" content="NMOesOkCLPuh0w1wyYyMje6YCd3XpJ30lrK5RfvEj7g">
+{{- end }}
+
+<meta name="description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
+
+<!-- OpenGraph Meta tags using Hugo's own built-in template -->
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:locale" content="en_US">
+
+<!-- no need to define additional Twitter card meta tags as fallback to OpenGraph -->
+<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
+
+<!-- Theme Color is used for the tab color on Chrome for Android -->
+<meta name="theme-color" content="#005f9e">
+
+<!-- Load jQuery from CDN with fallback -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.5.1.min.js"><\/script>');</script>
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link rel="alternate" type="application/rss+xml" title="Modus Bootstrap Releases"
+  href="https://modus-bootstrap.trimble.com/modus-bootstrap.xml">
+
+{{- with .OutputFormats.Get "rss" -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{- end -}}
+
+{{- if or .Params.loadFontAwesome .Params.Samplepage }}
+<script src="https://kit.fontawesome.com/bbe67f2190.js" async></script>
+{{- end -}}
+
+{{- if not .Params.hideSearch -}}
+<!-- search input is a different form on mobile and desktop -->
+<!-- TODO: Improve this -->
+<script>
+  $(function () {
+    if ($(window).width() >= 768) {
+      $(".search-desktop").attr('id', 'search-by');
+    }
+    else {
+      $(".search-mobile").attr('id', 'search-by');
+    }
+  });
+</script>
+
+<script>
+  var baseurl = "{{.Site.BaseURL}}";
+</script>
+
+<!-- Combines and minifies the 3x JS files which are used for the Search -->
+{{ $autocomplete := resources.Get "js/auto-complete.min.js" }}
+{{ $lunr := resources.Get "js/lunr.min.js" }}
+{{ $search := resources.Get "js/search.min.js" }}
+{{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{- end -}}
+
+<!-- Show custom 'LOC' favicon for serving locally -->
+{{- if .Site.IsServer -}}
+{{ $favicon := resources.Get "/static/favicon-loc.ico" }}
+<link rel="icon" href="{{ $favicon.RelPermalink }}">
+{{ else }}
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{{ end }}

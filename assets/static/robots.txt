@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://modus-bootstrap.trimble.com/sitemap.xml

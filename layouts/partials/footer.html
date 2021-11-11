@@ -1,0 +1,53 @@
+<footer class="p-2 footer py-4">
+  <div class="container text-white">
+
+    <div class="row pt-2">
+      <div class="col-12 mb-4 mt-2">
+        <img src="/img/trimble-logo-rev.svg" width="107" height="25" alt="Trimble">
+      </div>
+    </div>
+
+    <div class="row py-2">
+      <div class="col-11 col-md-5 col-lg-4">
+        <p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+          and digital worlds.</p>
+      </div>
+      <div class="col-12 col-sm-1 col-lg-4">
+
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5" hidden>About Modus</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2"><a href="/getting-started/" class="py-2">Getting Started</a></li>
+          <li class="my-3 my-sm-2"><a href="/changelog/" class="py-2">Changelog</a></li>
+          <li class="my-3 my-sm-2"><a href="/status/" class="py-2">Status</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5" hidden>Help</p>
+        <ul class="list-unstyled">
+      <!-- <li class="my-3 my-sm-2"><a href="#" class="py-2">Contribute</a></li> -->
+          <li class="my-3 my-sm-2"><a href="https://currents.google.com/u/0/communities/106752401938284014662" rel="noopener"
+              target="_blank" class="py-2">Community Forum</a></li>
+          <li class="my-3 my-sm-2"><a href="mailto:modus-ug+subscribe@trimble.com" class="py-2"
+              onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=440,toolbar=1,resizable=0'); return false;"
+              rel="nofollow">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row p-3">
+      <div class="col-12 border-top border-light opacity-50">
+      </div>
+    </div>
+    <div class="row pt-2">
+      <div class="col-12 col-sm-6 small">
+        Copyright &copy; {{ now.Format "2006" }}, Trimble Inc.
+      </div>
+      <div class="col-12 col-sm-6 text-sm-right small">
+        <a href="https://www.trimble.com/Corporate/Terms_of_Use.aspx" rel="noopener" target="_blank">Terms of Use</a>
+        - Modus Version: {{ .Site.Params.modusBootstrapVersion }}</a>
+      </div>
+    </div>
+  </div>
+</footer>

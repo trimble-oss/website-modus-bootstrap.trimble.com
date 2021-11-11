@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" {{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }}{{ with .class }} class="{{ . }}"{{ end }} viewBox="0 0 24 24"><path d="M5.6,7.2,12,13.52,18.4,7.2,20,8.8l-8,8-8-8Z"/></svg>

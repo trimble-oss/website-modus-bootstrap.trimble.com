@@ -1,0 +1,5 @@
+*.min.css
+_guide-layout.scss
+_styleguide.scss
+*.svg
+*.html

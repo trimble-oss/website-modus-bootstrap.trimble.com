@@ -1,0 +1,191 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Modus Bootstrap Releases</title>
+  <icon>https://modus-bootstrap.trimble.com/icon.png</icon>
+  <updated>2021-10-29T09:00:00-05:00</updated>
+  <id>https://modus-bootstrap.trimble.com/modus-bootstrap.xml</id>
+  <link type="text/html" href="https://modus-bootstrap.trimble.com/changelog/" rel="alternate"/>
+  <entry>
+    <published>2021-10-29T09:00:00Z</published>
+    <updated>2021-10-29T09:00:00Z</updated>
+    <title>v1.3.0 - 2021-10-29</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/#v130---2021-10-29</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2021-09-28T09:00:00Z</published>
+    <updated>2021-09-28T09:00:00Z</updated>
+    <title>v1.2.0 - 2021-09-28</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/#v120---2021-09-28</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2021-08-12T09:00:00Z</published>
+    <updated>2021-08-12T09:00:00Z</updated>
+    <title>v1.1.0 - 2021-08-12</title>
+    <content type="html">
+      <ul>
+        <li>Change box-shadow color from blue to trimble gray</li>
+        <li>Fix for SASS deprecation warnings for adjust-color() saturation</li>
+        <li>Change
+          <code>&lt;small></code> and
+          <code>.small</code> font-size from 10.5px to 12px
+        </li>
+        <li>Custom Switch CSS fix for IE11</li>
+        <li>Drop Edge Legacy support</li>
+        <li>Fix for body font-family being duplicated</li>
+      </ul>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/#v110---2021-08-12</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2021-06-10T09:00:00Z</published>
+    <updated>2021-06-10T09:00:00Z</updated>
+    <title>v1.0.1 - 2021-06-10</title>
+    <content type="html">
+      <ul>
+        <li>Update to
+          <a href="https://github.com/twbs/bootstrap/releases/tag/v4.6.0" target="_blank">Bootstrap v4.6.0</a>
+        </li>
+        <li>Input Field Placeholder Shift fix
+          <small>(
+            <a href="https://jira.trimble.tools/browse/DDS-133" target="_blank">DDS-133</a>)
+          </small>
+        </li>
+        <li>Address SASS deprecation warnings for adjust-color()
+          <small>(
+            <a href="https://jira.trimble.tools/browse/ETHER-129" target="_blank">ETHER-129</a>)
+          </small>
+        </li>
+        <li>Fix for Indeterminate Checkbox SVG size /position
+          <small>(
+            <a href="https://jira.trimble.tools/browse/DDS-107" target="_blank">DDS-107</a>)
+          </small>
+        </li>
+      </ul>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/#v101---2021-06-10"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/#v101---2021-06-10</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2020-12-08T09:00:00Z</published>
+    <updated>2020-12-08T09:00:00Z</updated>
+    <title>v1.0.0 - 2020-12-08</title>
+    <content type="html">
+      <ul>
+        <li>Update to
+          <a href="https://github.com/twbs/bootstrap/releases/tag/v4.5.3" target="_blank">Bootstrap v4.5.3</a>
+        </li>
+        <li>Improved
+          <a href="/components/checkboxes/">Checkbox</a> indeterminate state styling
+          <small>(
+            <a href="https://jira.trimble.tools/browse/ETHER-112" target="_blank">ETHER-112</a>)
+          </small>
+        </li>
+        <li>Improved
+          <a href="/components/breadcrumbs/">Breadcrumb</a> chevron style
+          <small>(
+            <a href="https://jira.trimble.tools/browse/ETHER-114" target="_blank">ETHER-114</a>)
+          </small>
+        </li>
+        <li>Added
+          <code>breadcrumb-underline</code> class (with underlined links)
+        </li>
+        <li>Changed background-color of form-control
+          <a href="/components/checkboxes/">Checkboxes</a> from transparent to white for greater contrast on non-white backgrounds
+        </li>
+        <li>Add 1px bottom border to form-controls
+          <a href="/components/inputs/">inputs</a>
+        </li>
+        <li>Reduce label size of forms from 13px to 12px
+</li>
+        <li>Increase font size of small
+          <a href="/components/buttons/">Buttons</a> from 11px to 12px
+        </li>
+        <li>Add
+          <code>code</code> color
+          <span class="small border bg-light color-preview mr-1">
+            <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color:#c37"></span>
+            <code class="text-dark mr-1 text-uppercase">#cc3377</code>
+          </span>
+(previously it used Bootstrap default)
+        </li>
+        <li>Change
+          <a href="/components/pagination/">Pagination</a> active color to
+          <span class="small border bg-light color-preview mr-1">
+            <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color:#07599b"></span>
+            <code class="text-dark mr-1 text-uppercase">#07599B</code>
+          </span>
+        </li>
+        <li>Change
+          <a href="/components/pagination/">Pagination</a> active background to
+          <span class="small border bg-light color-preview mr-1">
+            <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color:#e5f0f8"></span>
+            <code class="text-dark mr-1 text-uppercase">#E5F0F8</code>
+          </span>
+        </li>
+        <li>Reduce
+          <a href="/components/cards/">Card</a> padding to 16px
+        </li>
+        <li>Change
+          <a href="/components/progress-bars/">Progress Bars</a> colors and add 1px
+          <span class="small border bg-light color-preview mr-1">
+            <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color:#8c8b96"></span>
+            <code class="text-dark mr-1 text-uppercase">#8C8B96</code>
+          </span>
+border
+        </li>
+        <li>Change
+          <a href="/components/sliders/">Slider</a> color to
+          <code>$col_blue</code>
+        </li>
+        <li>Change
+          <a href="/foundations/depth/#shadow-depths">Shadow</a> depth and colors
+        </li>
+        <li>Change
+          <a href="/utilities/close-icon/">Close</a> button
+        </li>
+        <li>Change
+          <a href="/components/toasts/">Toast</a> colors
+        </li>
+        <li>Change
+          <a href="/components/badges/">Badge</a> Warning text color to
+          <code>$col_trimble_gray</code>
+        </li>
+        <li>Improved contrast, consistency with custom scrollbars which apply to all elements except body
+          <small>(
+            <a href="https://jira.trimble.tools/browse/ETHER-125" target="_blank">ETHER-125</a>)
+          </small>
+        </li>
+        <li>Revised Supported Browser
+          <small>(
+            <a href="https://jira.trimble.tools/browse/ETHER-120" target="_blank">ETHER-120</a>)
+          </small>
+        </li>
+      </ul>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/#v100---2020-12-08"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/#v100---2020-12-08</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+</feed>
