@@ -23,6 +23,11 @@ main .h2 {
 
 </style>
 
+## v1.3.1 - 2021-11-11
+
+* Improved checkbox mis-aligned input fix
+* Fix for 'Using / for division is deprecated' Dart Sass warning in `_controls.scss`
+
 ## v1.3.0 - 2021-10-29
 
 - Update to [Bootstrap v4.6.1](https://github.com/twbs/bootstrap/releases/tag/v4.6.1)

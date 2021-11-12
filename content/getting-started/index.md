@@ -189,11 +189,11 @@ Learn more about [using the layout CSS/JS](/layout/).
 
 <div class="row mt-5">
 
-{{< card-start title="Modus React Guide" header="react.svg" class="bg-react text-white py-4 bg-coming-soon" >}}
+{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com" header="react.svg" class="bg-react text-white py-4" >}}
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Angular Material Site" header="angular.svg" class="bg-danger py-4 bg-coming-soon" >}}
+{{< card-start title="Modus Angular" header="angular.svg" class="bg-danger py-4 bg-coming-soon" >}}
 
 {{</ card-start >}}
 
