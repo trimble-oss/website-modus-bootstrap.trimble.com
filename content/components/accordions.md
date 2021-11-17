@@ -140,7 +140,7 @@ You can use the `.accordion` classes in combination with other UI Elements to cr
   <li class="list-group-item">List Item</li>
   <li class="list-group-item">List Item</li>
   <li class="list-group-item py-0">
-    <div class="accordion borderless" id="listAccordion">
+    <div class="accordion borderless w-100" id="listAccordion">
       <div class="card">
         <div class="card-header px-0" id="listAccordionHeading" data-toggle="collapse" data-target="#listAccordionOne" aria-expanded="false" aria-controls="listAccordionOne">
           <h6 class="mb-0" id="collapsible-list-item">
