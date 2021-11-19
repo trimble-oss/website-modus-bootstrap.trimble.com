@@ -13,17 +13,14 @@ To run tests: `npm run test`
 | Resource              | Link                                                                    |
 | --------------------- | ----------------------------------------------------------------------- |
 | Modus Style Guide     | https://modus.trimble.com/                                              |
-| AWS S3 (Dev)          | http://bootstrap-dev.trimblemaps.com.s3-website-us-east-1.amazonaws.com |
-| AWS CloudFront (Dev)  | https://d36rsa1mw9hum6.cloudfront.net                                   |
-| AWS S3 (Prod)         | http://modus-bootstrap.trimble.com.s3-website-us-east-1.amazonaws.com   |
-| AWS CloudFront (Prod) | https://d3ag39rl6ri0uf.cloudfront.net                                   |
 | Jira                  | https://jira.trimble.tools/projects/ETHER/summary                       |
+| Netlify               | https://app.netlify.com/sites/modus-bootstrap-guide/overview            |
 
 ## Testing and Audits
 
 | Resource           | Link                                                                                            |
 | ------------------ | ----------------------------------------------------------------------------------------------- |
-| OpenGraph Test     | https://www.opengraph.xyz/url/https:%2F%2Fmodus-bootstrap.trimble.com/                          |
+| OpenGraph Test     | https://www.opengraph.xyz/url/https://modus-bootstrap.trimble.com/                              |
 | Speed Test         | https://www.webpagetest.org/                                                                    |
 | Google PageSpeed   | https://developers.google.com/speed/pagespeed/insights/?url=https://modus-bootstrap.trimble.com |
 | SEO, Social & More | https://www.seoptimer.com/modus-bootstrap.trimble.com                                           |
