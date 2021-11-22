@@ -4,10 +4,9 @@ layout: "single"
 description: "The status of each element is divided into the style definition (colors, sizes, etc) and the HTML/CSS
 framework code."
 url: "/status/"
-start: true
 hideToc: true
-aliases:
-- "/system-status/"
+hidden: true
+private: true
 ---
 
 <style>
