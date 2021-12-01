@@ -88,41 +88,9 @@ You can modify tables to use a dark background with light text by adding the
 
 ### Table Head Options
 
-Similar to tables and dark tables, use the modifier classes
-`.thead-light` or `.thead-light` to make
-`<thead>` appear light or dark.
+Use the modifier class `.thead-light` to make `<thead>` appear light.
 
 {{< example id="example-table-head" >}}
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
 <table class="table">
   <thead class="thead-light">
     <tr>
@@ -191,73 +159,6 @@ Add a class of `.table-bordered` to add borders to your table.
   </tbody>
 </table>
 <table class="table table-bordered table-dark">
-  <thead>
-    <tr>
-      <th scope="col" class="bg-dark">#</th>
-      <th scope="col" class="bg-dark">First</th>
-      <th scope="col" class="bg-dark">Last</th>
-      <th scope="col" class="bg-dark">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-{{</ example >}}
-
-### Borderless Table
-
-Add a class of `.table-borderless` to remove borders from your table.
-
-{{< example id="example-table-borderless" class="flex-column" >}}
-<table class="table table-borderless">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-<table class="table table-dark table-borderless">
   <thead>
     <tr>
       <th scope="col" class="bg-dark">#</th>
