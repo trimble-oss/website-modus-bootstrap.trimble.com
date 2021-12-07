@@ -14,9 +14,7 @@ Each set of colors has its own set of utility classes that modify
 background color, font color, and border color. You can reference the
 available utility classes below:
 
-<!--
-
-### Modus Colors
+### Modus Bootstrap Palette
 
 <div class="row">
 {{< card-color hex="#0063a3" bg="bg-primary" text="text-primary" border="border-primary" >}}
@@ -35,45 +33,7 @@ Tertiary Color
 Dark Color
 {{</ card-color >}}
 
-{{< card-color hex="#006638" bg="bg-success" text="text-success" border="border-success" >}}
-Success Color
-{{</ card-color >}}
-
-{{< card-color hex="#e49325" bg="bg-warning" text="text-warning" border="border-warning" >}}
-Warning Color
-{{</ card-color >}}
-
-{{< card-color hex="#da212c" bg="bg-danger" text="text-danger" border="border-danger" >}}
-Danger Color
-{{</ card-color >}}
-
 </div>
-
-
-<div class="row">
-
-{{< card-color hex="#ffffff" bg="bg-main-background" >}}
-Main Background Color
-{{</ card-color >}}
-
-{{< card-color hex="#f1f1f6" bg="bg-panel-background" >}}
-Panel Background Color
-{{</ card-color >}}
-
-{{< card-color hex="#217cbb" bg="bg-active" >}}
-Active Color
-{{</ card-color >}}
-
-{{< card-color hex="#e0e1e9" bg="bg-hover" >}}
-Hover Color
-{{</ card-color >}}
-
-{{< card-color hex="#dcedf9" bg="bg-selected" >}}
-Selected Color
-{{</ card-color >}}
-
-</div>
--->
 
 ### Primary Palette
 
