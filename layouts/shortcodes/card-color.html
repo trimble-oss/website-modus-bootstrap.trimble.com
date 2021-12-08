@@ -2,7 +2,7 @@
 {{- $hex := .Get "hex" -}}
 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
   <div class="card h-100 w-100 shadow-sm">
-    <div class="card-img-top {{ if (.Params.bg) }}{{.Get "bg"}}{{- end -}}">
+    <div class="card-img-top {{ if (.Params.bg) }}{{.Get "bg"}}{{- end -}}" {{ if (.Params.styleBg) }}style="background-color: {{.Get "hex" }};"{{- end -}}>
       <div class="py-4 py-lg-5"></div>
     </div>
     <div class="card-body pb-2 mb-1">
