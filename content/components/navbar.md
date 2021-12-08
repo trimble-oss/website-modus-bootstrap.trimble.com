@@ -4,6 +4,8 @@ layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 components: true
 styleguideURL: "components/navbar/"
+aliases:
+  - "/components/navbars/"
 ---
 
 ## Overview
