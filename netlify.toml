@@ -3,6 +3,9 @@
   functions = "netlify/functions"
   publish = "build"
 
+[context.deploy-preview]
+  command = "hugo --config config.yml,config-dev.yml"
+
 [[headers]]
   for = "/*"
   [headers.values]
