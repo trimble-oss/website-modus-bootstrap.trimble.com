@@ -1,0 +1,43 @@
+new gridjs.Grid({
+  columns: ["Name", "Email", "Phone Number"],
+  pagination: true,
+  search: true,
+  resizable: true,
+  fixedHeader: true,
+  sort: true,
+  data: [
+    ["Ewa", "ewa@example.com", "(353) 01 222 3333"],
+    ["Maha", "maha@example.com", "(42) 22 878 4244"],
+    ["Michael", "michael_mcintyre@example.com", "(01) 22 878 4679"],
+    ["Ryan", "ryan-h@example.com", "(32) 22 288 4574"],
+    ["Rickie", "rickie-rickie@example.com", "(02) 22 288 2646"],
+    ["Roland", "awesome-roland@example.com", "(62) 22 288 4976"],
+    ["Eric", "eric@example.com", "0097 22 654 0033"],
+    ["Balaji", "balaji@example.com", "0097 22 64 0133"],
+    ["Sarah", "sarah@example.com", "+322 226 1231"],
+    ["George", "porge-the-george@example.com", "+322 816 1231"],
+    ["Benjamin", "button-ben@example.com", "+322 876 1231"],
+    ["Yan", "yan@example.com", "+322 876 1231"],
+    ["Andre", "andre_giant@example.com", "097 176 9013"],
+    ["Stansa", "stansa-s@example.com", "0097 346 2413"],
+    ["Mohammad", "mohammad_1@example.com", "702-489-0782"],
+    ["Nick", "nick@example.com", "(08) 22 87 8356"],
+    ["Edy", "edy@example.com", "(35) 434-979-7638"],
+    ["Maria", "maria@example.com", "(113) 83 45 8388"],
+    ["Elizabeth", "olive_elizabeth@example.com", "(33) 83 45 3466"],
+    ["Christian", "christiano@example.com", "(23) 03 35 3721"],
+    ["Milo", "milo-demons@example.com", "(23) 25 56 8787"],
+    ["Elsa", "frozen-elsa@example.com", "(213) 82 85 8357"],
+    ["Brian", "brian-r@example.com", "217-642-2661"]
+  ],
+  className: {
+    table: 'table rounded-0 border-top',
+    th: 'bg-gray-light rounded-0 px-3 text-gray-8',
+    td: 'bg-white px-3 py-1',
+    paginationButton: 'page-item border-0 shadow-0',
+    paginationButtonCurrent: 'active bg-selected text-active text-trimble-blue border-0',
+    paginationButtonNext: 'rounded border-0 shadow-0',
+    paginationButtonPrev: 'rounded border-0 shadow-0',
+    footer: 'rounded-0'
+  }
+}).render(document.getElementById("wrapper"));
