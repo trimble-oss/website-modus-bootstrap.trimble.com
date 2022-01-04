@@ -335,6 +335,7 @@
     "extrabold",
     "extrahead",
     "ezpass",
+    "Falmer",
     "fancher",
     "favicon",
     "favicons",
@@ -374,6 +375,7 @@
     "frontline",
     "fsac",
     "fsevents",
+    "Fulham",
     "Fullscreen",
     "fusv",
     "gammatech",
@@ -411,6 +413,7 @@
     "goldmark",
     "goliad",
     "gomocha",
+    "Goodison",
     "goog",
     "google",
     "googleplay",
@@ -450,7 +453,6 @@
     "helvetica",
     "Hendry",
     "henriksson",
-    "Herrontown",
     "herrontown",
     "highlightable",
     "hillpoint",
@@ -647,6 +649,7 @@
     "mkdocs",
     "mlabel",
     "mlabels",
+    "Molineux",
     "monokai",
     "monospace",
     "motoblur",
@@ -898,6 +901,7 @@
     "searchbox",
     "searchcompleted",
     "segoe",
+    "Selhurst",
     "semibold",
     "seti",
     "setlayoutproperty",
@@ -952,6 +956,7 @@
     "stoptrip",
     "stopwords",
     "strapline",
+    "Stratford",
     "streetaddr",
     "streetsearch",
     "streetsidesoftware",
@@ -1020,6 +1025,7 @@
     "touchstart",
     "trac",
     "traffictile",
+    "Trafford",
     "trak",
     "transflo",
     "transitionable",
@@ -1179,5 +1185,12 @@
     "\\_\\w+",
     "\\#\\w+"
   ],
-  "ignorePaths": [".cspell.json", "**/node_modules/**", "*.min.*", "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*", "*.{log,svg,snap}", "test.*"]
+  "ignorePaths": [
+    ".cspell.json",
+    "**/node_modules/**",
+    "*.min.*",
+    "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
+    "*.{log,svg,snap}",
+    "test.*"
+  ]
 }
