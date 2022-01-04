@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Table with Sticky Header</title>
   <link rel="stylesheet" href="https://styles-dev.trimblemaps.com/css/modus.min.css">
+  <style>
+    th.sticky-top {
+      box-shadow: inset 0 -1px 0 0 #b7b9c3;
+      border-bottom-width: 0;
+    }
+  </style>
 </head>
 <body class="container mt-4">
 
@@ -26,16 +32,28 @@
     </thead>
     <tbody>
       <tr>
-        <td>Arsenal</td>
-        <td>London (Holloway)</td>
-        <td>Emirates Stadium</td>
-        <td>60,260</td>
+        <td class="border-top-0">Arsenal</td>
+        <td class="border-top-0">London (Holloway)</td>
+        <td class="border-top-0">Emirates Stadium</td>
+        <td class="border-top-0">60,260</td>
       </tr>
       <tr>
         <td>Aston Villa</td>
         <td>Birmingham</td>
         <td>Villa Park</td>
         <td>42,785</td>
+      </tr>
+      <tr>
+        <td>Barnsley</td>
+        <td>Barnsley</td>
+        <td>Oakwell</td>
+        <td>23,009</td>
+      </tr>
+      <tr>
+        <td>Birmingham City</td>
+        <td>Birmingham</td>
+        <td>St Andrew's</td>
+        <td>30,079</td>
       </tr>
       <tr>
         <td>Bournemouth</td>
