@@ -56,7 +56,7 @@
 {{- if not .Params.SamplePage -}}
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{ now.Format "2006-01-02"}}">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 {{ end }}
 
 <!-- Displays Built with Hugo Meta Tag on homepage only-->

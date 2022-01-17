@@ -37,4 +37,4 @@ package = "@netlify/plugin-lighthouse"
     performance = 0.7
     accessibility = 0.8
     best-practices = 0.8
-    seo = 0.8
+    seo = 0.7
