@@ -1,5 +1,12 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 {{- if not .Site.IsServer -}}
+<!-- OneTrust Cookies Consent Notice start for modus-bootstrap.trimble.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-language="en" charset="UTF-8"
+  data-domain-script="9fc46bbd-0433-49fc-8f0c-a06ad3a88652"></script>
+<script>
+  function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for modus-bootstrap.trimble.com -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
