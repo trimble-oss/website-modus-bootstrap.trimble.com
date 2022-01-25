@@ -13,6 +13,9 @@
   },
   "license": "private",
   "author": "Trimble",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
