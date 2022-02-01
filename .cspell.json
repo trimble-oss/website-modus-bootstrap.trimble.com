@@ -854,6 +854,7 @@
     "repos",
     "reqhttp",
     "res",
+    "resequenced",
     "resheader",
     "resmimetype",
     "restructuredtext",
@@ -1177,8 +1178,11 @@
     "zonar"
   ],
   "flagWords": [
+    "blacklist",
+    "grandfathered",
     "grey",
-    "hte"
+    "hte",
+    "whitelist"
   ],
   "language": "en,en-US",
   "ignoreRegExpList": [
@@ -1198,5 +1202,6 @@
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
     "*.{log,svg,snap}",
     "test.*"
-  ]
+  ],
+  "useGitignore": true
 }
