@@ -154,7 +154,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </th>
       <td>John</td>
       <td>Snow</td>
-      <td>@jsnow</td>
+      <td>@j_snow</td>
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -268,7 +268,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </th>
       <td>John</td>
       <td>Snow</td>
-      <td>@jsnow</td>
+      <td>@j_snow</td>
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
