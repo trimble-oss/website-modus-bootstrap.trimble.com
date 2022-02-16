@@ -20,27 +20,27 @@ styles or our various included modifier classes.
 <table class="table table-bordered">
   <thead class="bg-gray-light">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th>#</th>
+      <th>First</th>
+      <th>Last</th>
+      <th>Handle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+      <th>1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <th>2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th>3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
@@ -57,27 +57,27 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
 <table class="table table-bordered table-hover">
   <thead class="bg-gray-light">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th>#</th>
+      <th>First</th>
+      <th>Last</th>
+      <th>Handle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+      <th>1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <th>2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th>3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
@@ -92,16 +92,16 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
 <table class="table table-bordered">
   <thead class="bg-gray-light">
     <tr>
-      <th scope="col" class="icon-only"></th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-      <th scope="col" class="icon-only"></th>
+      <th class="icon-only"></th>
+      <th>First</th>
+      <th>Last</th>
+      <th>Handle</th>
+      <th class="icon-only"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <button class="btn btn-icon-only btn-text-dark rounded-circle">
           <i class="modus-icons">folder</i>
         </button>
@@ -109,7 +109,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -123,7 +123,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-checkbox">
           <input type="checkbox" checked="" class="custom-control-input" id="tableCheckbox4" name="example1">
           <label class="custom-control-label" for="tableCheckbox4"></label>
@@ -132,7 +132,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -146,7 +146,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-radio">
           <input type="radio" class="custom-control-input" id="tableRadio3" name="tableRadio" value="customEx">
           <label class="custom-control-label" for="tableRadio3"></label>
@@ -155,7 +155,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>John</td>
       <td>Snow</td>
       <td>@jsnow</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -169,7 +169,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-switch">
           <input type="checkbox" checked="" class="custom-control-input" id="tableSwitch3" name="example1">
           <label class="custom-control-label" for="tableSwitch3"></label>
@@ -178,7 +178,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -206,16 +206,16 @@ When using small variants of tables with icons and controls, don't forget to use
 <table class="table table-sm table-bordered table-hover">
   <thead class="bg-gray-light">
     <tr>
-      <th scope="col" class="icon-only"></th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-      <th scope="col" class="icon-only"></th>
+      <th class="icon-only"></th>
+      <th>First</th>
+      <th>Last</th>
+      <th>Handle</th>
+      <th class="icon-only"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle">
           <i class="modus-icons">folder</i>
         </button>
@@ -223,7 +223,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -237,7 +237,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-control-sm custom-checkbox">
           <input type="checkbox" checked="" class="custom-control-input" id="tableCheckbox6" name="example1">
           <label class="custom-control-label" for="tableCheckbox6"></label>
@@ -246,7 +246,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -260,7 +260,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-control-sm custom-radio">
           <input type="radio" class="custom-control-input" id="tableRadio3" name="tableRadio" value="customEx">
           <label class="custom-control-label" for="tableRadio3"></label>
@@ -269,7 +269,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>John</td>
       <td>Snow</td>
       <td>@jsnow</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -283,7 +283,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <div class="custom-control custom-control-sm custom-switch">
           <input type="checkbox" checked="" class="custom-control-input" id="tableSwitch3" name="example1">
           <label class="custom-control-label" for="tableSwitch3"></label>
@@ -292,7 +292,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
