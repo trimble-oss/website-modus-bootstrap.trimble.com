@@ -20,27 +20,27 @@ styles or our various included modifier classes.
 <table class="table table-bordered">
   <thead class="bg-gray-light">
     <tr>
-      <th>#</th>
-      <th>First</th>
-      <th>Last</th>
-      <th>Handle</th>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
@@ -57,27 +57,27 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
 <table class="table table-bordered table-hover">
   <thead class="bg-gray-light">
     <tr>
-      <th>#</th>
-      <th>First</th>
-      <th>Last</th>
-      <th>Handle</th>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
@@ -92,16 +92,16 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
 <table class="table table-bordered">
   <thead class="bg-gray-light">
     <tr>
-      <th class="icon-only"></th>
-      <th>First</th>
-      <th>Last</th>
-      <th>Handle</th>
-      <th class="icon-only"></th>
+      <th scope="col" class="icon-only"></th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+      <th scope="col" class="icon-only"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <button class="btn btn-icon-only btn-text-dark rounded-circle">
           <i class="modus-icons">folder</i>
         </button>
