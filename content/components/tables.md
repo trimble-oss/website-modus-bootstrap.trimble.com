@@ -123,7 +123,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-checkbox">
           <input type="checkbox" checked="" class="custom-control-input" id="tableCheckbox4" name="example1">
           <label class="custom-control-label" for="tableCheckbox4"></label>
@@ -146,7 +146,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-radio">
           <input type="radio" class="custom-control-input" id="tableRadio3" name="tableRadio" value="customEx">
           <label class="custom-control-label" for="tableRadio3"></label>
@@ -169,7 +169,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-switch">
           <input type="checkbox" checked="" class="custom-control-input" id="tableSwitch3" name="example1">
           <label class="custom-control-label" for="tableSwitch3"></label>
@@ -206,11 +206,11 @@ When using small variants of tables with icons and controls, don't forget to use
 <table class="table table-sm table-bordered table-hover">
   <thead class="bg-gray-light">
     <tr>
-      <th class="icon-only"></th>
-      <th>First</th>
-      <th>Last</th>
-      <th>Handle</th>
-      <th class="icon-only"></th>
+      <th scope="col" class="icon-only"></th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+      <th scope="col" class="icon-only"></th>
     </tr>
   </thead>
   <tbody>
@@ -237,7 +237,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-control-sm custom-checkbox">
           <input type="checkbox" checked="" class="custom-control-input" id="tableCheckbox6" name="example1">
           <label class="custom-control-label" for="tableCheckbox6"></label>
@@ -260,7 +260,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-control-sm custom-radio">
           <input type="radio" class="custom-control-input" id="tableRadio3" name="tableRadio" value="customEx">
           <label class="custom-control-label" for="tableRadio3"></label>
@@ -283,7 +283,7 @@ When using small variants of tables with icons and controls, don't forget to use
       </td>
     </tr>
     <tr>
-      <th class="icon-only">
+      <th scope="row" class="icon-only">
         <div class="custom-control custom-control-sm custom-switch">
           <input type="checkbox" checked="" class="custom-control-input" id="tableSwitch3" name="example1">
           <label class="custom-control-label" for="tableSwitch3"></label>
