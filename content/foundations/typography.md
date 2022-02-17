@@ -48,7 +48,7 @@ many type styles make a layout unbalanced and difficult to manage.
     </thead>
     <tbody>
       <tr>
-        <td scope="row">
+        <td>
           <h1>H1 Heading</h1>
         </td>
         <td>
@@ -58,7 +58,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>24px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <h2>H2 Heading</h2>
         </td>
         <td>
@@ -68,7 +68,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>20px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <h3>H3 Heading</h3>
         </td>
         <td>
@@ -78,7 +78,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>18px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <h4>H4 Heading</h4>
         </td>
         <td>
@@ -88,7 +88,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>16px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <h5>H5 Heading</h5>
         </td>
         <td>
@@ -98,7 +98,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>14px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <h6>H6 Heading</h6>
         </td>
         <td>
@@ -108,7 +108,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>12px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="lead lead-text">Lead Text</span>
         </td>
         <td>
@@ -119,7 +119,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>20px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="body-text">Body Text</span>
         </td>
         <td>
@@ -129,7 +129,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>14px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="card-text">Card Text</span>
         </td>
         <td>
@@ -139,7 +139,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>16px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="card-text-2">Card Text 2</span>
         </td>
         <td>
@@ -149,7 +149,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>12px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="card-subtitle-1">Card Subtitle 1</span>
         </td>
         <td>
@@ -159,7 +159,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>16px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="card-subtitle-2">Card Subtitle 2</span>
         </td>
         <td>
@@ -169,7 +169,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>10px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <span class="form-labels card-caption">
             Form Labels & Card Captions
           </span>
@@ -182,7 +182,7 @@ many type styles make a layout unbalanced and difficult to manage.
         <td>12px</td>
       </tr>
       <tr>
-        <td scope="row">
+        <td>
           <small>
             Small
           </small>

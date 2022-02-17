@@ -109,7 +109,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -132,7 +132,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -154,8 +154,8 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       </th>
       <td>John</td>
       <td>Snow</td>
-      <td>@jsnow</td>
-      <td scope="row" class="icon-only">
+      <td>@j_snow</td>
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -178,7 +178,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -215,7 +215,7 @@ When using small variants of tables with icons and controls, don't forget to use
   </thead>
   <tbody>
     <tr>
-      <th scope="row" class="icon-only">
+      <th class="icon-only">
         <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle">
           <i class="modus-icons">folder</i>
         </button>
@@ -223,7 +223,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -246,7 +246,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -268,8 +268,8 @@ When using small variants of tables with icons and controls, don't forget to use
       </th>
       <td>John</td>
       <td>Snow</td>
-      <td>@jsnow</td>
-      <td scope="row" class="icon-only">
+      <td>@j_snow</td>
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
@@ -292,7 +292,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
-      <td scope="row" class="icon-only">
+      <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="modus-icons">more_vertical</i>
