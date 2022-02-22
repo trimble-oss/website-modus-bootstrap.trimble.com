@@ -218,6 +218,7 @@
     "costeffective",
     "countryid",
     "covid",
+    "cpath",
     "cpik",
     "cpmapviewtype",
     "cpplint",
@@ -464,6 +465,7 @@
     "hodgeman",
     "homepage",
     "hornung",
+    "horz",
     "hotfix",
     "hotjar",
     "hoverable",
@@ -1177,8 +1179,7 @@
     "zetes",
     "zipmatch",
     "zonar",
-    "ZOOMRADII",
-    "zonar"
+    "ZOOMRADII"
   ],
   "flagWords": [
     "blacklist",
