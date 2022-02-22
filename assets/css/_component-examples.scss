@@ -1,6 +1,4 @@
-//
 // Grid examples
-//
 
 .bd-example-row-flex-cols .row {
   min-height: 10rem;
@@ -28,9 +26,7 @@
   width: 800px;
 }
 
-//
 // Docs examples
-//
 
 .bd-example {
   position: relative;
@@ -154,21 +150,16 @@
   }
 }
 
-//
 // Code snippets
-//
 
 .highlight {
   padding: 1rem;
-  background-color: #fff;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 
   pre {
     padding: 0;
-    margin-top: 0;
     margin-bottom: 0;
     background-color: transparent;
-    border: 0;
   }
 
   pre code {
