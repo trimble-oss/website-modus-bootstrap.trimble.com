@@ -125,7 +125,7 @@ Gray 4
 Gray 3
 {{</ card-color >}}
 
-{{< card-color hex="#e2e2e7" bg="bg-gray-2" border="border-gray-2" text="text-gray-2">}}
+{{< card-color hex="#b7b9c3" bg="bg-gray-2" border="border-gray-2" text="text-gray-2">}}
 Gray 2
 {{</ card-color >}}
 
@@ -133,7 +133,7 @@ Gray 2
 Gray 1
 {{</ card-color >}}
 
-{{< card-color hex="#EAEAEF" bg="bg-gray-0" border="border-gray-0" text="text-gray-0">}}
+{{< card-color hex="#e0e1e9" bg="bg-gray-0" border="border-gray-0" text="text-gray-0">}}
 Gray 0
 {{</ card-color >}}
 
