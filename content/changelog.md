@@ -23,6 +23,15 @@ main .h2 {
 
 </style>
 
+## v1.4.0 - 2022-03-28
+
+- Add [display heading styles](https://modus.trimble.com/foundations/typography/#display-headings) (ETHER-145)
+- Add Drag & Drop File Upload CSS - a single-class with a single-rule intended to be used for drag-and-drop file upload zone (DDS-308)
+- Add `list-group-lg` modifier. Note: The default `.list-group` is now smaller (40px height down from 48px).
+- Table thead style improvements - background-color is now #f1f1f6 (was white) and font-weight is now 600 (was 700)
+- Removes the unused and undocumented `.spinner-rectangle-bounce` class
+- Update to Stylelint v14 and fixes some minor CSS linting issues
+
 ## v1.3.1 - 2021-11-11
 
 * Improved checkbox mis-aligned input fix
