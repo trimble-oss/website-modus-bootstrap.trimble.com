@@ -8,6 +8,7 @@ hidden: true
 ---
 
 - [1.x.x](/sample-page/next/) <small class="text-muted">(Unreleased)</small>
+- [1.4.0](/sample-page/1.4.0/)
 - [1.3.1](/sample-page/1.3.1/)
 - [1.3.0](/sample-page/1.3.0/)
 - [1.2.0](/sample-page/1.2.0/)
