@@ -22,11 +22,11 @@ needed.
 {{< example id="example-list" >}}
 <h6>List Items</h6>
 <ul class="list-group">
-  <li class="list-group-item">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
 </ul>
 {{< /example >}}
 
@@ -172,35 +172,94 @@ Add a class of `.list-group-condensed` for a smaller variant.
   <li class="list-group-item active">List Item (active)</li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-cond">
-      <label class="custom-control-label" for="listSwitch-cond"></label>
+      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-sm">
+      <label class="custom-control-label" for="listSwitch-sm"></label>
     </div>
     <span>Left Switch</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Switch</span>
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-cond2">
-      <label class="custom-control-label" for="listSwitch-cond2"></label>
+      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-sm2">
+      <label class="custom-control-label" for="listSwitch-sm2"></label>
     </div>
   </li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-checkbox">
-      <input type="checkbox" checked="" class="custom-control-input" id="customCheck-cond1" name="cond1">
-      <label class="custom-control-label" for="customCheck-cond1"></label>
+      <input type="checkbox" checked="" class="custom-control-input" id="customCheck-sm1" name="sm1">
+      <label class="custom-control-label" for="customCheck-sm1"></label>
     </div>
     <span>Left Checkbox</span>
   </li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-radio">
-      <input type="radio" checked="" class="custom-control-input" id="customRadio-cond2" name="cond2" value="customEx">
-      <label class="custom-control-label" for="customRadio-cond2"></label>
+      <input type="radio" checked="" class="custom-control-input" id="customRadio-sm2" name="sm2" value="customEx">
+      <label class="custom-control-label" for="customRadio-sm2"></label>
     </div>
     <span>Left Radio Button</span>
   </li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-radio">
-      <input type="radio" class="custom-control-input" id="customRadio-list5" name="cond2" value="customEx">
+      <input type="radio" class="custom-control-input" id="customRadio-list5" name="sm2" value="customEx">
+      <label class="custom-control-label" for="customRadio-list5"></label>
+    </div>
+    <span>Left Radio Button</span>
+  </li>
+  <li class="list-group-item list-item-left-control">
+    <i class="modus-icon material-icons">settings</i>
+    <span>Left Icon</span>
+  </li>
+  <li class="list-group-item list-item-right-control">
+    <span>Right Icon</span>
+    <i class="modus-icon material-icons">settings</i>
+  </li>
+  <li class="list-group-item list-item-leftright-control">
+    <i class="modus-icon material-icons">settings</i>
+    <span>Both Icons</span>
+    <i class="icon modus-icons">check</i>
+  </li>
+</ul>
+{{< /example >}}
+
+### Large Lists
+
+Add the `.list-group-lg` modifier class for a larger variant.
+
+{{< example id="example-list-lg" >}}
+<h6>List Items</h6>
+<ul class="list-group list-group-lg">
+  <li class="list-group-item active">List Item (active)</li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-switch custom-control-inline">
+      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-lg">
+      <label class="custom-control-label" for="listSwitch-lg"></label>
+    </div>
+    <span>Left Switch</span>
+  </li>
+  <li class="list-group-item list-item-right-control">
+    <span>Right Switch</span>
+    <div class="custom-control custom-switch custom-control-inline">
+      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-lg2">
+      <label class="custom-control-label" for="listSwitch-lg2"></label>
+    </div>
+  </li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" checked="" class="custom-control-input" id="customCheck-lg1" name="lg1">
+      <label class="custom-control-label" for="customCheck-lg1"></label>
+    </div>
+    <span>Left Checkbox</span>
+  </li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-radio">
+      <input type="radio" checked class="custom-control-input" id="customRadio-lg2" name="lg2" value="customEx">
+      <label class="custom-control-label" for="customRadio-lg2"></label>
+    </div>
+    <span>Left Radio Button</span>
+  </li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio-list5" name="sm2" value="customEx">
       <label class="custom-control-label" for="customRadio-list5"></label>
     </div>
     <span>Left Radio Button</span>
