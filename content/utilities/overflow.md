@@ -5,7 +5,7 @@ description: "Use these shorthand utilities for quickly configuring how content 
 utilities: true
 ---
 
-Barebones `overflow` functionality is provided for two values by default, and they are not
+Bare-bones `overflow` functionality is provided for two values by default, and they are not
 responsive.
 
 <div class="bd-example bg-white d-md-flex">
