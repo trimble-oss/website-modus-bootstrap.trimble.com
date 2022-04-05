@@ -207,6 +207,17 @@ many type styles make a layout unbalanced and difficult to manage.
 <h6>H6 Heading</h6>
 {{< /example >}}
 
+### Display headings
+
+When you need a heading to stand out, consider using a **display heading**—a larger, slightly more opinionated heading style. Keep in mind these headings are not responsive by default.
+
+{{< example id="example-display-headings" class="example-typography-headings guide-sample anatomy-display">}}
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h2>
+<h1 class="display-3">Display 3</h3>
+{{< /example >}}
+
+
 ### Text Styles
 
 {{< example id="example-heading-styles" class="example-typography-headings guide-sample anatomy-display">}}

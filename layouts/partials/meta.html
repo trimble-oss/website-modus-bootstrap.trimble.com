@@ -28,13 +28,28 @@
         link.href = 'https://styles-dev.trimblemaps.com/css/modus.css';
         head.appendChild(link);
     }
+  }
+</script>
 
-}
+<!-- if URL param includes ?Dark -->
+<script>
+  if (window.location.search.search(/[?&]dark(?:$|&)/) !== -1) {
+    var $ = document; // shortcut
+    var cssId = 'dark';  // you could encode the css path itself to generate id..
+    if (!$.getElementById(cssId)) {
+      var head = $.getElementsByTagName('head')[0];
+      var link = $.createElement('link');
+      link.id = cssId;
+      link.rel = 'stylesheet';
+      link.href = 'https://styles-dev.trimblemaps.com/css/modus-dark.css';
+      head.appendChild(link);
+    }
+  }
 </script>
 
 <!-- To speed up the homepage rendering time these CSS & JS files load on every page except homepage where they aren't used -->
 {{- if not .IsHome -}}
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
 <link rel="stylesheet"
   href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
 {{- end -}}
