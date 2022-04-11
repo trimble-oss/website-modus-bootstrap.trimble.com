@@ -21,7 +21,6 @@
 *.esproj
 nbproject
 Thumbs.db
-package-lock.json
 
 # folders
 /build/*
