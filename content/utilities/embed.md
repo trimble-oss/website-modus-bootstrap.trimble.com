@@ -22,7 +22,7 @@ an aspect ratio. The `.embed-responsive-item `isn't strictly required, but we en
 
 {{< example id="example-embed" >}}
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/315750638" allowfullscreen="" title="Introducing Trimble Maps video" loading="lazy"></iframe>
+  <iframe class="embed-responsive-item" src="/video/" title="Trimble video" loading="lazy"></iframe>
 </div>
 {{</ example >}}
 

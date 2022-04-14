@@ -33,9 +33,14 @@ When possible, 1px gap is added to define shapes or add details.
 
 ## Icons
 
-<form class="ml-0 mb-2">
+<form class="ml-0 mb-2" role="search">
   <label for="search" class="sr-only">Search for icons</label>
-  <input class="form-control search" id="search" placeholder="Start typing to filter..." type="search" autocomplete="off" title="" required onkeypress="return event.keyCode!=13">
+  <div class="input-with-icon-left">
+    <input class="form-control form-control-lg search" id="search" placeholder="Start typing to filter..." type="search" autocomplete="off" title="" required onkeypress="return event.keyCode!=13">
+    <div class="input-icon">
+      <i class="modus-icon material-icons">search</i>
+    </div>
+  </div>
 </form>
 
 <ul class="row row-cols-1 row-cols-md-2 list-unstyled list" id="icons-list">

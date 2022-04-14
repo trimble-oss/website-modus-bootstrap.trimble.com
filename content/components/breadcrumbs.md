@@ -19,9 +19,7 @@ For longer breadcrumb trails, use a `.dropdown` as one of your second list item 
 ### Default
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-breadcrumbs" >}}
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb mb-0">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -35,9 +33,7 @@ For longer breadcrumb trails, use a `.dropdown` as one of your second list item 
 ### Breadcrumbs with Icons
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-breadcrumbs-icons" >}}
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><i class="modus-icons">dashboard</i><a href="#">Home</a></li>
@@ -45,7 +41,6 @@ For longer breadcrumb trails, use a `.dropdown` as one of your second list item 
     <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons">clipboard</i>Data</li>
   </ol>
 </nav>
-
 {{</ example >}}
 <!-- prettier-ignore-end -->
 
@@ -54,9 +49,7 @@ For longer breadcrumb trails, use a `.dropdown` as one of your second list item 
 For accessible underlined links add the `.breadcrumb-underline` modifier to the `breadcrumb` list.
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-breadcrumbs-underline" >}}
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb breadcrumb-underline mb-0">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -72,9 +65,7 @@ For accessible underlined links add the `.breadcrumb-underline` modifier to the 
 For implementations with large numbers of sub-directories, make use of dropdown that appears on click of ellipses as shown in the example below
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-breadcrumbs-underline" >}}
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb breadcrumb-underline mb-0">
     <li class="breadcrumb-item"><a href="#">Home</a></li>

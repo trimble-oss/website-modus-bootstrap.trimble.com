@@ -17,7 +17,7 @@ individual's hard drive for record-keeping purposes.
 <div id="optanon-cookie-policy"></div>
 <br><br>
 <!-- OneTrust Cookies Settings button start -->
-<a class="btn btn-primary optanon-show-settings">
+<a class="btn btn-primary optanon-show-settings" id="optanon-show-settings">
 Cookie Settings
 </a>
 </div>

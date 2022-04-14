@@ -1,17 +1,23 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-{{- if not .Site.IsServer -}}
-<!-- OneTrust Cookies Consent Notice start for modus-bootstrap.trimble.com -->
+<!-- OneTrust Cookies Consent Notice start for modus-bootstrap.trimble.com
+<script>function __cookieBannerFallback(script) {var elem = document.getElementById("optanon-show-settings").classList.add("d-none");}</script>
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-language="en" charset="UTF-8"
-  data-domain-script="9fc46bbd-0433-49fc-8f0c-a06ad3a88652"></script>
+  data-domain-script="9fc46bbd-0433-49fc-8f0c-a06ad3a88652" onerror="__cookieBannerFallback(this)"></script>
 <script>
   function OptanonWrapper() { }
-</script>
+</script> -->
 <!-- OneTrust Cookies Consent Notice end for modus-bootstrap.trimble.com -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+{{- if not .Site.IsServer -}}
+<script src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}" async
+  fetchpriority="low"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
   gtag('config', '{{ .Site.GoogleAnalytics }}');
 </script>
 {{- end -}}
