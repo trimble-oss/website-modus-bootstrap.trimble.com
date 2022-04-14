@@ -19,16 +19,16 @@
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
+    "lint": "npm-run-all lint-css lint-html lint-js",
     "lint-css": "stylelint \"assets/css/*.scss\"",
-    "lint-html": "htmlhint \"build/**/index.html\"",
+    "lint-html": "htmlhint \"layouts/**/index.html\"",
     "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\"",
     "lint-links": "npx linkinator build --recurse --silent --skip github.com",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "prettier": "prettier --write \"assets/css/*.*\"",
     "serve": "npm run lint-js && hugo serve --port 5000 --disableFastRender --navigateToChanged",
-    "svgo": "npx svgo --folder=\"static/img/headers\"",
-    "test": "npm-run-all lint-css lint-js lint-markdown lint-html lint-links"
+    "svgo": "npx svgo --folder=\"static/img/headers\""
   },
   "devDependencies": {
     "@trimbleinc/modus-bootstrap": "^1.4.0",
