@@ -112,6 +112,8 @@ menu:
       url: /components/Checkboxes/
     - name: Dropdowns
       url: /components/dropdowns/
+    - name: File Upload Dropzone
+      url: /components/file-upload-dropzone/
     - name: Inputs
       url: /components/inputs/
     - name: Lists
