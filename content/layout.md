@@ -113,8 +113,8 @@ To help illustrate how all the layout elements look when displayed
                 <!-- Modus Toolbar -->
                 <form class="form-inline ml-3 mr-5">
                   <div class="form-group">
-                    <label class="mr-2" for=""><strong>Profile</strong></label>
-                    <select class="form-control" name="" id="">
+                    <label class="mr-2" for="profiles"><strong>Profile</strong></label>
+                    <select class="form-control" name="profiles" id="profiles">
                       <option>Profile 1</option>
                       <option>Profile 2</option>
                       <option>Profile 3</option>
@@ -350,8 +350,8 @@ application.
           <div class="modus-toolbar">
             <form class="form-inline ml-3 mr-5">
               <div class="form-group">
-                <label class="mr-2" for=""><strong>Profile</strong></label>
-                <select class="form-control" name="" id="">
+                <label class="mr-2" for="profiles"><strong>Profile</strong></label>
+                <select class="form-control" name="profiles" id="profiles">
                   <option>Profile 1</option>
                   <option>Profile 2</option>
                   <option>Profile 3</option>
