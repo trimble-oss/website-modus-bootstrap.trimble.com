@@ -13,9 +13,9 @@ hideFooter: true
 sitemap_exclude: true
 version: "1.3.1"
 date: "2021-10-29"
-modusCSS: "https://modus.trimble.com/css/modus.min-1.3.1.css"
-modusLayoutCSS: "https://modus.trimble.com/css/modus-layout.min-1.3.1.css"
-modusLayoutJS: "https://modus.trimble.com/css/modus-layout.js"
+modusCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.3.1/dist/modus.min.css"
+modusLayoutCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.3.1/dist/modus-layout.min.css"
+modusLayoutJS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.3.1/dist/modus-layout.min.js"
 images:
   - "/icon.png"
 ---

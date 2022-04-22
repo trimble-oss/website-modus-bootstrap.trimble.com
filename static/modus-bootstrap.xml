@@ -1,9 +1,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Modus Bootstrap Releases</title>
   <icon>https://modus-bootstrap.trimble.com/icon.png</icon>
-  <updated>2022-03-28T09:00:00-05:00</updated>
+  <updated>2022-04-22T09:00:00-05:00</updated>
   <id>https://modus-bootstrap.trimble.com/modus-bootstrap.xml</id>
   <link type="text/html" href="https://modus-bootstrap.trimble.com/changelog/" rel="alternate"/>
+  <entry>
+    <published>2022-04-22T09:00:00Z</published>
+    <updated>2022-04-22T09:00:00Z</updated>
+    <title>v1.4.1 - 2022-04-22</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
   <entry>
     <published>2022-03-28T09:00:00Z</published>
     <updated>2022-03-28T09:00:00Z</updated>
@@ -12,7 +25,7 @@
       <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
     </content>
     <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
-    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <id>https://modus-bootstrap.trimble.com/changelog/#</id>
     <author>
       <name>Trimble</name>
     </author>

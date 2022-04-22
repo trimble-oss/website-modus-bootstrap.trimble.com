@@ -18,10 +18,10 @@ Modus Bootstrap is built upon and extends the Bootstrap 4 code framework. It is 
 
 ## CDN
 
-The Modus CSS can be used as is from our public CDN:
+The Modus CSS can be used as is from a CDN:
 
 ```html
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-{{< modus-bootstrap-version >}}.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{< modus-bootstrap-version >}}/dist/modus.min.css">
 ```
 
 You do not (and should not) include additional references to Bootstrap CSS other than their JavaScript links for component functions. If you are using Angular, React, or other framework you should use an appropriate Bootstrap library.

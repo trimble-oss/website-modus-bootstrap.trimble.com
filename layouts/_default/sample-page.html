@@ -21,7 +21,6 @@
   .grid-item {
     padding: 1rem;
     border-radius: .5rem;
-    border: 1px solid #ddd;
     max-width: 1080px;
   }
 
@@ -44,7 +43,6 @@
 
   .colors>div {
     margin-top: .5rem;
-    border: 1px solid black;
   }
 
   .colors h6 {
@@ -68,16 +66,17 @@
       <img src="/img/trimble-logo.svg" width="127" height="30" alt="Trimble">
     </a>
     <div class="navbar-text text-truncate">
-      <span class="h1 m-0">Modus Bootstrap Sample Page</span>
+      <span class="h2 text-dark m-0">Modus Bootstrap Sample Page</span>
       <small class="text-muted ml-1">v{{ .Params.version }}</small>
     </div>
     <div class="ml-auto border-left pl-3 py-2 d-none">
+    <div class="ml-auto border-left pl-3 py-2">
       <div class="custom-control custom-switch custom-control-inline">
         <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
         <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
       </div>
     </div>
-  </nav><!-- .modus-header -->
+  </nav>
 
   <div class="modus-body sidebar-closed" data-modus-item="body">
 
@@ -115,7 +114,7 @@
             <li class="my-1"><a href="#lists" class="ml-5 pl-4">Lists</a></li>
             <li class="my-1"><a href="#modals" class="ml-5 pl-4">Modals</a></li>
             <li class="my-1"><a href="#progress-spinners" class="ml-5 pl-4">Progress and Spinners</a></li>
-            <li class="my-1"><a href="#shadow-depth" class="ml-5 pl-4">Shadow Depth</a></li>
+            <li class="my-1"><a href="#shadows" class="ml-5 pl-4">Shadows</a></li>
             <li class="my-1"><a href="#tabs" class="ml-5 pl-4">Tabs</a></li>
             <li class="my-1"><a href="#tooltips" class="ml-5 pl-4">Tooltips</a></li>
             <li class="my-1"><a href="#tables" class="ml-5 pl-4">Tables</a></li>
@@ -138,39 +137,39 @@
             <div class="grid-item bg-white">
               <h3 id="theme-colors">Theme Colors</h3>
               <div class="colors">
-                <div class="d-flex justify-content-between bg-primary">
+                <div class="d-flex justify-content-between bg-primary border-dark">
                   <h6 class="text-white">Primary</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-secondary">
+                <div class="d-flex justify-content-between bg-secondary border-dark">
                   <h6 class="text-white">Secondary</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-tertiary">
+                <div class="d-flex justify-content-between bg-tertiary border-dark">
                   <h6 class="text-dark">Tertiary</h6>
                   <h6 class="text-dark text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-success">
+                <div class="d-flex justify-content-between bg-success border-dark">
                   <h6 class="text-white">Success</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-danger">
+                <div class="d-flex justify-content-between bg-danger border-dark">
                   <h6 class="text-white">Danger</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-warning">
+                <div class="d-flex justify-content-between bg-warning border-dark">
                   <h6 class="text-white">Warning</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-dark">
+                <div class="d-flex justify-content-between bg-dark border-dark">
                   <h6 class="text-white">Dark</h6>
                   <h6 class="text-white text-monospace"></h6>
                 </div>
-                <div class="d-flex justify-content-between bg-light">
+                <div class="d-flex justify-content-between bg-light border-dark">
                   <h6 class="text-dark">Light</h6>
                   <h6 class="text-dark">Shouldn't show</h6>
                 </div>
-                <div class="d-flex justify-content-between bg-info">
+                <div class="d-flex justify-content-between bg-info border-dark">
                   <h6 class="text-dark">Info</h6>
                   <h6 class="text-dark">shouldn't show</h6>
                 </div>
@@ -256,7 +255,7 @@
             </div>
 
             <!-- Typefaces -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="typefaces">Typefaces</h3>
               <div class="row">
                 <div class="col">
@@ -318,7 +317,7 @@
           <div class="grid-layout">
 
             <!-- Jumbotron -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="jumbotron">Jumbotron</h3>
               <div class="jumbotron">
                 <h1 class="display-3">Hello, world!</h1>
@@ -332,7 +331,7 @@
             </div>
 
             <!-- Pagination -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="pagination">Pagination</h3>
               <nav aria-label="...">
                 <ul class="pagination pagination-sm">
@@ -923,7 +922,7 @@
             </div>
 
             <!-- Buttons - Normal -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="buttons">Buttons - Normal</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
@@ -968,7 +967,7 @@
             </div>
 
             <!-- Buttons - Outline -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3>Buttons - Outline</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
@@ -1013,7 +1012,7 @@
             </div>
 
             <!-- Buttons - Text -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3>Buttons - Text</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
@@ -1461,7 +1460,7 @@
             </div>
 
             <!-- Chips -->
-            <div class="grid-item span-2 bg-light">
+            <div class="grid-item span-2 bg-white">
               <h3 id="chips">Chips</h3>
               <div>
                 <p class="mb-1"><strong>Solid</strong></p>
@@ -1625,7 +1624,7 @@
             </div>
 
             <!-- Choice Chips -->
-            <div class="grid-item bg-light">
+            <div class="grid-item bg-white">
               <h3>Choice Chips</h3>
               <div>
                 <p class="mb-1"><strong>Solid</strong></p>
@@ -1725,7 +1724,7 @@
             </div>
 
             <!-- Cards -->
-            <div class="grid-item bg-light">
+            <div class="grid-item bg-white">
               <h3 id="cards">Cards</h3>
               <div class="d-flex justify-content-center">
                 <div class="card" style="width: 16rem">
@@ -3016,7 +3015,7 @@
 
             <!-- Shadows -->
             <div class="grid-item bg-white">
-              <h3 id="shadow-depth">Shadows</h3>
+              <h3 id="shadows">Shadows</h3>
               <div class="d-flex flex-column spaced-bottom">
                 <div class="card my-3 shadow-sm">
                   <div class="card-body">
@@ -3035,7 +3034,7 @@
                 </div>
 
                 <hr class="my-3">
-
+                <div class="d-none">
                 <div class="card my-3 shadow-1">
                   <div class="card-body">
                     <strong>Shadow 1 <small>(Deprecated)</small></strong>
@@ -3060,6 +3059,7 @@
                   <div class="card-body">
                     <strong>Shadow 5 <small>(Deprecated)</small></strong>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -3217,7 +3217,7 @@
             </div>
 
             <!-- Tables -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="tables">Tables</h3>
               <table class="table">
                 <thead>
@@ -3445,7 +3445,7 @@
             </div>
 
             <!-- Tables - Striped Rows -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3>Tables - Striped Rows</h3>
               <table class="table table-striped">
                 <thead>
