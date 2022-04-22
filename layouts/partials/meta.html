@@ -8,7 +8,8 @@
 
 <!-- Loads Modus from CDN -->
 {{- if not .Params.SamplePage -}}
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-{{ .Site.Params.modusBootstrapVersion }}.css">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{ .Site.Params.modusBootstrapVersion }}/dist/modus.min.css">
 {{ else }}
 <link rel="stylesheet" href="{{ .Params.modusCSS }}">
 {{ end }}

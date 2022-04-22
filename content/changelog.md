@@ -23,6 +23,16 @@ main .h2 {
 
 </style>
 
+## v1.4.1 - 2022-04-22
+
+- Add [Progress Bar small variant](/components/progress-bars/)
+- Fix for list-group sizes (now use min-height instead of height)
+- Remove duplicated body background color
+- Removed a couple of duplicated rules for alerts
+- Remove white text rule for toasts. (This isn't needed as every toast has a text color set already.)
+- Set just the toast-dark to have white text
+- Minor CSS rule cleanup
+
 ## v1.4.0 - 2022-03-28
 
 - Add [display heading styles](https://modus.trimble.com/foundations/typography/#display-headings) <small>(ETHER-145)</small>
