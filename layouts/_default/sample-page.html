@@ -69,13 +69,11 @@
       <span class="h2 text-dark m-0">Modus Bootstrap Sample Page</span>
       <small class="text-muted ml-1">v{{ .Params.version }}</small>
     </div>
-    <div class="ml-auto border-left pl-3 py-2 d-none">
-    <div class="ml-auto border-left pl-3 py-2">
-      <div class="custom-control custom-switch custom-control-inline">
-        <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
-        <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
-      </div>
-    </div>
+      <div class="ml-auto border-left pl-3 py-2 d-none">
+        <div class="custom-control custom-switch custom-control-inline">
+          <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
+          <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
+        </div>
   </nav>
 
   <div class="modus-body sidebar-closed" data-modus-item="body">
@@ -115,10 +113,12 @@
             <li class="my-1"><a href="#modals" class="ml-5 pl-4">Modals</a></li>
             <li class="my-1"><a href="#progress-spinners" class="ml-5 pl-4">Progress and Spinners</a></li>
             <li class="my-1"><a href="#shadows" class="ml-5 pl-4">Shadows</a></li>
+            <li class="my-1"><a href="#navs" class="ml-5 pl-4">Navs</a></li>
             <li class="my-1"><a href="#tabs" class="ml-5 pl-4">Tabs</a></li>
             <li class="my-1"><a href="#tooltips" class="ml-5 pl-4">Tooltips</a></li>
             <li class="my-1"><a href="#tables" class="ml-5 pl-4">Tables</a></li>
             <li class="my-1"><a href="#custom-scrollbars" class="ml-5 pl-4">Custom Scrollbars</a></li>
+            <li class="my-1"><a href="#file-dropzone" class="ml-5 pl-4">File Dropzone</a></li>
           </ul>
         </li>
       </ul>
@@ -284,6 +284,9 @@
                   <p>
                     <small>small</small>
                   </p>
+                  <p class="small">
+                    small
+                  </p>
                 </div>
               </div>
             </div>
@@ -294,16 +297,20 @@
               <div class="p-2">
                 <h3>Heading 3</h3>
                 <p>
-                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy is the head that
-                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If you wanna dance.
+                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy
+                  is the head that
+                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If
+                  you wanna dance.
                   Should've been my team mate, could've changed your fate.
                 </p>
               </div>
               <div class="p-2">
                 <h4>Heading 4</h4>
                 <p>
-                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy is the head that
-                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If you wanna dance.
+                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy
+                  is the head that
+                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If
+                  you wanna dance.
                   Should've been my team mate, could've changed your fate.
                 </p>
               </div>
@@ -313,7 +320,7 @@
           <!--
               UI Elements SECTION
             -->
-          <h2 id="ui-elements" class="font-weight-bold mt-3">UI Elements</h2>
+          <h2 id="components" class="font-weight-bold mt-3">Components</h2>
           <div class="grid-layout">
 
             <!-- Jumbotron -->
@@ -430,8 +437,10 @@
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                     data-parent="#accordionExample">
                     <div class="card-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element. These classes control the overall appearance, as well as the
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                      collapse plugin adds the
+                      appropriate classes that we use to style each element. These classes control the overall
+                      appearance, as well as the
                       showing and hiding via CSS transitions.
                     </div>
                   </div>
@@ -445,8 +454,10 @@
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate
-                      classes that we use to style each element. These classes control the overall appearance, as well as the showing and
+                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate
+                      classes that we use to style each element. These classes control the overall appearance, as well
+                      as the showing and
                       hiding via CSS transitions.
                     </div>
                   </div>
@@ -461,9 +472,11 @@
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                     data-parent="#accordionExample">
                     <div class="card-body">
-                    This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes
-                    that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via
-                    CSS transitions.
+                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate classes
+                      that we use to style each element. These classes control the overall appearance, as well as the
+                      showing and hiding via
+                      CSS transitions.
                     </div>
                   </div>
                 </div>
@@ -484,8 +497,10 @@
                   <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
                     data-parent="#smallAccordionExample">
                     <div class="card-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element. These classes control the overall appearance, as well as the
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                      collapse plugin adds the
+                      appropriate classes that we use to style each element. These classes control the overall
+                      appearance, as well as the
                       showing and hiding via CSS transitions.
                     </div>
                   </div>
@@ -500,9 +515,11 @@
                   <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                     data-parent="#smallAccordionExample">
                     <div class="card-body">
-                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate
+                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate
                       classes
-                      that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via
+                      that we use to style each element. These classes control the overall appearance, as well as the
+                      showing and hiding via
                       CSS transitions.
                     </div>
                   </div>
@@ -517,8 +534,10 @@
                   <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                     data-parent="#smallAccordionExample">
                     <div class="card-body">
-                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes
-                      that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via
+                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate classes
+                      that we use to style each element. These classes control the overall appearance, as well as the
+                      showing and hiding via
                       CSS transitions.
                     </div>
                   </div>
@@ -540,8 +559,10 @@
                   <div id="borderlessOne" class="collapse show" aria-labelledby="headingOne"
                     data-parent="#accordionBorderless">
                     <div class="card-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element. These classes control the overall appearance, as well as the
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                      collapse plugin adds the
+                      appropriate classes that we use to style each element. These classes control the overall
+                      appearance, as well as the
                       showing and hiding via CSS transitions.
                     </div>
                   </div>
@@ -556,8 +577,10 @@
                   <div id="borderlessTwo" class="collapse" aria-labelledby="headingTwo"
                     data-parent="#accordionBorderless">
                     <div class="card-body">
-                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate
-                      classes that we use to style each element. These classes control the overall appearance, as well as the showing and
+                      This is the second item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate
+                      classes that we use to style each element. These classes control the overall appearance, as well
+                      as the showing and
                       hiding via CSS transitions.
                     </div>
                   </div>
@@ -572,8 +595,10 @@
                   <div id="borderlessThree" class="collapse" aria-labelledby="headingThree"
                     data-parent="#accordionBorderless">
                     <div class="card-body">
-                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes
-                      that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via
+                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
+                      the appropriate classes
+                      that we use to style each element. These classes control the overall appearance, as well as the
+                      showing and hiding via
                       CSS transitions.
                     </div>
                   </div>
@@ -1452,8 +1477,10 @@
                 <div class="message message-warning"><i class="modus-icons">warning</i>This is a warning message</div>
                 <div class="message message-primary">
                   <i class="modus-icons">info</i>
-                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy is the head that
-                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If you wanna dance.
+                  I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy
+                  is the head that
+                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If
+                  you wanna dance.
                   Should've been my team mate, could've changed your fate.
                 </div>
               </div>
@@ -1533,12 +1560,6 @@
                   <div class="chip-text">Jane</div>
                   <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
                 </div>
-                <div class="chip chip-sm chip-solid chip-input chip-raised">
-                  <div class="chip-thumbnail"><img src="https://styles-dev.trimblemaps.com/src/img/headshot.png" alt="">
-                  </div>
-                  <div class="chip-text">Jane</div>
-                  <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
-                </div>
               </div>
 
               <hr>
@@ -1575,12 +1596,7 @@
                   <div class="chip-text">Jane</div>
                   <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
                 </div>
-                <div class="chip chip-outline chip-input chip-raised">
-                  <div class="chip-thumbnail"><img src="https://styles-dev.trimblemaps.com/src/img/headshot.png" alt="">
-                  </div>
-                  <div class="chip-text">Jane</div>
-                  <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
-                </div>
+
               </div>
               <div class="mt-1">
                 <p class="mb-1"><strong>Outline Small</strong></p>
@@ -1624,7 +1640,7 @@
             </div>
 
             <!-- Choice Chips -->
-            <div class="grid-item bg-white">
+            <div class="grid-item bg-white d-none">
               <h3>Choice Chips</h3>
               <div>
                 <p class="mb-1"><strong>Solid</strong></p>
@@ -2016,57 +2032,6 @@
               </div>
             </div>
 
-            <!-- Inputs - Outlined -->
-            <div class="grid-item bg-white">
-              <h3>Inputs - Outlined</h3>
-              <form>
-                <div class="form-group">
-                  <label for="Input1">Regular Input</label>
-                  <input class="form-control form-control-outlined" id="Input1" placeholder="Placeholder Text">
-                </div>
-                <div class="form-group">
-                  <label for="Input2">Input with icon on right</label>
-                  <div class="input-with-icon-right">
-                    <input class="form-control form-control-outlined" placeholder="Placeholder Text" id="Input2">
-                    <div class="input-icon">
-                      <i class="modus-icons">visibility</i>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="Input3">Input with icon on left</label>
-                  <div class="input-with-icon-left">
-                    <input class="form-control form-control-outlined" placeholder="Placeholder Text" id="Input3">
-                    <div class="input-icon">
-                      <i class="modus-icons">search</i>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="Input4">Input with a button</label>
-                  <div class="input-group">
-                    <input class="form-control form-control-outlined" placeholder="Placeholder Text" id="Input4">
-                    <div class="input-group-append">
-                      <button class="btn btn-reverse-secondary">
-                        Go
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-                  <select class="custom-select form-control form-control-outlined" id="exampleFormControlSelect2">
-                    <option>Option 1</option>
-                    <option>Option 2</option>
-                    <option>Option 3</option>
-                    <option>Option 4</option>
-                    <option>Option 5</option>
-                  </select>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-
             <!-- Input Groups -->
             <div class="grid-item bg-white">
               <h3>Input Groups</h3>
@@ -2140,79 +2105,6 @@
               </div>
             </div>
 
-            <!-- Input Groups - Outlined -->
-            <div class="grid-item bg-white">
-              <h3>Input Groups - Outlined</h3>
-              <div class="d-flex flex-column spaced-bottom">
-                <div class="input-group input-group-outlined mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="input-group4">@</span>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                    aria-describedby="input-group-4">
-                </div>
-                <div class="input-group input-group-outlined mb-3">
-                  <input type="text" class="form-control" placeholder="Recipient's username"
-                    aria-label="Recipient's username" aria-describedby="input-group5">
-                  <div class="input-group-append">
-                    <span class="input-group-text" id="input-group5">@example.com</span>
-                  </div>
-                </div>
-                <div class="input-group input-group-outlined input-group-lg mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="input-group6">Large</span>
-                  </div>
-                  <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="input-group6" placeholder="Large input group">
-                </div>
-                <div class="input-group input-group-outlined mb-3">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" checked class="custom-control-input" id="check3" name="check3">
-                        <label class="custom-control-label label-lg" for="check3"></label>
-                      </div>
-                    </div>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Text input with checkbox">
-                </div>
-                <div class="input-group input-group-outlined input-group-lg mb-3">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check4" name="check4">
-                        <label class="custom-control-label label-lg" for="check4"></label>
-                      </div>
-                    </div>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Large text input with checkbox">
-                </div>
-                <div class="input-group input-group-outlined mb-3">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" checked class="custom-control-input" id="radio3" name="radio3"
-                          value="customEx">
-                        <label class="custom-control-label label-lg" for="radio3"></label>
-                      </div>
-                    </div>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Text input with radio button">
-                </div>
-                <div class="input-group input-group-outlined input-group-lg">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" class="custom-control-input" id="radio4" name="radio3" value="customEx">
-                        <label class="custom-control-label label-lg" for="radio4"></label>
-                      </div>
-                    </div>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Large text input with radio button">
-                </div>
-              </div>
-            </div>
-
             <!-- Text Areas -->
             <div class="grid-item bg-white">
               <h3 id="text-areas">Text Areas</h3>
@@ -2224,15 +2116,6 @@
                 <div class="form-group">
                   <label class="label-lg" for="Textarea2">Large Text Area</label>
                   <textarea class="form-control form-control-lg" id="Textarea2">Some Text</textarea>
-                </div>
-                <div class="form-group">
-                  <label for="Textarea3">Outlined Text Area</label>
-                  <textarea class="form-control form-control-outlined" id="Textarea3">Some Text</textarea>
-                </div>
-                <div class="form-group">
-                  <label class="label-lg" for="Textarea4">Large Outlined Text Area</label>
-                  <textarea class="form-control form-control-lg form-control-outlined"
-                    id="Textarea4">Some Text</textarea>
                 </div>
               </div>
             </div>
@@ -3035,37 +2918,114 @@
 
                 <hr class="my-3">
                 <div class="d-none">
-                <div class="card my-3 shadow-1">
-                  <div class="card-body">
-                    <strong>Shadow 1 <small>(Deprecated)</small></strong>
+                  <div class="card my-3 shadow-1">
+                    <div class="card-body">
+                      <strong>Shadow 1 <small>(Deprecated)</small></strong>
+                    </div>
                   </div>
-                </div>
-                <div class="card my-3 shadow-2">
-                  <div class="card-body">
-                    <strong>Shadow 2 <small>(Deprecated)</small></strong>
+                  <div class="card my-3 shadow-2">
+                    <div class="card-body">
+                      <strong>Shadow 2 <small>(Deprecated)</small></strong>
+                    </div>
                   </div>
-                </div>
-                <div class="card my-3 shadow-3">
-                  <div class="card-body">
-                    <strong>Shadow 3 <small>(Deprecated)</small></strong>
+                  <div class="card my-3 shadow-3">
+                    <div class="card-body">
+                      <strong>Shadow 3 <small>(Deprecated)</small></strong>
+                    </div>
                   </div>
-                </div>
-                <div class="card my-3 shadow-4">
-                  <div class="card-body">
-                    <strong>Shadow 4 <small>(Deprecated)</small></strong>
+                  <div class="card my-3 shadow-4">
+                    <div class="card-body">
+                      <strong>Shadow 4 <small>(Deprecated)</small></strong>
+                    </div>
                   </div>
-                </div>
-                <div class="card my-3 shadow-5">
-                  <div class="card-body">
-                    <strong>Shadow 5 <small>(Deprecated)</small></strong>
+                  <div class="card my-3 shadow-5">
+                    <div class="card-body">
+                      <strong>Shadow 5 <small>(Deprecated)</small></strong>
+                    </div>
                   </div>
-                </div>
                 </div>
               </div>
             </div>
 
+            <div class="grid-item border bg-white">
+              <h3 id="navs">Navs</h3>
+              <div class="d-flex flex-column spaced-bottom">
+                <nav class="navbar nav navbar-expand-sm modus-header">
+                  <button class="btn btn-lg btn-icon-only btn-text-dark">
+                    <i class="modus-icon material-icons">menu</i>
+                  </button>
+                  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+                    <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25"
+                      class="img-fluid d-none d-sm-block" alt="home">
+                    <img src="https://modus-bootstrap.trimble.com/img/trimble-icon.svg" class="d-block d-sm-none" height="25"
+                      width="25" alt="home">
+                  </a>
+                  <div class="collapse navbar-collapse">
+                    <div class="navbar-nav ml-auto">
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Notifications">
+                        <i class="modus-icon material-icons">notifications</i>
+                      </button>
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Help">
+                        <i class="modus-icon material-icons">help</i>
+                      </button>
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Applications">
+                        <i class="modus-icon material-icons">apps</i>
+                      </button>
+                    </div>
+                  </div>
+                  <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
+                    <i class="modus-icons">more_vertical</i>
+                  </button>
+                  <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-0 ml-2" data-toggle="tooltip"
+                    data-placement="bottom" data-html="true"
+                    title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
+                    <i class="modus-icon material-icons rounded-circle">account_circle</i>
+                  </button>
+                </nav>
+
+                <hr>
+                <nav class="navbar navbar-blue nav navbar-expand-sm modus-header py-1">
+                  <button class="btn btn-lg btn-icon-only btn-text-dark">
+                    <i class="modus-icon material-icons text-white">menu</i>
+                  </button>
+                  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+                    <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25"
+                      class="img-fluid d-none d-sm-block" alt="home">
+                    <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none" height="25"
+                      width="25" alt="home">
+                  </a>
+                  <div class="collapse navbar-collapse">
+                    <div class="navbar-nav ml-auto">
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Notifications">
+                        <i class="modus-icon material-icons text-white">notifications</i>
+                      </button>
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Help">
+                        <i class="modus-icon material-icons text-white">help</i>
+                      </button>
+                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                        title="Applications">
+                        <i class="modus-icon material-icons text-white">apps</i>
+                      </button>
+                    </div>
+                  </div>
+                  <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
+                    <i class="modus-icons text-white">more_vertical</i>
+                  </button>
+                  <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2" data-toggle="tooltip"
+                    data-placement="bottom" data-html="true"
+                    title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
+                    <i class="modus-icon material-icons rounded-circle text-white">account_circle</i>
+                  </button>
+                </nav>
+              </div>
+            </div>
             <!-- Tabs -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3 id="tabs">Tabs</h3>
               <div class="d-flex flex-column spaced-bottom">
                 <strong>Basic</strong>
@@ -3153,28 +3113,37 @@
                   <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <h5>First Tab Content</h5>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-                      totam harum, sed modi iste officiis neque optio eos culpa cumque
-                      in voluptatem quaerat at similique est reprehenderit
-                      exercitationem, provident unde.
+                      Placeholder content for the tab panel. This one relates to the First tab. Note that dynamic tabbed
+                      interfaces should not
+                      contain dropdown menus, as this causes both usability and accessibility issues. From a usability
+                      perspective, the fact
+                      that the currently displayed tab's trigger element is not immediately visible (as it's inside the
+                      closed dropdown menu)
+                      can cause confusion.
                     </p>
                   </div>
                   <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <h5>Second Tab Content</h5>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Necessitatibus cumque numquam, aut ad quibusdam quidem dolorem
-                      repudiandae nisi consectetur laboriosam porro dolorum sint
-                      debitis! Porro minus quidem non quae tempora.
+                      Placeholder content for the tab panel. This one relates to the Second tab. Note that dynamic
+                      tabbed interfaces should
+                      not contain dropdown menus, as this causes both usability and accessibility issues. From a
+                      usability perspective, the
+                      fact that the currently displayed tab�s trigger element is not immediately visible (as it's inside
+                      the closed dropdown
+                      menu) can cause confusion.
                     </p>
                   </div>
                   <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <h5>Third Tab Content</h5>
                     <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Voluptas quaerat numquam, dolorem aperiam quasi, tenetur qui
-                      quae doloribus ullam maiores amet minus aliquam mollitia officia
-                      quia eius? Excepturi, cum minus.
+                      Placeholder content for the tab panel. This one relates to the Third tab. Note that dynamic tabbed
+                      interfaces should not
+                      contain dropdown menus, as this causes both usability and accessibility issues. From a usability
+                      perspective, the fact
+                      that the currently displayed tab�s trigger element is not immediately visible (as it's inside the
+                      closed dropdown menu)
+                      can cause confusion.
                     </p>
                   </div>
                   <div class="tab-pane fade" id="disabled" role="tabpanel" aria-labelledby="disabled-tab">
@@ -3937,7 +3906,7 @@
             </div>
 
             <!-- Tables - Small -->
-            <div class="grid-item span-2">
+            <div class="grid-item bg-white span-2">
               <h3>Tables - Small</h3>
               <table class="table table-sm">
                 <thead>
@@ -4167,22 +4136,27 @@
             <div class="grid-item bg-white">
               <h3 id="custom-scrollbars">Custom Scrollbars</h3>
               <div class="card border p-1 h-50" style="overflow-y:scroll">
-                <p>Mark my words. I stood for nothing, so I fell for everything. It's time to bring out the big, big, big, big, big, big
-                  balloons. Infect me with your love and fill me with your poison. California girls we're undeniable. You hear my voice,
-                  you hear that sound. I got you spinning like a disco ball. It's no big deal, it's no big deal, it's no big deal.</p>
-                <p>I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy is the head that
-                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If you wanna dance.
+                <p>Mark my words. I stood for nothing, so I fell for everything. It's time to bring out the big, big,
+                  big, big, big, big
+                  balloons. Infect me with your love and fill me with your poison. California girls we're undeniable.
+                  You hear my voice,
+                  you hear that sound. I got you spinning like a disco ball. It's no big deal, it's no big deal, it's no
+                  big deal.</p>
+                <p>I got the eye of the tiger, a fighter, dancing through the fire. Are you ready for, ready for. Heavy
+                  is the head that
+                  wears the crown. Need some goose, to get loose, come on take a shot. Watch you circle the drain. If
+                  you wanna dance.
                   Should've been my team mate, could've changed your fate.</p>
-                </div>
-                </div>
+              </div>
+              </div>
 
-                <!-- File Drop Zone -->
-                <div class="grid-item bg-white">
-                  <h3 id="file-drop-zone">File Drop Zone</h3>
-                  <div class="file-drop-zone w-100">
-                    <div class="my-5 text-center text-primary">
-                      Drag and Drop CSV here
-                    </div>
+            <!-- File Drop Zone -->
+            <div class="grid-item bg-white">
+              <h3 id="file-drop-zone">File Drop Zone</h3>
+              <div class="file-drop-zone w-100">
+                <div class="my-5 text-center text-primary">
+                  Drag and Drop CSV here
+                </div>
               </div>
             </div>
 

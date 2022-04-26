@@ -6,6 +6,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
 
+<!-- Load Modus Layout -->
+{{- if .Params.loadModusLayout }}
+{{- if not .Params.SamplePage -}}
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.css">
+<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.js"></script>
+{{ else }}
+<link rel="stylesheet" href="{{ .Params.modusLayoutCSS }}">
+<script src="{{ .Params.modusLayoutJS }}"></script>
+{{- end -}}
+{{- end -}}
+
 <!-- Loads Modus from CDN -->
 {{- if not .Params.SamplePage -}}
 <link rel="stylesheet"
@@ -53,16 +64,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
 <link rel="stylesheet"
   href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
-{{- end -}}
-
-{{- if .Params.loadModusLayout }}
-{{- if not .Params.SamplePage -}}
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.css">
-<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusLayoutVersion }}.js"></script>
-{{ else }}
-<link rel="stylesheet" href="{{ .Params.modusLayoutCSS }}">
-<script src="{{ .Params.modusLayoutJS }}"></script>
-{{- end -}}
 {{- end -}}
 
 <!-- IE11 Polyfills -->

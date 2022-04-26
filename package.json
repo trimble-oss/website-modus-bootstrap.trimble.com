@@ -32,8 +32,8 @@
   },
   "devDependencies": {
     "@trimbleinc/modus-bootstrap": "^1.4.1",
-    "autoprefixer": "^10.4.4",
-    "eslint": "^8.13.0",
+    "autoprefixer": "^10.4.5",
+    "eslint": "^8.14.0",
     "eslint-plugin-html": "^6.2.0",
     "htmlhint": "^1.1.4",
     "hugo-bin": "^0.85.3",
