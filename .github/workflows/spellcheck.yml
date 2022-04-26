@@ -1,6 +1,8 @@
 name: 'Check spelling'
 on: # rebuild any PRs and main branch changes
   pull_request:
+    branches-ignore:
+      - "dependabot/**"
 
 jobs:
   spellcheck: # run the action
