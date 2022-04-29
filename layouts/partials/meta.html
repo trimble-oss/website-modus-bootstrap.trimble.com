@@ -27,8 +27,7 @@
 
 <!-- if URL param includes ?Next -->
 <script>
-  if (window.location.search.search(/[?&]next(?:$|&)/) !== -1) {
-
+    if (window.location.search.search(/[?&]next(?:$|&)/) !== -1) {
     var $ = document; // shortcut
     var cssId = 'next';  // you could encode the css path itself to generate id..
     if (!$.getElementById(cssId))
@@ -37,7 +36,7 @@
         var link  = $.createElement('link');
         link.id   = cssId;
         link.rel  = 'stylesheet';
-        link.href = 'https://styles-dev.trimblemaps.com/css/modus.css';
+      link.href = 'https://dev-modus-bootstrap.s3.amazonaws.com/css/modus.min.css';
         head.appendChild(link);
     }
   }
@@ -53,7 +52,7 @@
       var link = $.createElement('link');
       link.id = cssId;
       link.rel = 'stylesheet';
-      link.href = 'https://styles-dev.trimblemaps.com/css/modus-dark.css';
+      link.href = 'https://dev-modus-bootstrap.s3.amazonaws.com/css/modus-dark.min.css';
       head.appendChild(link);
     }
   }
@@ -63,7 +62,7 @@
 {{- if not .IsHome -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
 <link rel="stylesheet"
-  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css" fetchpriority="low">
 {{- end -}}
 
 <!-- IE11 Polyfills -->
@@ -110,7 +109,8 @@
 {{- end -}}
 
 {{- if or .Params.loadFontAwesome .Params.Samplepage }}
-<script src="https://kit.fontawesome.com/bbe67f2190.js" async></script>
+<meta name="color-scheme" content="light dark">
+<script src="https://kit.fontawesome.com/bbe67f2190.js" async fetchpriority="low"></script>
 {{- end -}}
 
 {{- if not .Params.hideSearch -}}

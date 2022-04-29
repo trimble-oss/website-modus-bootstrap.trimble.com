@@ -642,18 +642,15 @@
             <div class="grid-item bg-white">
               <h3 id="toasts">Toasts</h3>
               <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                  <img src="..." class="rounded mr-2" alt="...">
-                  <strong class="mr-auto">Bootstrap</strong>
-                  <small>11 mins ago</small>
-                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                <div class="toast-body">
+                  <img src="https://modus-bootstrap.trimble.com/favicon.svg" height="14" width="14" class="rounded mr-2" alt="...">
+                  <strong class="mr-auto">Modus Bootstrap</strong>
+                  <small class="text-muted">11 mins ago</small>
                 </div>
-                <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
-                  Close
+                <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
+                </div>
               <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-body">
                   Hello, world! This is a toast message.
@@ -1421,16 +1418,6 @@
               </div>
             </div>
 
-            <!-- Buttons - Block Level -->
-            <div class="grid-item bg-white">
-              <h3>Buttons - Block Level</h3>
-              <div class="spaced-bottom">
-                <button class="btn btn-block btn-primary">Button</button>
-                <button class="btn btn-block btn-secondary">Button</button>
-                <button class="btn btn-block btn-tertiary">Button</button>
-              </div>
-            </div>
-
             <!-- Buttons - Active State -->
             <div class="grid-item bg-white">
               <h3>Buttons - Active State</h3>
@@ -1466,7 +1453,6 @@
             <div class="grid-item bg-white">
               <h3 id="messages">Messages</h3>
               <div class="d-flex flex-column">
-                <div class="message">This is an unstyled message</div>
                 <div class="message message-primary"><i class="modus-icons">info</i>This is a primary message</div>
                 <div class="message message-secondary"><i class="modus-icons">help</i>This is a secondary message
                 </div>
@@ -1596,8 +1582,8 @@
                   <div class="chip-text">Jane</div>
                   <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
                 </div>
-
               </div>
+
               <div class="mt-1">
                 <p class="mb-1"><strong>Outline Small</strong></p>
                 <div class="chip chip-sm chip-outline chip-input">
@@ -1926,6 +1912,72 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
+      <!-- Inputs - Validation -->
+      <div class="grid-item border bg-white">
+        <h3 id="input-validation">Input - Validation</h3>
+        <div class="d-flex flex-column spaced-bottom">
+          <form>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationServer01">First name</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationServer02">Last name</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationServer03">City</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03"
+                  aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer04">State</label>
+                <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback"
+                  required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div id="validationServer04Feedback" class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer05">Zip</label>
+                <input type="text" class="form-control is-invalid" id="validationServer05"
+                  aria-describedby="validationServer05Feedback" required>
+                <div id="validationServer05Feedback" class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                  aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                  Agree to terms and conditions
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+        </div>
+      </div>
 
             <!-- Input - States -->
             <div class="grid-item bg-white">
@@ -2345,79 +2397,6 @@
                     <input type="radio" class="custom-control-input disabled" id="listRadio2" name="listRadio"
                       value="customEx">
                     <label class="custom-control-label" for="listRadio2"></label>
-                  </div>
-                  <span>Left Radio Button</span>
-                </li>
-                <li class="list-group-item disabled">List Item (disabled)</li>
-                <li class="list-group-item list-item-left-control">
-                  <i class="icon modus-icons">gear</i>
-                  <span>Left Icon</span>
-                </li>
-                <li class="list-group-item list-item-right-control">
-                  <span>Right Icon</span>
-                  <i class="icon modus-icons">gear</i>
-                </li>
-                <li class="list-group-item list-item-leftright-control">
-                  <i class="icon modus-icons">gear</i>
-                  <span>Both Icons</span>
-                  <i class="icon modus-icons">check</i>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  List with Badge
-                  <span class="badge badge-primary badge-pill">14</span>
-                </li>
-                <li class="list-group-item list-item-leftright-control">
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
-                    <i class="modus-icons">gear</i>
-                  </button>
-                  <span>Both Buttons</span>
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
-                    <i class="modus-icons">gear</i>
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Lists - Outlined -->
-            <div class="grid-item bg-white">
-              <h3>Lists - Outlined</h3>
-              <ul class="list-group list-group-outlined">
-                <li class="list-group-item active">List Item (active)</li>
-                <li class="list-group-item list-item-left-control">
-                  <div class="custom-control custom-switch custom-control-inline">
-                    <input type="checkbox" checked="" class="custom-control-input" id="outlinedSwitch1">
-                    <label class="custom-control-label" for="outlinedSwitch1"></label>
-                  </div>
-                  <span>Left Switch</span>
-                </li>
-                <li class="list-group-item list-item-right-control">
-                  <span>Right Switch</span>
-                  <div class="custom-control custom-switch custom-control-inline">
-                    <input type="checkbox" checked="" class="custom-control-input" id="outlinedSwitch2">
-                    <label class="custom-control-label" for="outlinedSwitch2"></label>
-                  </div>
-                </li>
-                <li class="list-group-item list-item-left-control">
-                  <div class="custom-control custom-checkbox">
-                    <input type="checkbox" checked="" class="custom-control-input" id="outlinedCheckbox"
-                      name="example1">
-                    <label class="custom-control-label" for="outlinedCheckbox"></label>
-                  </div>
-                  <span>Left Checkbox</span>
-                </li>
-                <li class="list-group-item list-item-left-control">
-                  <div class="custom-control custom-radio">
-                    <input type="radio" checked="" class="custom-control-input" id="outlinedRadio1" name="outlinedRadio"
-                      value="customEx">
-                    <label class="custom-control-label" for="outlinedRadio1"></label>
-                  </div>
-                  <span>Left Radio Button</span>
-                </li>
-                <li class="list-group-item list-item-left-control">
-                  <div class="custom-control custom-radio">
-                    <input type="radio" class="custom-control-input disabled" id="outlinedRadio2" name="outlinedRadio"
-                      value="customEx">
-                    <label class="custom-control-label" for="outlinedRadio2"></label>
                   </div>
                   <span>Left Radio Button</span>
                 </li>
@@ -4152,7 +4131,7 @@
 
             <!-- File Drop Zone -->
             <div class="grid-item bg-white">
-              <h3 id="file-drop-zone">File Drop Zone</h3>
+              <h3 id="file-dropzone">File Dropzone</h3>
               <div class="file-drop-zone w-100">
                 <div class="my-5 text-center text-primary">
                   Drag and Drop CSV here
