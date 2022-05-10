@@ -37,7 +37,7 @@ Use border utilities to add or remove an element’s borders. Choose from all bo
 
 Change the border color using utilities built on our theme colors.
 
-{{< example id="example-border-color" class="guide-sample border-sample" >}}
+{{< example id="example-border-color" class="guide-sample bg-transparent border-sample" >}}
 <div class="border border-primary"></div>
 <div class="border border-secondary"></div>
 <div class="border border-tertiary"></div>
@@ -51,7 +51,7 @@ Change the border color using utilities built on our theme colors.
 
 Add classes to an element to easily round its corners.
 
-{{< example id="example-border-radius" class="guide-sample border-sample border-radius-sample" >}}
+{{< example id="example-border-radius" class="guide-sample bg-transparent border-sample border-radius-sample" >}}
 <div class="rounded"></div>
 <div class="rounded-top"></div>
 <div class="rounded-right"></div>

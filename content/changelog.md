@@ -17,13 +17,23 @@ changelog: true
   border-color: transparent !important;
 }
 
+#TableOfContents li a em {
+  display: none !important;
+  opacity: 0;
+}
+
 main .h2 {
   margin-top: 8px !important;
 }
 
+main h2 em {
+  opacity: 0.4;
+  font-size: 1rem;
+  font-style: normal;
+}
 </style>
 
-## v1.4.1 - 2022-04-22
+## v1.4.1 _2022-04-22_
 
 - Add [Progress Bar small variant](/components/progress-bars/)
 - Fix for list-group sizes (now use min-height instead of height)
@@ -33,7 +43,7 @@ main .h2 {
 - Set just the toast-dark to have white text
 - Minor CSS rule cleanup
 
-## v1.4.0 - 2022-03-28
+## v1.4.0 _2022-03-28_
 
 - Add [display heading styles](https://modus.trimble.com/foundations/typography/#display-headings) <small>(ETHER-145)</small>
 - Add Drag & Drop File Upload CSS - a single-class with a single-rule intended to be used for drag-and-drop file upload zone <small>(DDS-308)</small>
@@ -42,12 +52,12 @@ main .h2 {
 - Removes the unused and undocumented `.spinner-rectangle-bounce` class
 - Update to Stylelint v14 and fixes some minor CSS linting issues
 
-## v1.3.1 - 2021-11-11
+## v1.3.1 _2021-11-11_
 
 * Improved checkbox mis-aligned input fix
 * Fix for 'Using / for division is deprecated' Dart Sass warning in `_controls.scss`
 
-## v1.3.0 - 2021-10-29
+## v1.3.0 _2021-10-29_
 
 - Update to [Bootstrap v4.6.1](https://github.com/twbs/bootstrap/releases/tag/v4.6.1)
 - Add a `.navbar-blue` navbar variant <small>([#222](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/222/overview))</small>
@@ -59,14 +69,14 @@ main .h2 {
 - Correct toast-secondary, tertiary, danger + warning text colors (is now {{< color-preview hex="#252A2E">}})
 - Correct color of switches, checkboxes and radio buttons (is now {{< color-preview hex="#90939F">}})
 
-## v1.2.0 - 2021-09-28
+## v1.2.0 _2021-09-28_
 
 - Update Trimble Brand Colors <small>([ETHER-138](https://jira.trimble.tools/browse/ETHER-138))</small>
 - Add `panel-xl` class and modify other panel sizes in modus-layout CSS <small>([ETHER-136](https://jira.trimble.tools/browse/ETHER-136))</small>
 - Remove deprecated `btn-reverse` button variant (use `btn-outline` instead)
 - Smaller npm install size
 
-## v1.1.0 - 2021-08-12
+## v1.1.0 _2021-08-12_
 
 - Change box-shadow color from blue to trimble gray <small>([ETHER-134](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/204/overview))</small>
 - Fix for SASS deprecation warnings for adjust-color() saturation <small>([#202](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/202/overview))</small>
@@ -75,14 +85,14 @@ main .h2 {
 - Drop Edge Legacy support <small>([ETHER-132](https://jira.trimble.tools/browse/ETHER-132))</small>
 - Fix for body font-family being duplicated <small>([#203](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/203/overview))</small>
 
-## v1.0.1 - 2021-06-10
+## v1.0.1 _2021-06-10_
 
 - Update to [Bootstrap v4.6.0](https://github.com/twbs/bootstrap/releases/tag/v4.6.0)
 - Input Field Placeholder Shift fix <small>([DDS-133](https://jira.trimble.tools/browse/DDS-133))</small>
 - Address SASS deprecation warnings for adjust-color() <small>([ETHER-129](https://jira.trimble.tools/browse/ETHER-129))</small>
 - Fix for Indeterminate Checkbox SVG size /position <small>([DDS-107](https://jira.trimble.tools/browse/DDS-107))</small>
 
-## v1.0.0 - 2020-12-08
+## v1.0.0 _2020-12-08_
 
 - Update to [Bootstrap v4.5.3](https://github.com/twbs/bootstrap/releases/tag/v4.5.3)
 - Improved [Checkbox](/components/checkboxes/) indeterminate state styling <small>([ETHER-112](https://jira.trimble.tools/browse/ETHER-112))</small>
@@ -107,11 +117,11 @@ main .h2 {
 
 <!-- - Add Sass Source Maps? <small>([ETHER-119](https://jira.trimble.tools/browse/ETHER-119))</small>   -->
 
-## v0.9.5 - 2020-04-23
+## v0.9.5 _2020-04-23_
 
 - Added custom thinner scrollbars to WebKit/Blink and Firefox browsers
 
-## v0.9.2 - 2020-02-06
+## v0.9.2 _2020-02-06_
 
 ### General
 
@@ -122,7 +132,7 @@ main .h2 {
 
 - Added `.message` component with variants from `$theme-colors`
 
-## v0.9.1 - 2019-10-16
+## v0.9.1 _2019-10-16_
 
 ### General
 
@@ -139,7 +149,7 @@ main .h2 {
 - Added bottom border to `.card-header`
 - Added top border to `.card-footer`
 
-## v0.9.0 - 2019-09-06
+## v0.9.0 _2019-09-06_
 
 ### Framework Name Change
 
@@ -195,7 +205,7 @@ main .h2 {
 - Added gray border classes (`.border-gray-200` etc...)
 - Changed opacity of `.nav-tabs .nav-link` in disabled state to 0.3
 
-## v0.3.2 - 2019-08-02
+## v0.3.2 _2019-08-02_
 
 ### Layout Fixes
 
@@ -229,7 +239,7 @@ main .h2 {
 - Added `light` color (#EAEAEF) to `$theme-colors`
 - Changed `selected` color in theme `ui-colors` to #E5F0F8
 
-## v0.3.1 - 2019-06-05
+## v0.3.1 _2019-06-05_
 
 ### Layout Fixes
 
@@ -247,7 +257,7 @@ main .h2 {
 - Updated alert styles
 - Added `.dropdown-menu-sm` (140px), `.dropdown-menu-md` (240px), and `.dropdown-menu-lg` (400px) to limit the height with scrolling.
 
-## v0.3.0 - 2019-05-23
+## v0.3.0 _2019-05-23_
 
 ### Change to Ether Layout
 
@@ -268,28 +278,28 @@ main .h2 {
   └── div.ether-footer
   ```
 
-  _(Note: "ether" class names were changed to "modus" in v0.9.0)_
+ _(Note: "ether" class names were changed to "modus" in v0.9.0)_
 
-## v0.2.0 - 2019-05-03
+## v0.2.0 _2019-05-03_
 
 ### Component Updates
 
 - Switches, Radio buttons, Checkboxes, and Slider overhaul
 - Chip alignment fixes
 
-## v0.1.33 - 2019-04-29
+## v0.1.33 _2019-04-29_
 
 ### Icons
 
 - Allow for multiple icon libraries (defaults to `ether-icons` and `material-icons`) _(Note: "ether-icons" class names were changed to "modus-icons" in v0.9.0)_
 
-## v0.1.32 - 2019-04-29
+## v0.1.32 _2019-04-29_
 
 ### Inputs
 
 - New input boxes and text areas styling
 
-## v0.1.31 - 2019-04-22
+## v0.1.31 _2019-04-22_
 
 ### Release
 

@@ -49,7 +49,7 @@ Button Dropdowns can be any variety of button style and color. Simply use the de
 `.btn-{theme-color}` class.
 
 <div class="guide-example-block">
-  <div class="guide-sample">
+  <div class="guide-sample bg-transparent">
     <div class="d-flex">
       <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"

@@ -198,7 +198,7 @@ many type styles make a layout unbalanced and difficult to manage.
 
 ### Headings
 
-{{< example id="example-headings" class="example-typography-headings guide-sample anatomy-display">}}
+{{< example id="example-headings" class="example-typography-headings bg-transparent guide-sample anatomy-display">}}
 <h1>H1 Heading</h1>
 <h2>H2 Heading</h2>
 <h3>H3 Heading</h3>
@@ -211,7 +211,7 @@ many type styles make a layout unbalanced and difficult to manage.
 
 When you need a heading to stand out, consider using a **display heading**—a larger, slightly more opinionated heading style. Keep in mind these headings are not responsive by default.
 
-{{< example id="example-display-headings" class="example-typography-headings guide-sample anatomy-display">}}
+{{< example id="example-display-headings" class="example-typography-headings bg-transparent guide-sample anatomy-display">}}
 <h1 class="display-1">Display 1</h1>
 <h1 class="display-2">Display 2</h2>
 <h1 class="display-3">Display 3</h3>
@@ -220,7 +220,7 @@ When you need a heading to stand out, consider using a **display heading**—a l
 
 ### Text Styles
 
-{{< example id="example-heading-styles" class="example-typography-headings guide-sample anatomy-display">}}
+{{< example id="example-heading-styles" class="example-typography-headings bg-transparent guide-sample anatomy-display">}}
 <p class="lead-text">Lead Text / Open Sans Regular</p>
 <p class="body-text">Body / Open Sans Regular</p>
 <p class="card-text">Card Text / Open Sans Regular</p>

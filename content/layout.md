@@ -64,7 +64,7 @@ To help illustrate how all the layout elements look when displayed
  we have this interactive example.
 
 <div class="guide-example-block">
-  <div class="guide-sample position-relative p-0 border" id="interactiveExample"
+  <div class="guide-sample position-relative p-0 border bg-transparent" id="interactiveExample"
         style="height: 600px; z-index: 10;">
         <!-- Modus Layout Page Wrapper -->
         <div class="modus-layout">
@@ -138,10 +138,10 @@ To help illustrate how all the layout elements look when displayed
                 </form>
               </div>
               <div class="modus-content-columns" id="modusContentColumns">
-                <div class="modus-panel panel-lg shadow-sm" id="modusPanel">
+                <div class="modus-panel panel-lg shadow-sm bg-transparent" id="modusPanel">
                   <!-- Modus Panel -->
                   <!-- Panel Header -->
-                  <div class="panel-header">
+                  <div class="panel-header bg-transparent">
                     <div class="left-items ml-2">
                       <div class="custom-control custom-switch">
                         <input type="checkbox" checked="" class="custom-control-input" id="customSwitch"
@@ -278,7 +278,7 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
 <code>data-modus-item="body"</code>.
 
 <div class="guide-example-block">
-      <div class="guide-sample position-relative p-0 border" style="height: 300px; z-index: 10;" id="sidebarExample">
+      <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 300px; z-index: 10;" id="sidebarExample">
         <!-- Modus Layout Page Wrapper -->
         <div class="modus-layout">
           <!-- Modus Header -->
@@ -287,7 +287,7 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
             <a href="#modus-sidebar" class="navbar-brand">BRAND</a>
           </nav>
           <!-- Modus Body Wrapper -->
-          <div class="modus-body sidebar-open" data-modus-item="body">
+          <div class="modus-body sidebar-open bg-transparent" data-modus-item="body">
             <!-- Modus Sidebar -->
             <nav class="nav flex-column modus-sidebar">
               <ul>
@@ -407,7 +407,7 @@ additional functionality.
 - `.panel-xl` (544px)
 
 <div class="guide-example-block">
-  <div class="guide-sample position-relative p-0 border" style="height: 400px; z-index: 10;" id="example-block3">
+  <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 400px; z-index: 10;" id="example-block3">
     <!-- Modus Layout Page Wrapper -->
     <div class="modus-layout">
       <!-- Modus Body Wrapper -->
@@ -415,9 +415,9 @@ additional functionality.
         <div class="modus-content-rows">
           <div class="modus-content-columns">
             <!-- Modus Panel -->
-            <div class="modus-panel panel-lg shadow-sm">
+            <div class="modus-panel panel-lg shadow-sm bg-transparent">
               <!-- Panel Header -->
-              <div class="panel-header">
+              <div class="panel-header bg-transparent">
                 <div class="left-items ml-2">
                   <div class="custom-control custom-switch">
                     <input type="checkbox" checked class="custom-control-input" id="exampleSwitch"

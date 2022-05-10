@@ -28,7 +28,7 @@ Expected ways to use spinners:
 <div class="d-flex justify-content-start">
   <div class="pr-3">
     <button type="button" class="btn btn-primary display-active">
-      <span class="spinner-border mr-1" style="height:16px;width:16px"></span>
+      <span class="spinner-border mr-1" style="height:16px;width:16px;color:#fff;"></span>
         Loading
     </button>
   </div>

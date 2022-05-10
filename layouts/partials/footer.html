@@ -3,7 +3,7 @@
 
     <div class="row pt-2">
       <div class="col-12 mb-4 mt-2">
-        <img src="/img/trimble-logo-rev.svg" width="107" height="25" alt="Trimble">
+        {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "107" "height" "25") }}
       </div>
     </div>
 
@@ -46,7 +46,6 @@
         <a href="https://www.trimble.com/en/our-commitment/responsible-business/data-privacy-and-security/data-privacy-center"
           target="_blank">Privacy Center</a> -
         <a href="https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use" target="_blank">Terms of Use</a> -
-        <a href="/cookies/" hidden>Cookies</a>
          Modus Version: {{ .Site.Params.modusBootstrapVersion }}</a>
       </div>
     </div>
