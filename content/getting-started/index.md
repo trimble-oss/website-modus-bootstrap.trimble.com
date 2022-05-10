@@ -103,7 +103,7 @@ This example shows you how you should structure your main file. The order in whi
 // Modus functions
 @import "../node_modules/@trimbleinc/modus-bootstrap/scss/components/functions";
 
-// \***\* YOUR CUSTOM THEME GOES HERE \*\***
+// YOUR CUSTOM THEME GOES HERE
 @import "your_custom_sass_directory/your_copy_of_modus_theme_file";
 // Modus variables
 @import "../node_modules/@trimbleinc/modus-bootstrap/scss/components/variables";

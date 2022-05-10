@@ -3,7 +3,16 @@
 
 <head>
   {{ partial "meta" . }}
-  {{ partial "analytics" . }}
+  {{ partialCached "analytics" . }}
+
+  {{- if not .IsHome }}
+  {{ $anatomy := resources.Get "js/anatomy.js" }}
+  {{ $scroll2anchor := resources.Get "js/scroll-to-anchor.js" }}
+  {{ $js := slice $anatomy $scroll2anchor | resources.Concat "js/app.js" | resources.Minify }}
+  <script src="{{ $js.RelPermalink }}" async fetchpriority="low"></script>
+  {{- end -}}
+
+  <script src="/js/bootstrap.bundle.min.js" fetchpriority="low"></script>
 </head>
 
 {{ if and (gt .WordCount 99 ) (not .Params.hideToc) }}
@@ -18,7 +27,7 @@
 
     {{ if not .Params.hideNav }}
     <div class="container-fluid bg-white">
-      {{ partial "navbar" . }}
+      {{ partialCached "navbar" . }}
     </div>
     {{- end -}}
 
@@ -26,26 +35,7 @@
     {{- end -}}
 
     {{ if not .Params.hideNav }}
-    {{ block "footer" . }} {{ partial "footer" . }} {{- end -}}
-    {{- end -}}
-
-    <script src="/js/bootstrap.bundle.min.js"></script>
-
-    {{ if not .IsHome }}
-    {{- if not .Site.IsServer -}}
-  <!-- <script
-      src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9127b19e"></script>
-    <script
-      src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=eac08567"></script> -->
-    {{- end -}}
-    {{- end -}}
-
-    {{- if not .IsHome }}
-    {{ $anatomy := resources.Get "js/anatomy.js" }}
-    {{ $scroll2anchor := resources.Get "js/scroll-to-anchor.js" }}
-    {{ $js := slice $anatomy $scroll2anchor | resources.Concat "js/app.js" | resources.Minify }}
-    <script src="{{ $js.RelPermalink }}" async></script>
-
+    {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
     {{- end -}}
 
   </body>

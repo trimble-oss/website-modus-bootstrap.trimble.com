@@ -134,7 +134,7 @@ Use shadows to separate modal dialogs from the main content layer.
 
 <div class="guide-example-block">
   <div class="guide-sample modal-static bg-light">
-    <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal d-inline position-relative" tabindex="-1" role="dialog">
       <div class="modal-dialog shadow-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">

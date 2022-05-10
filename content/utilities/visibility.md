@@ -3,6 +3,7 @@ title: "Visibility"
 layout: "single"
 description: "Control the visibility, without modifying the display, of elements with visibility utilities."
 utilities: true
+hideToc: true
 ---
 
 Set the `visibility` of elements with our visibility utilities. These utility classes do not modify

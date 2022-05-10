@@ -13,6 +13,7 @@
 .highlight .c {
   color: #60a0b0;
   font-style: italic;
+  opacity: 0.9;
 } /* Comment */
 .highlight .err {
   border: 1px solid #eee;
@@ -23,6 +24,7 @@
 } /* Keyword */
 .highlight .o {
   color: #666;
+  opacity: 0.8;
 } /* Operator */
 .highlight .ch {
   color: #60a0b0;
@@ -42,6 +44,7 @@
 .highlight .c1 {
   color: #a0a1a7;
   font-style: italic;
+  opacity: 0.7;
 } /* Comment.Single */
 .highlight .cs {
   color: #60a0b0;
@@ -144,7 +147,7 @@
   font-weight: bold;
 } /* Name.Namespace */
 .highlight .nt {
-  color: #905;
+  color: #e1218c;
   font-weight: bold;
 } /* Name.Tag */
 .highlight .nv {
@@ -238,3 +241,6 @@
 .highlight .il {
   color: #40a070;
 } /* Literal.Number.Integer.Long */
+.highlight .p {
+  opacity: 0.6;
+}
