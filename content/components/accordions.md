@@ -42,7 +42,6 @@ collapsible elements that apply appropriate styling.
 ### Collapsible Cards
 
 {{< example id="example-collapsible-cards" >}}
-
 <div class="accordion" id="accordionCodeExample">
   <div class="card">
     <div class="card-header" id="accordionHeadingOne" data-toggle="collapse" data-target="#codeCollapseOne" aria-expanded="true" aria-controls="codeCollapseOne">
@@ -91,7 +90,6 @@ collapsible elements that apply appropriate styling.
 Add the `.accordion-sm` class to `.accordion` to create a smaller variant.
 
 {{< example id="example-collapsible-small" show_markup="false" >}}
-
 <div class="accordion accordion-sm" id="smallAccordionCodeExample">
   <div class="card">
     <div class="card-header" id="smallAccordionHeadingOne" data-toggle="collapse" data-target="#smallCodeCollapseOne" aria-expanded="true" aria-controls="smallCodeCollapseOne">
@@ -135,7 +133,6 @@ Add the `.accordion-sm` class to `.accordion` to create a smaller variant.
 You can use the `.accordion` classes in combination with other UI Elements to create collapsible content.
 
 {{< example id="example-collapsible-lists" class="d-flex flex-column" >}}
-
 <ul class="list-group">
   <li class="list-group-item">List Item</li>
   <li class="list-group-item">List Item</li>
@@ -171,7 +168,6 @@ You can use the `.accordion` classes in combination with other UI Elements to cr
 To have your collapsible elements operate mutually exclusively, simply remove the `data-parent` attribute from each collapsible item.
 
 {{< example id="example-collapsible-exc" show_markup="false">}}
-
 <div class="guide-sample bg-light">
     <div class="accordion">
       <div class="card">

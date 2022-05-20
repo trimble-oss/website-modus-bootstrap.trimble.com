@@ -57,7 +57,7 @@ Where _size_ is one of:
 
 Here are some examples with `padding`:
 
-{{< example class="d-sm-flex example-padding text-white" >}}
+{{< example class="example-padding text-white d-block" >}}
 <div class="p-0">p-0</div>
 <div class="p-1">p-1</div>
 <div class="p-2">p-2</div>

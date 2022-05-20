@@ -20,7 +20,6 @@ Add `class="alert"` along with contextual classes and `role="alert"` to a div to
 ### Basic Alerts
 
 {{< example id="example-alerts" >}}
-
 <div class="alert alert-primary" role="alert">
   <i class="modus-icon material-icons alert-icon">info</i>
   <div>A basic Primary alert</div>
@@ -66,7 +65,6 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 any alert.
 
 {{< example id="example-alerts-links" >}}
-
 <div class="alert alert-primary" role="alert">
   <i class="modus-icon material-icons alert-icon">info</i>
   <div>
@@ -82,7 +80,6 @@ You can add a button to an alert using any button style. For best results with s
 alerts, use `.btn-sm`.
 
 {{< example id="example-alerts-buttons" class="d-block" >}}
-
 <div class="alert alert-primary" role="alert">
   <i class="modus-icon material-icons alert-icon">info</i>
   <div>A basic primary alert with a button</div>
@@ -98,7 +95,6 @@ Add `class="fade show"` to the alert and add a button with attributes
 To use this, please review [Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/alerts/#dismissing).
 
 {{< example id="example-alerts-dismiss" >}}
-
 <div class="alert alert-primary fade show" role="alert">
   <i class="modus-icon material-icons alert-icon">info</i>
   <div>A basic primary alert with a dismiss icon</div>

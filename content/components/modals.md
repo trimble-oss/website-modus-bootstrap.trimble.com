@@ -52,7 +52,6 @@ Inside of `.modal-header`, include a `.modal-title` to properly style the Modal 
 <!-- prettier-ignore-start -->
 
 {{< example id="example-basic-modal" >}}
-
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">

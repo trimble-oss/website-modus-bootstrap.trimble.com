@@ -51,7 +51,7 @@ Trimble Blue
 Trimble Yellow
 {{</ card-color >}}
 
-{{< card-color hex="#252A2E" bg="bg-trimble-gray" border="border-trimble-gray" text="text-trimble-gray">}}
+{{< card-color hex="#252a2e" bg="bg-trimble-gray" border="border-trimble-gray" text="text-trimble-gray">}}
 Trimble Gray
 {{</ card-color >}}
 
@@ -89,15 +89,15 @@ Various shades of gray for utility.
 Black
 {{</ card-color >}}
 
-{{< card-color hex="#252A2E" bg="bg-trimble-gray" border="border-trimble-gray" text="text-trimble-gray">}}
+{{< card-color hex="#252a2e" bg="bg-trimble-gray" border="border-trimble-gray" text="text-trimble-gray">}}
 Trimble Gray
 {{</ card-color >}}
 
-{{< card-color hex="#171C1E" bg="bg-gray-10" border="border-gray-10" text="text-gray-10">}}
+{{< card-color hex="#171c1e" bg="bg-gray-10" border="border-gray-10" text="text-gray-10">}}
 Gray 10
 {{</ card-color >}}
 
-{{< card-color hex="#353A40" bg="bg-gray-9" border="border-gray-9" text="text-gray-9">}}
+{{< card-color hex="#353a40" bg="bg-gray-9" border="border-gray-9" text="text-gray-9">}}
 Gray 9
 {{</ card-color >}}
 
