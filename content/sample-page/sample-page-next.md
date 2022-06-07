@@ -18,3 +18,11 @@ modusLayoutJS: "https://dev-modus-bootstrap.s3.amazonaws.com/css/modus-layout.js
 images:
   - "/icon.png"
 ---
+
+<style>
+@media (prefers-color-scheme: dark) {
+  .bg-white {
+    background-color: #171c1e;
+  }
+}
+</style>
