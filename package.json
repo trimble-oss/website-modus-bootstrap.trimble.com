@@ -21,7 +21,7 @@
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "lint": "npm-run-all lint-css lint-html lint-js",
     "lint-css": "stylelint \"assets/css/*.scss\"",
-    "lint-html": "htmlhint \"layouts/**/index.html\"",
+    "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\"",
     "lint-links": "npx linkinator build --recurse --silent --skip github.com",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
