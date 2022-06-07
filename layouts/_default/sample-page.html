@@ -124,7 +124,8 @@
       </ul>
     </nav>
 
-    <div class="modus-content-rows">
+    <main>
+      <div class="modus-content-rows">
       <div class="modus-content-columns">
         <div class="modus-content sample-page-content">
           <!--
@@ -139,31 +140,31 @@
               <div class="colors">
                 <div class="d-flex justify-content-between bg-primary border-dark">
                   <h6 class="text-white">Primary</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-secondary border-dark">
                   <h6 class="text-white">Secondary</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-tertiary border-dark">
                   <h6 class="text-dark">Tertiary</h6>
-                  <h6 class="text-dark text-monospace"></h6>
+                  <code class="text-dark text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-success border-dark">
                   <h6 class="text-white">Success</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-danger border-dark">
                   <h6 class="text-white">Danger</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-warning border-dark">
                   <h6 class="text-white">Warning</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-dark border-dark">
                   <h6 class="text-white">Dark</h6>
-                  <h6 class="text-white text-monospace"></h6>
+                  <code class="text-white text-monospace"></code>
                 </div>
                 <div class="d-flex justify-content-between bg-light border-dark">
                   <h6 class="text-dark">Light</h6>
@@ -410,6 +411,7 @@
                     <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#">4</a></li>
                   <li class="page-item"><a class="page-link" href="#">
                       <i class="modus-icons">more_horizontal</i>
                     </a></li>
@@ -428,7 +430,7 @@
               <h3 id="accordions">Accordions</h3>
               <div class="accordion" id="accordionExample">
                 <div class="card">
-                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+                  <div class="card-header" role="button" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
                     <h6 class="mb-0">
                       Collapsible Group Item #1
@@ -446,7 +448,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+                  <div class="card-header" role="button" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
                     <h6 class="mb-0">
                       Collapsible Group Item #2
@@ -463,7 +465,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
+                  <div class="card-header" role="button" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
                     <h6 class="mb-0">
                       Collapsible Group Item #3
@@ -488,7 +490,7 @@
               <h3>Accordion - Small</h3>
               <div class="accordion accordion-sm" id="smallAccordionExample">
                 <div class="card">
-                  <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour"
+                  <div class="card-header" role="button" id="headingFour" data-toggle="collapse" data-target="#collapseFour"
                     aria-expanded="true" aria-controls="collapseFour">
                     <h6 class="mb-0">
                       Collapsible Group Item #1
@@ -506,7 +508,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive"
+                  <div class="card-header" role="button" id="headingFive" data-toggle="collapse" data-target="#collapseFive"
                     aria-expanded="false" aria-controls="collapseFive">
                     <h6 class="mb-0">
                       Collapsible Group Item #2
@@ -525,7 +527,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix"
+                  <div class="card-header" role="button" id="headingSix" data-toggle="collapse" data-target="#collapseSix"
                     aria-expanded="false" aria-controls="collapseSix">
                     <h6 class="mb-0">
                       Collapsible Group Item #3
@@ -550,7 +552,7 @@
               <h3>Accordion - Borderless</h3>
               <div class="accordion borderless" id="accordionBorderless">
                 <div class="card">
-                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#borderlessOne"
+                  <div class="card-header" role="button" id="headingOne" data-toggle="collapse" data-target="#borderlessOne"
                     aria-expanded="true" aria-controls="borderlessOne">
                     <h6 class="mb-0">
                       Collapsible Group Item #1
@@ -568,7 +570,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#borderlessTwo"
+                  <div class="card-header" role="button" id="headingTwo" data-toggle="collapse" data-target="#borderlessTwo"
                     aria-expanded="false" aria-controls="borderlessTwo">
                     <h6 class="mb-0">
                       Collapsible Group Item #2
@@ -586,7 +588,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#borderlessThree"
+                  <div class="card-header" role="button" id="headingThree" data-toggle="collapse" data-target="#borderlessThree"
                     aria-expanded="false" aria-controls="borderlessThree">
                     <h6 class="mb-0">
                       Collapsible Group Item #3
@@ -611,28 +613,28 @@
               <h3 id="alerts">Alerts</h3>
               <div class="d-flex flex-column">
                 <div class="alert alert-primary" role="alert">
-                  <i class="modus-icons alert-icon">info</i> A basic Primary alert
+                  <i class="modus-icons alert-icon">info</i> A Primary alert
                 </div>
                 <div class="alert alert-secondary" role="alert">
-                  <i class="modus-icons alert-icon">help</i> A basic secondary alert with a button <a href="#"
+                  <i class="modus-icons alert-icon">help</i> A secondary alert with a button <a href="#"
                     class="btn btn-sm btn-reverse-secondary">Button</a>
                 </div>
                 <div class="alert alert-tertiary" role="alert">
-                  <i class="modus-icons alert-icon">help</i> A basic tertiary alert with <a href="#"> an example
+                  <i class="modus-icons alert-icon">help</i> A tertiary alert with <a href="#"> an example
                     link.</a>
                 </div>
                 <div class="alert alert-success" role="alert">
                   <i class="modus-icons alert-icon">check_circle</i>
-                  <div><strong>Success!</strong> A basic success alert with text formatting </div>
+                  <div><strong>Success!</strong> A success alert with text formatting </div>
                 </div>
                 <div class="alert alert-danger alert-dismissable fade show" role="alert" data-original-title="">
                   <i class="modus-icon material-icons alert-icon">error</i>
-                  <div> <strong>Error!</strong> A basic error alert with a dismiss icon </div>
+                  <div> <strong>Error!</strong> A error alert with a dismiss icon </div>
                   <button type="button" class="close" data-dismiss="alert"><i class="modus-icons">close</i></button>
                 </div>
                 <div class="alert alert-warning" role="alert">
                   <i class="modus-icons alert-icon">warning</i>
-                  A basic warning alert with a dismiss icon
+                  A warning alert with a dismiss icon
                   <button type="button" class="close" data-dismiss="alert"><i class="modus-icons">close</i></button>
                 </div>
               </div>
@@ -948,24 +950,24 @@
               <h3 id="buttons">Buttons - Normal</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 btn btn-primary">Button</button>
-                <button class="mr-1 btn btn-secondary">Button</button>
-                <button class="mr-1 btn btn-tertiary">Button</button>
-                <button class="mr-1 btn btn-danger">Button</button>
+                <button type="button" class="mr-1 btn btn-primary">Button</button>
+                <button type="button" class="mr-1 btn btn-secondary">Button</button>
+                <button type="button" class="mr-1 btn btn-tertiary">Button</button>
+                <button type="button" class="mr-1 btn btn-danger">Button</button>
               </div>
               <strong>Hover</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 hover btn btn-primary">Button</button>
-                <button class="mr-1 hover btn btn-secondary">Button</button>
-                <button class="mr-1 hover btn btn-tertiary">Button</button>
-                <button class="mr-1 hover btn btn-danger">Button</button>
+                <button type="button" class="mr-1 hover btn btn-primary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-secondary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-tertiary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-danger">Button</button>
               </div>
               <strong>Active</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 display-active btn btn-primary">Button</button>
-                <button class="mr-1 display-active btn btn-secondary">Button</button>
-                <button class="mr-1 display-active btn btn-tertiary">Button</button>
-                <button class="mr-1 display-active btn btn-danger">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-primary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-secondary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-tertiary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-danger">Button</button>
               </div>
               <strong>Disabled</strong>
               <div class="d-flex flex-wrap mb-1">
@@ -981,43 +983,31 @@
               <h3>Buttons - Outline</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 btn btn-outline-primary">Button</button>
-                <button class="mr-1 btn btn-outline-secondary">Button</button>
-                <button class="mr-1 btn btn-outline-tertiary">Button</button>
-                <button class="mr-1 btn btn-outline-dark">Button</button>
-                <button class="mr-1 btn btn-outline-success">Button</button>
-                <button class="mr-1 btn btn-outline-warning">Button</button>
-                <button class="mr-1 btn btn-outline-danger">Button</button>
+                <button type="button" class="mr-1 btn btn-outline-primary">Button</button>
+                <button type="button" class="mr-1 btn btn-outline-secondary">Button</button>
+                <button type="button" class="mr-1 btn btn-outline-tertiary">Button</button>
+                <button type="button" class="mr-1 btn btn-outline-danger">Button</button>
               </div>
               <strong>Hover</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 hover btn btn-outline-primary">Button</button>
-                <button class="mr-1 hover btn btn-outline-secondary">Button</button>
-                <button class="mr-1 hover btn btn-outline-tertiary">Button</button>
-                <button class="mr-1 hover btn btn-outline-dark">Button</button>
-                <button class="mr-1 hover btn btn-outline-success">Button</button>
-                <button class="mr-1 hover btn btn-outline-warning">Button</button>
-                <button class="mr-1 hover btn btn-outline-danger">Button</button>
+                <button type="button" class="mr-1 hover btn btn-outline-primary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-outline-secondary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-outline-tertiary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-outline-danger">Button</button>
               </div>
               <strong>Active</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 display-active btn btn-outline-primary">Button</button>
-                <button class="mr-1 display-active btn btn-outline-secondary">Button</button>
-                <button class="mr-1 display-active btn btn-outline-tertiary">Button</button>
-                <button class="mr-1 display-active btn btn-outline-dark">Button</button>
-                <button class="mr-1 display-active btn btn-outline-success">Button</button>
-                <button class="mr-1 display-active btn btn-outline-warning">Button</button>
-                <button class="mr-1 display-active btn btn-outline-danger">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-outline-primary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-outline-secondary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-outline-tertiary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-outline-danger">Button</button>
               </div>
               <strong>Disabled</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button disabled class="mr-1 btn btn-outline-primary">Button</button>
-                <button disabled class="mr-1 btn btn-outline-secondary">Button</button>
-                <button disabled class="mr-1 btn btn-outline-tertiary">Button</button>
-                <button disabled class="mr-1 btn btn-outline-dark">Button</button>
-                <button disabled class="mr-1 btn btn-outline-success">Button</button>
-                <button disabled class="mr-1 btn btn-outline-warning">Button</button>
-                <button disabled class="mr-1 btn btn-outline-danger">Button</button>
+                <button type="button" disabled class="mr-1 btn btn-outline-primary">Button</button>
+                <button type="button" disabled class="mr-1 btn btn-outline-secondary">Button</button>
+                <button type="button" disabled class="mr-1 btn btn-outline-tertiary">Button</button>
+                <button type="button" disabled class="mr-1 btn btn-outline-danger">Button</button>
               </div>
             </div>
 
@@ -1026,42 +1016,30 @@
               <h3>Buttons - Text</h3>
               <strong>Default</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 btn btn-text-primary">Button</button>
-                <button class="mr-1 btn btn-text-secondary">Button</button>
-                <button class="mr-1 btn btn-text-tertiary">Button</button>
-                <button class="mr-1 btn btn-text-dark">Button</button>
-                <button class="mr-1 btn btn-text-success">Button</button>
-                <button class="mr-1 btn btn-text-warning">Button</button>
-                <button class="mr-1 btn btn-text-danger">Button</button>
+                <button type="button" class="mr-1 btn btn-text-primary">Button</button>
+                <button type="button" class="mr-1 btn btn-text-secondary">Button</button>
+                <button type="button" class="mr-1 btn btn-text-tertiary">Button</button>
+                <button type="button" class="mr-1 btn btn-text-danger">Button</button>
               </div>
               <strong>Hover</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 hover btn btn-text-primary">Button</button>
-                <button class="mr-1 hover btn btn-text-secondary">Button</button>
-                <button class="mr-1 hover btn btn-text-tertiary">Button</button>
-                <button class="mr-1 hover btn btn-text-dark">Button</button>
-                <button class="mr-1 hover btn btn-text-success">Button</button>
-                <button class="mr-1 hover btn btn-text-warning">Button</button>
-                <button class="mr-1 hover btn btn-text-danger">Button</button>
+                <button type="button" class="mr-1 hover btn btn-text-primary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-text-secondary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-text-tertiary">Button</button>
+                <button type="button" class="mr-1 hover btn btn-text-danger">Button</button>
               </div>
               <strong>Active</strong>
               <div class="d-flex flex-wrap mb-1">
-                <button class="mr-1 display-active btn btn-text-primary">Button</button>
-                <button class="mr-1 display-active btn btn-text-secondary">Button</button>
-                <button class="mr-1 display-active btn btn-text-tertiary">Button</button>
-                <button class="mr-1 display-active btn btn-text-dark">Button</button>
-                <button class="mr-1 display-active btn btn-text-success">Button</button>
-                <button class="mr-1 display-active btn btn-text-warning">Button</button>
-                <button class="mr-1 display-active btn btn-text-danger">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-text-primary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-text-secondary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-text-tertiary">Button</button>
+                <button type="button" class="mr-1 display-active btn btn-text-danger">Button</button>
               </div>
               <strong>Disabled</strong>
               <div class="d-flex flex-wrap mb-1">
                 <button disabled class="mr-1 btn btn-text-primary">Button</button>
                 <button disabled class="mr-1 btn btn-text-secondary">Button</button>
                 <button disabled class="mr-1 btn btn-text-tertiary">Button</button>
-                <button disabled class="mr-1 btn btn-text-dark">Button</button>
-                <button disabled class="mr-1 btn btn-text-success">Button</button>
-                <button disabled class="mr-1 btn btn-text-warning">Button</button>
                 <button disabled class="mr-1 btn btn-text-danger">Button</button>
               </div>
             </div>
@@ -1070,50 +1048,50 @@
             <div class="grid-item bg-white">
               <h3>Buttons - With Icons</h3>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-primary">
+                <button type="button" class="btn btn-sm btn-primary">
                   <i class="modus-icons left-icon">gear</i>Button
                 </button>
-                <button class="btn btn-sm btn-secondary">
-                  <i class="modus-icons left-icon">gear</i>Button
-                </button>
-              </div>
-              <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-primary">
-                  Button<i class="modus-icons right-icon">gear</i>
-                </button>
-                <button class="btn btn-sm btn-secondary">
-                  Button<i class="modus-icons right-icon">gear</i>
-                </button>
-              </div>
-              <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-primary">
-                  <i class="modus-icons left-icon">gear</i>Button
-                </button>
-                <button class="btn btn-secondary">
+                <button type="button" class="btn btn-sm btn-secondary">
                   <i class="modus-icons left-icon">gear</i>Button
                 </button>
               </div>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-primary">
+                <button type="button" class="btn btn-sm btn-primary">
                   Button<i class="modus-icons right-icon">gear</i>
                 </button>
-                <button class="btn btn-secondary">
+                <button type="button" class="btn btn-sm btn-secondary">
                   Button<i class="modus-icons right-icon">gear</i>
                 </button>
               </div>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-lg btn-primary">
+                <button type="button" class="btn btn-primary">
                   <i class="modus-icons left-icon">gear</i>Button
                 </button>
-                <button class="btn btn-lg btn-secondary">
+                <button type="button" class="btn btn-secondary">
                   <i class="modus-icons left-icon">gear</i>Button
                 </button>
               </div>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-lg btn-primary">
+                <button type="button" class="btn btn-primary">
                   Button<i class="modus-icons right-icon">gear</i>
                 </button>
-                <button class="btn btn-lg btn-secondary">
+                <button type="button" class="btn btn-secondary">
+                  Button<i class="modus-icons right-icon">gear</i>
+                </button>
+              </div>
+              <div class="d-flex flex-wrap mb-3 spaced-right">
+                <button type="button" class="btn btn-lg btn-primary">
+                  <i class="modus-icons left-icon">gear</i>Button
+                </button>
+                <button type="button" class="btn btn-lg btn-secondary">
+                  <i class="modus-icons left-icon">gear</i>Button
+                </button>
+              </div>
+              <div class="d-flex flex-wrap mb-3 spaced-right">
+                <button type="button" class="btn btn-lg btn-primary">
+                  Button<i class="modus-icons right-icon">gear</i>
+                </button>
+                <button type="button" class="btn btn-lg btn-secondary">
                   Button<i class="modus-icons right-icon">gear</i>
                 </button>
               </div>
@@ -1124,70 +1102,70 @@
             <div class="grid-item bg-white">
               <h3>Buttons - Icon Only</h3>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-icon-only btn-primary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-secondary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-secondary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-tertiary">
+                <button type="button" class="btn btn-icon-only btn-tertiary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-dark">
+                <button type="button" class="btn btn-icon-only btn-dark">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-danger">
-                  <i class="modus-icons">gear</i>
-                </button>
-              </div>
-              <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-icon-only btn-outline-primary">
-                  <i class="modus-icons">gear</i>
-                </button>
-                <button class="btn btn-sm btn-icon-only btn-outline-secondary">
-                  <i class="modus-icons">gear</i>
-                </button>
-                <button class="btn btn-icon-only btn-outline-tertiary">
-                  <i class="modus-icons">gear</i>
-                </button>
-                <button class="btn btn-icon-only btn-outline-dark">
-                  <i class="modus-icons">gear</i>
-                </button>
-                <button class="btn btn-lg btn-icon-only btn-outline-danger">
+                <button type="button" class="btn btn-lg btn-icon-only btn-danger">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-icon-only btn-reverse-primary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-reverse-secondary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-secondary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-reverse-tertiary">
+                <button type="button" class="btn btn-icon-only btn-outline-tertiary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-reverse-dark">
+                <button type="button" class="btn btn-icon-only btn-outline-dark">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-reverse-danger">
+                <button type="button" class="btn btn-lg btn-icon-only btn-outline-danger">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
               <div class="d-flex flex-wrap mb-3 spaced-right">
-                <button class="btn btn-sm btn-icon-only btn-text-primary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-reverse-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-text-secondary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-reverse-secondary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-text-tertiary">
+                <button type="button" class="btn btn-icon-only btn-reverse-tertiary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-text-dark">
+                <button type="button" class="btn btn-icon-only btn-reverse-dark">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-text-danger">
+                <button type="button" class="btn btn-lg btn-icon-only btn-reverse-danger">
+                  <i class="modus-icons">gear</i>
+                </button>
+              </div>
+              <div class="d-flex flex-wrap mb-3 spaced-right">
+                <button type="button" class="btn btn-sm btn-icon-only btn-text-primary">
+                  <i class="modus-icons">gear</i>
+                </button>
+                <button type="button" class="btn btn-sm btn-icon-only btn-text-secondary">
+                  <i class="modus-icons">gear</i>
+                </button>
+                <button type="button" class="btn btn-icon-only btn-text-tertiary">
+                  <i class="modus-icons">gear</i>
+                </button>
+                <button type="button" class="btn btn-icon-only btn-text-dark">
+                  <i class="modus-icons">gear</i>
+                </button>
+                <button type="button" class="btn btn-lg btn-icon-only btn-text-danger">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
@@ -1197,16 +1175,16 @@
             <div class="grid-item bg-white">
               <h3>Buttons - Other Libraries</h3>
               <div>
-                <button class="btn btn-primary">
+                <button type="button" class="btn btn-primary">
                   <i class="modus-icons left-icon">gear</i>Modus icon
                 </button>
-                <button class="btn btn-secondary">
+                <button type="button" class="btn btn-secondary">
                   Font Awesome Icon<i class="modus-icon fas fa-cog right-icon"></i>
                 </button>
-                <button class="btn btn-outline-primary">
+                <button type="button" class="btn btn-outline-primary">
                   <i class="modus-icon material-icons left-icon">settings</i>Material icon
                 </button>
-                <button class="btn btn-outline-secondary">
+                <button type="button" class="btn btn-outline-secondary">
                   SVG icon<i class="modus-icon right-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1214,26 +1192,26 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-text-primary">
+                <button type="button" class="btn btn-text-primary">
                   <i class="modus-icon left-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/24/gear.png"
                       alt=""></i>PNG icon
                 </button>
-                <button class="btn btn-text-secondary">
+                <button type="button" class="btn btn-text-secondary">
                   Button<i class="modus-icon material-icons right-icon">settings</i>
                 </button>
               </div>
 
               <div>
-                <button class="btn btn-sm btn-primary">
+                <button type="button" class="btn btn-sm btn-primary">
                   <i class="modus-icons left-icon">gear</i>Modus icon
                 </button>
-                <button class="btn btn-sm btn-secondary">
+                <button type="button" class="btn btn-sm btn-secondary">
                   Font Awesome Icon<i class="modus-icon fas fa-cog right-icon"></i>
                 </button>
-                <button class="btn btn-sm btn-outline-primary">
+                <button type="button" class="btn btn-sm btn-outline-primary">
                   <i class="modus-icon material-icons left-icon">settings</i>Material icon
                 </button>
-                <button class="btn btn-sm btn-outline-secondary">
+                <button type="button" class="btn btn-sm btn-outline-secondary">
                   SVG icon<i class="modus-icon right-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1241,26 +1219,26 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-sm btn-text-primary">
+                <button type="button" class="btn btn-sm btn-text-primary">
                   <i class="modus-icon left-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/24/gear.png"
                       alt=""></i>PNG icon
                 </button>
-                <button class="btn btn-sm btn-text-secondary">
+                <button type="button" class="btn btn-sm btn-text-secondary">
                   Button<i class="modus-icon material-icons right-icon">settings</i>
                 </button>
               </div>
 
               <div>
-                <button class="btn btn-lg btn-primary">
+                <button type="button" class="btn btn-lg btn-primary">
                   <i class="modus-icons left-icon">gear</i>Modus icon
                 </button>
-                <button class="btn btn-lg btn-secondary">
+                <button type="button" class="btn btn-lg btn-secondary">
                   Font Awesome Icon<i class="modus-icon fas fa-cog right-icon"></i>
                 </button>
-                <button class="btn btn-lg btn-outline-primary">
+                <button type="button" class="btn btn-lg btn-outline-primary">
                   <i class="modus-icon material-icons left-icon">settings</i>Material icon
                 </button>
-                <button class="btn btn-lg btn-outline-secondary">
+                <button type="button" class="btn btn-lg btn-outline-secondary">
                   SVG icon<i class="modus-icon right-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1268,31 +1246,31 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-lg btn-text-primary">
+                <button type="button" class="btn btn-lg btn-text-primary">
                   <i class="modus-icon left-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/48/gear.png"
                       alt=""></i>PNG icon
                 </button>
-                <button class="btn btn-lg btn-text-secondary">
+                <button type="button" class="btn btn-lg btn-text-secondary">
                   Button<i class="modus-icon material-icons right-icon">settings</i>
                 </button>
               </div>
 
 
               <div>
-                <button class="btn btn-icon-only btn-primary">
+                <button type="button" class="btn btn-icon-only btn-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-icon-only btn-secondary">
+                <button type="button" class="btn btn-icon-only btn-secondary">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
-                <button class="btn btn-icon-only btn-dark">
+                <button type="button" class="btn btn-icon-only btn-dark">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
 
-                <button class="btn btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-icon-only btn-outline-primary">
                   <i class="modus-icon fas fa-cog"></i>
                 </button>
-                <button class="btn btn-icon-only btn-outline-secondary">
+                <button type="button" class="btn btn-icon-only btn-outline-secondary">
                   <i class="modus-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1300,26 +1278,26 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-icon-only btn-outline-dark">
+                <button type="button" class="btn btn-icon-only btn-outline-dark">
                   <i class="modus-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/24/gear.png" alt=""></i>
                 </button>
 
               </div>
               <div>
-                <button class="btn btn-sm btn-icon-only btn-primary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-secondary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-secondary">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-dark">
+                <button type="button" class="btn btn-sm btn-icon-only btn-dark">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
 
-                <button class="btn btn-sm btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-primary">
                   <i class="modus-icon fas fa-cog"></i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-outline-secondary">
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-secondary">
                   <i class="modus-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1327,27 +1305,27 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-sm btn-icon-only btn-outline-dark">
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark">
                   <i class="modus-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/24/gear.png" alt=""></i>
                 </button>
 
               </div>
 
               <div>
-                <button class="btn btn-lg btn-icon-only btn-primary">
+                <button type="button" class="btn btn-lg btn-icon-only btn-primary">
                   <i class="modus-icons">gear</i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-secondary">
+                <button type="button" class="btn btn-lg btn-icon-only btn-secondary">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-dark">
+                <button type="button" class="btn btn-lg btn-icon-only btn-dark">
                   <i class="modus-icon material-icons">settings</i>
                 </button>
 
-                <button class="btn btn-lg btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-lg btn-icon-only btn-outline-primary">
                   <i class="modus-icon fas fa-cog"></i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-outline-secondary">
+                <button type="button" class="btn btn-lg btn-icon-only btn-outline-secondary">
                   <i class="modus-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path
@@ -1355,7 +1333,7 @@
                     </svg>
                   </i>
                 </button>
-                <button class="btn btn-lg btn-icon-only btn-outline-dark">
+                <button type="button" class="btn btn-lg btn-icon-only btn-outline-dark">
                   <i class="modus-icon"><img src="https://styles.trimble.com/assets/0.5.0/png/48/gear.png" alt=""></i>
                 </button>
 
@@ -1367,31 +1345,31 @@
               <h3>Buttons - Sizes</h3>
               <strong>Small</strong>
               <div class="d-flex flex-wrap spaced-right spaced-bottom">
-                <button class="btn btn-sm btn-primary">Small button</button>
-                <button class="btn btn-sm btn-secondary">Small button</button>
-                <button class="btn btn-sm btn-tertiary">Small button</button>
-                <button class="btn btn-sm btn-danger">Small button</button>
-                <button class="btn btn-sm btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-sm btn-primary">Small button</button>
+                <button type="button" class="btn btn-sm btn-secondary">Small button</button>
+                <button type="button" class="btn btn-sm btn-tertiary">Small button</button>
+                <button type="button" class="btn btn-sm btn-danger">Small button</button>
+                <button type="button" class="btn btn-sm btn-icon-only btn-outline-primary">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
               <strong>Normal</strong>
               <div class="d-flex flex-wrap spaced-right spaced-bottom">
-                <button class="btn btn-primary">Normal button</button>
-                <button class="btn btn-secondary">Normal button</button>
-                <button class="btn btn-tertiary">Normal button</button>
-                <button class="btn btn-danger">Normal button</button>
-                <button class="btn btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-primary">Normal button</button>
+                <button type="button" class="btn btn-secondary">Normal button</button>
+                <button type="button" class="btn btn-tertiary">Normal button</button>
+                <button type="button" class="btn btn-danger">Normal button</button>
+                <button type="button" class="btn btn-icon-only btn-outline-primary">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
               <strong>Large</strong>
               <div class="d-flex flex-wrap spaced-right spaced-bottom">
-                <button class="btn btn-lg btn-primary">Large button</button>
-                <button class="btn btn-lg btn-secondary">Large button</button>
-                <button class="btn btn-lg btn-tertiary">Large button</button>
-                <button class="btn btn-lg btn-danger">Large button</button>
-                <button class="btn btn-lg btn-icon-only btn-outline-primary">
+                <button type="button" class="btn btn-lg btn-primary">Large button</button>
+                <button type="button" class="btn btn-lg btn-secondary">Large button</button>
+                <button type="button" class="btn btn-lg btn-tertiary">Large button</button>
+                <button type="button" class="btn btn-lg btn-danger">Large button</button>
+                <button type="button" class="btn btn-lg btn-icon-only btn-outline-primary">
                   <i class="modus-icons">gear</i>
                 </button>
               </div>
@@ -1743,7 +1721,7 @@
               <strong>Simple Dropdowns</strong>
               <div class="d-flex flex-wrap spaced-right spaced-bottom mb-3">
                 <div class="dropdown">
-                  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  <button type="button" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Button
                   </button>
@@ -1770,13 +1748,13 @@
                     Right-aligned
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
+                    <button type="button" class="dropdown-item" type="button">Action</button>
+                    <button type="button" class="dropdown-item" type="button">Another action</button>
+                    <button type="button" class="dropdown-item" type="button">Something else here</button>
                   </div>
                 </div>
                 <div class="dropdown">
-                  <button class="btn btn-icon-only btn-text-dark" type="button" data-toggle="dropdown"
+                  <button type="button" class="btn btn-icon-only btn-text-dark" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <i class="modus-icons">gear</i>
                   </button>
@@ -1791,8 +1769,8 @@
               <strong>Split Button</strong>
               <div class="flex mb-3">
                 <div class="btn-group">
-                  <button class="btn btn-primary">Button</button>
-                  <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                  <button type="button" class="btn btn-primary">Button</button>
+                  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
@@ -1807,7 +1785,7 @@
               <strong>Dropdown Direction</strong>
               <div class="d-flex spaced-right mb-3">
                 <div class="dropdown">
-                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+                  <button type="button" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Down
                   </button>
@@ -1818,7 +1796,7 @@
                   </div>
                 </div>
                 <div class="dropup ml-3">
-                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+                  <button type="button" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Up
                   </button>
@@ -1872,7 +1850,7 @@
                   <div class="input-group">
                     <input class="form-control" placeholder="Placeholder Text" id="Input4">
                     <div class="input-group-append">
-                      <button class="btn btn-reverse-secondary">
+                      <button type="button" class="btn btn-reverse-secondary">
                         Go
                       </button>
                     </div>
@@ -1953,7 +1931,7 @@
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">Submit form</button>
+            <button type="button" class="btn btn-primary" type="submit">Submit form</button>
           </form>
         </div>
       </div>
@@ -2044,7 +2022,7 @@
                   <div class="input-group">
                     <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input4">
                     <div class="input-group-append">
-                      <button class="btn btn-reverse-secondary">
+                      <button type="button" class="btn btn-reverse-secondary">
                         Go
                       </button>
                     </div>
@@ -2398,11 +2376,11 @@
                   <span class="badge badge-primary badge-pill">14</span>
                 </li>
                 <li class="list-group-item list-item-leftright-control">
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                   <span>Both Buttons</span>
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                 </li>
@@ -2471,11 +2449,11 @@
                   <span class="badge badge-primary badge-pill">14</span>
                 </li>
                 <li class="list-group-item list-item-leftright-control">
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                   <span>Both Buttons</span>
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                 </li>
@@ -2544,11 +2522,11 @@
                   <span class="badge badge-primary badge-pill">14</span>
                 </li>
                 <li class="list-group-item list-item-leftright-control">
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                   <span>Both Buttons</span>
-                  <button class="btn btn-icon-only btn-text-primary rounded-circle">
+                  <button type="button" class="btn btn-icon-only btn-text-primary rounded-circle">
                     <i class="modus-icons">gear</i>
                   </button>
                 </li>
@@ -2909,7 +2887,7 @@
               <h3 id="navs">Navs</h3>
               <div class="d-flex flex-column spaced-bottom">
                 <nav class="navbar nav navbar-expand-sm modus-header">
-                  <button class="btn btn-lg btn-icon-only btn-text-dark">
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark">
                     <i class="modus-icon material-icons">menu</i>
                   </button>
                   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
@@ -2920,24 +2898,24 @@
                   </a>
                   <div class="collapse navbar-collapse">
                     <div class="navbar-nav ml-auto">
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Notifications">
                         <i class="modus-icon material-icons">notifications</i>
                       </button>
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Help">
                         <i class="modus-icon material-icons">help</i>
                       </button>
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Applications">
                         <i class="modus-icon material-icons">apps</i>
                       </button>
                     </div>
                   </div>
-                  <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
                     <i class="modus-icons">more_vertical</i>
                   </button>
-                  <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-0 ml-2" data-toggle="tooltip"
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-0 ml-2" data-toggle="tooltip"
                     data-placement="bottom" data-html="true"
                     title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
                     <i class="modus-icon material-icons rounded-circle">account_circle</i>
@@ -2946,7 +2924,7 @@
 
                 <hr>
                 <nav class="navbar navbar-blue nav navbar-expand-sm modus-header py-1">
-                  <button class="btn btn-lg btn-icon-only btn-text-dark">
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark">
                     <i class="modus-icon material-icons text-white">menu</i>
                   </button>
                   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
@@ -2957,24 +2935,24 @@
                   </a>
                   <div class="collapse navbar-collapse">
                     <div class="navbar-nav ml-auto">
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Notifications">
                         <i class="modus-icon material-icons text-white">notifications</i>
                       </button>
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Help">
                         <i class="modus-icon material-icons text-white">help</i>
                       </button>
-                      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
+                      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip" data-placement="bottom"
                         title="Applications">
                         <i class="modus-icon material-icons text-white">apps</i>
                       </button>
                     </div>
                   </div>
-                  <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
                     <i class="modus-icons text-white">more_vertical</i>
                   </button>
-                  <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2" data-toggle="tooltip"
+                  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2" data-toggle="tooltip"
                     data-placement="bottom" data-html="true"
                     title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
                     <i class="modus-icon material-icons rounded-circle text-white">account_circle</i>
@@ -3159,7 +3137,7 @@
                 <tbody>
                   <tr>
                     <th scope="row" class="icon-only">
-                      <button class="btn btn-icon-only btn-text-dark rounded-circle">
+                      <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -3168,7 +3146,7 @@
                     <td>@mdo</td>
                     <td class="icon-only">
                       <div class="dropdown">
-                        <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
+                        <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="modus-icons">more_vertical</i>
                         </button>
@@ -3193,7 +3171,7 @@
                     <td>@fat</td>
                     <td class="icon-only">
                       <div class="dropdown">
-                        <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
+                        <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="modus-icons">more_vertical</i>
                         </button>
@@ -3218,7 +3196,7 @@
                     <td>@j_snow</td>
                     <td class="icon-only">
                       <div class="dropdown">
-                        <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
+                        <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="modus-icons">more_vertical</i>
                         </button>
@@ -3243,7 +3221,7 @@
                     <td>@twitter</td>
                     <td class="icon-only">
                       <div class="dropdown">
-                        <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
+                        <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle" type="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="modus-icons">more_vertical</i>
                         </button>
@@ -3271,7 +3249,7 @@
                 <tbody>
                   <tr>
                     <th class="icon-only">
-                      <button class="btn btn-icon-only btn-text-tertiary rounded-circle">
+                      <button type="button" class="btn btn-icon-only btn-text-tertiary rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -3280,7 +3258,7 @@
                     <td>@mdo</td>
                     <td class="icon-only">
                       <div class="dropdown">
-                        <button class="btn btn-icon-only btn-text-tertiary rounded-circle" type="button"
+                        <button type="button" class="btn btn-icon-only btn-text-tertiary rounded-circle" type="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="modus-icons">more_vertical</i>
                         </button>
@@ -3387,7 +3365,7 @@
                 <tbody>
                   <tr>
                     <th class="icon-only">
-                      <button class="btn btn-icon-only btn-text-dark rounded-circle">
+                      <button type="button" class="btn btn-icon-only btn-text-dark rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -3499,7 +3477,7 @@
                 <tbody>
                   <tr>
                     <th class="icon-only">
-                      <button class="btn btn-icon-only btn-text-tertiary rounded-circle">
+                      <button type="button" class="btn btn-icon-only btn-text-tertiary rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -3879,7 +3857,7 @@
                 <tbody>
                   <tr>
                     <th class="icon-only">
-                      <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle">
+                      <button type="button" class="btn btn-sm btn-icon-only btn-text-dark rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -3991,7 +3969,7 @@
                 <tbody>
                   <tr>
                     <th class="icon-only">
-                      <button class="btn btn-sm btn-icon-only btn-text-tertiary rounded-circle">
+                      <button type="button" class="btn btn-sm btn-icon-only btn-text-tertiary rounded-circle">
                         <i class="modus-icons">folder</i>
                       </button>
                     </th>
@@ -4121,7 +4099,8 @@
           </div><!-- .grid-layout-->
         </div><!-- .modus-content -->
       </div><!-- .modus-content-columns -->
-    </div><!-- .modus-content-rows -->
+      </div><!-- .modus-content-rows -->
+    </main>
   </div><!-- .modus-body -->
 
   <div class="modus-footer d-flex align-items-center">
@@ -4138,21 +4117,6 @@
       container: '.modus-layout'
     });
   })
-  function swapStyleSheet(sheet) {
-    document.getElementById("pagestyle").setAttribute("href", sheet);
-  }
-
-  function initate() {
-    var toggle = document.getElementById("style-switch");
-    toggle.onchange = function (e) {
-      if (e.target.checked) {
-        swapStyleSheet("css/modus-dark.css");
-      } else {
-        swapStyleSheet("css/modus.css");
-      }
-    };
-  }
-
-  window.onload = initate;
 </script>
+
 {{- end -}}

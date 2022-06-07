@@ -13,7 +13,7 @@ hideFooter: true
 sitemap_exclude: true
 version: "1.4.0"
 date: "2022-03-28"
-modusCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.4.0/dist/modus.min.css"
+modusCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.4.0/dist/"
 modusLayoutCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.4.0/dist/modus-layout.min.css"
 modusLayoutJS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.4.0/dist/modus-layout.min.js"
 images:

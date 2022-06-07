@@ -11,10 +11,9 @@
     location.href = '{{ .Page.Params.redirect | relURL }}' +
       (anchor ? '#' + anchor : '');
   </script>
-  <!-- fallback redirect is JavaScript is not available-->
+  <!-- fallback redirect if JavaScript is not available-->
   <meta http-equiv="refresh" content="0; url={{ .Page.Params.redirect | relURL }}">
   <title>{{ .Title }}</title>
-  {{ hugo.Generator }}
 </head>
 
 </html>
