@@ -14,6 +14,10 @@ Each set of colors has its own set of utility classes that modify
 background color, font color, and border color. You can reference the
 available utility classes below:
 
+<div class="alert alert-primary" role="alert">
+Note: The hex value colors specified are for the default Modus theme. The dark theme colors vary.
+</div>
+
 ### Modus Bootstrap Palette
 
 <div class="row">

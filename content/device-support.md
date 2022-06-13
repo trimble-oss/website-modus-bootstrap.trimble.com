@@ -21,7 +21,8 @@ The Modus Framework supports the following browsers:
 - iOS >= 10
 - Safari >= 10
 - Android >= 6
-- Internet Explorer 11
+
+Note: As [Microsoft themselves have dropped support](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/) we no longer include that in our default browserlist config, but you can add easily add support by editing the browserlist config for your project.
 
 We use [Autoprefixer](https://github.com/postcss/autoprefixer) to handle intended browser support via CSS prefixes, which uses [Browserslist](https://github.com/browserslist/browserslist) to manage these browser versions. Consult their documentation for how to integrate these tools into your projects.
 

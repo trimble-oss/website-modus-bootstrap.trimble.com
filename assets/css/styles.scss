@@ -1,3 +1,6 @@
+@import "theme-toggle";
+@import "data-theme-dark"; // color swatches
+@import "data-theme-light"; // color swatches
 @import "styleguide";
 @import "anatomy-css";
 @import "autocomplete"; // search autocomplete dropdown
@@ -9,8 +12,9 @@
 @import "menu-left";
 @import "menu-right"; // 'On this page' menu
 @import "mobile"; // optimizations for xxs mobile screens
+@import "modus-icons"; // optimizations for xxs mobile screens
 @import "navbar";
-@import "onetrust-cookie-banner";
+// @import "onetrust-cookie-banner";
 @import "print";
 @import "ribbon-coming-soon";
 @import "rfs";
@@ -50,7 +54,7 @@ nav nav#TableOfContents ul ul {
 // wider than default page-width.
 @media (min-width: 1200px) {
   .container {
-    max-width: 1340px;
+    max-width: 1340px !important;
   }
 }
 

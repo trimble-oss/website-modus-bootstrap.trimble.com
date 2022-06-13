@@ -1,9 +1,9 @@
 <div class="fixed-top">
   {{ partial "skippy" . }}
-  <nav class="navbar navbar-expand px-0 px-sm-1 px-md-2 px-lg-3" aria-label="main navigation">
+  <nav class="navbar navbar-main navbar-expand px-0 px-sm-1 px-md-2 px-lg-3" aria-label="main navigation">
   <div class="container flex-column flex-md-row justify-content-end">
     <a class="navbar-brand mr-left mr-lg-auto font-weight-bold" href="/">
-      <img src="/img/trimble-logo.svg" width="115" height="26" class="img-fluid" alt="home">
+      {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") }}
       <div>Modus Bootstrap</div>
     </a>
 
@@ -19,7 +19,8 @@
         {{- end -}}
       </ul>
     </div>
-    {{ partial "search" . }}
+    {{ partialCached "search" . }}
+    {{ partialCached "theme-toggle" . }}
   </div>
 </nav>
 </div>

@@ -5,6 +5,11 @@
 /* stylelint-disable */
 .highlight {
   background-color: #fafafa !important;
+  margin-bottom: 0.5rem;
+}
+
+.highlight pre {
+  margin-bottom: 0 !important;
 }
 
 .highlight .hll {
@@ -16,7 +21,7 @@
   opacity: 0.9;
 } /* Comment */
 .highlight .err {
-  border: 1px solid #eee;
+  border: 1px solid #f1f1f6;
 } /* Error */
 .highlight .k {
   color: #50a14f;
