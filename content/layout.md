@@ -61,7 +61,7 @@ After the `.modus-body`, the next element should be
 ### Interactive Example
 
 To help illustrate how all the layout elements look when displayed
- we have this interactive example.
+we have this interactive example.
 
 <div class="guide-example-block">
   <div class="guide-sample position-relative p-0 border bg-transparent" id="interactiveExample"
@@ -340,7 +340,7 @@ inside `.modus-toolbar` to add functionality to your
 application.
 
 <div class="guide-example-block">
-  <div class="guide-sample position-relative p-0 border" style="z-index: 10;" id="example-block2">
+  <div class="guide-sample position-relative p-0 bg-transparent" style="z-index: 10;" id="example-block2">
     <!-- Modus Layout Page Wrapper -->
     <div class="modus-layout">
       <!-- Modus Body Wrapper -->
@@ -379,7 +379,6 @@ application.
     </div>
   </div>
 </div>
-
 
 ### Modus Panel
 

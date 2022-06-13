@@ -87,7 +87,7 @@ article a:not(.stretched-link)[href^="http"]::after {
 .docs-callout {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  border: 1px solid #eee;
+  border: 1px solid #f1f1f6;
   border-left-width: 0.25rem !important;
   border-radius: 0.25rem;
 }
@@ -105,6 +105,6 @@ article a:not(.stretched-link)[href^="http"]::after {
 }
 
 .bd-highlight {
-  background-color: rgba(86,61,124,0.15);
-  border: 1px solid rgba(86,61,124,0.15);
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.15);
 }

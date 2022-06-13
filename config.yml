@@ -10,8 +10,7 @@ googleAnalytics: "G-T2EGGYVY8J"
 params:
   title: Modus Bootstrap Developer Guide
   description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
-  modusBootstrapVersion: "1.4.1"
-  modusLayoutVersion: "1.4.1"
+  modusBootstrapVersion: "1.5.0"
   modusIconsVersion: "0.5.1"
   bootstrapVersion: "4.6"
   author: "Trimble"
@@ -90,6 +89,9 @@ menu:
     - name: Icons
       url: /foundations/icons/
       weight: 5
+    - name: Dark Mode Theme
+      url: /foundations/dark-mode-theme/
+      weight: 5
 
   components:
     - name: Accordions
@@ -102,8 +104,8 @@ menu:
       url: /components/breadcrumbs/
     - name: Buttons
       url: /components/buttons/
-#    - name: Button Group
-#      url: /components/button-group/
+    #    - name: Button Group
+    #      url: /components/button-group/
     - name: Cards
       url: /components/cards/
     - name: Chips

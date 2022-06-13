@@ -33,6 +33,13 @@ main h2 em {
 }
 </style>
 
+## v1.5.0 _2002-06-13_
+
+- [Dark mode theme](/foundations/dark-mode-theme/) added
+- [Remove Internet Explorer 11](/device-support/) from browserslist config
+- Change focus-outline color from black to blue
+- Remove background-color: from modus-header. This rule prevented the navbar-dark and navbar-blue from working as intended.
+
 ## v1.4.1 _2022-04-22_
 
 - Add [Progress Bar small variant](/components/progress-bars/)
@@ -54,8 +61,8 @@ main h2 em {
 
 ## v1.3.1 _2021-11-11_
 
-* Improved checkbox mis-aligned input fix
-* Fix for 'Using / for division is deprecated' Dart Sass warning in `_controls.scss`
+- Improved checkbox mis-aligned input fix
+- Fix for 'Using / for division is deprecated' Dart Sass warning in `_controls.scss`
 
 ## v1.3.0 _2021-10-29_
 
@@ -278,7 +285,7 @@ main h2 em {
   └── div.ether-footer
   ```
 
- _(Note: "ether" class names were changed to "modus" in v0.9.0)_
+_(Note: "ether" class names were changed to "modus" in v0.9.0)_
 
 ## v0.2.0 _2019-05-03_
 

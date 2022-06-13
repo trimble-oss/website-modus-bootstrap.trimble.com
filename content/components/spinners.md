@@ -22,9 +22,7 @@ Expected ways to use spinners:
 - Spinners should be centered within its container unless inside of another element like a button and use flexbox utilities, or text alignment utilities for placement.
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-spinner-border" >}}
-
 <div class="d-flex justify-content-start">
   <div class="pr-3">
     <button type="button" class="btn btn-primary display-active">
@@ -44,6 +42,5 @@ Expected ways to use spinners:
     </div>
   </div>
 </div>
-
 {{</ example >}}
 <!-- prettier-ignore-end -->
