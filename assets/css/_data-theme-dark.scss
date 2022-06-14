@@ -71,4 +71,6 @@ html[data-theme="dark"] {
   .card-color .card-body div.text-monospace {
     display: none;
   }
+
+  @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
 }

@@ -18,16 +18,17 @@
 .navbar-brand a,
 .navbar-brand a:hover,
 .navbar-brand div {
-  color: #005f9d;
+  color: #fff !important;
   font-size: 13px;
 }
 
 .navbar-nav li a {
   border-bottom: 2px solid transparent;
-  color: #00437b;
+  color: #fff;
 }
 
 .navbar-nav li a:hover {
+  color: #f1f1f1 !important;
   border-bottom: 2px solid #7d808d;
 }
 
