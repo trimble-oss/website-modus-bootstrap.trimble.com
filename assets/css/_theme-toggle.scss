@@ -26,9 +26,11 @@
 
 .sun-and-moon > .sun {
   transition: transform 0.5s cubic-bezier(0.5, 1.25, 0.75, 1.25);
+  filter: brightness(490%);
 }
 .sun-and-moon > .sun-beams {
   transition: transform 0.5s cubic-bezier(0.5, 1.5, 0.75, 1.25), opacity 0.5s cubic-bezier(0.25, 0, 0.3, 1);
+  filter: brightness(490%);
 }
 .sun-and-moon .moon > circle {
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
@@ -86,7 +88,6 @@ html[data-theme="light"] {
 }
 html[data-theme="dark"] {
   color-scheme: dark;
-  @import "modus-bootstrap-dark";
 }
 @supports not (color-scheme: dark) {
   html[data-theme="dark"] {

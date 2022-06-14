@@ -4,4 +4,6 @@ html[data-theme="light"] {
   header.container-fluid > * {
     color: #f1f1f1 !important;
   }
+
+  @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
 }

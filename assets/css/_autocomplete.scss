@@ -1,7 +1,6 @@
 /*! purgecss start ignore */
 .autocomplete-suggestions {
   cursor: default;
-  background-color: #fff;
   border-top: 0;
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.1);
   position: absolute;
@@ -15,6 +14,7 @@
 
 html[data-theme="light"] {
   .autocomplete-suggestions {
+    background-color: #fff;
     border: 1px solid #ccc;
   }
   .autocomplete-suggestion {
@@ -22,7 +22,7 @@ html[data-theme="light"] {
   }
   .autocomplete-suggestion:hover {
     color: #252a2e;
-}
+  }
 }
 
 html[data-theme="dark"] {

@@ -31,7 +31,6 @@ module.exports = {
         "btn-outline-secondary",
         "btn-primary",
         "btn",
-        "card",
         "card-body",
         "card-header",
         "card",

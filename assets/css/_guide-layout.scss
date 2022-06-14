@@ -22,12 +22,10 @@
     display: flex;
     background-color: transparent;
     width: fit-content;
-    box-shadow: $shadow-depth-1;
 
     td,
     th {
       padding: 16px;
-      background-color: #fff;
       border-left: 1px solid #b7b9c3;
 
       &:first-child {
@@ -76,7 +74,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  box-shadow: $shadow-depth-1;
 
   .ether-page-layout {
     height: 100%;
