@@ -244,7 +244,7 @@ Add the `readonly` boolean attribute on an input to prevent modification of the 
 
 ### Readonly plain text
 
-If you want to have `<input readonly>` elements in your form styled as plain text, use the `.form-control-plaintext` class to remove the default form field styling and preserve the correct margin and padding.
+If you want to have `<input readonly>` elements in your form styled as plain text, use the `.form-control-plaintext` class to remove the default form field styling and preserve the correct `margin` and `padding`.
 
 {{< example id="example-readonly-plain-text" >}}
 <form>
@@ -554,7 +554,8 @@ You may need to manually address the width and alignment of individual form cont
   <label class="sr-only" for="inlineFormInputName2">Name</label>
   <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
 
-  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+<label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+
   <div class="input-group mb-2 mr-sm-2">
     <div class="input-group-prepend">
       <div class="input-group-text">@</div>
@@ -613,7 +614,6 @@ Inline text can use any typical inline HTML element (be it a `<small>`, `<span>`
 Add the `disabled` boolean attribute on an input to prevent user interactions and make it appear lighter.
 
 ```html
-<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
 ```
 
 Add the `disabled` attribute to a `<fieldset>` to disable all the controls within.
@@ -661,14 +661,13 @@ However, if your form also includes custom button-like elements such as `<a ... 
 While Bootstrap will apply these styles in all browsers, Internet Explorer 11 and below don't fully support the `disabled` attribute on a `<fieldset>`. Use custom JavaScript to disable the fieldset in these browsers.
 {{< /callout >}}
 
-
 ### File browser
 
 {{< callout info >}}
 The recommended plugin to animate custom file input: [bs-custom-file-input](https://www.npmjs.com/package/bs-custom-file-input), that's what we are using currently here in our docs.
 {{< /callout >}}
 
-The file input is the most gnarly of the bunch and requires additional JavaScript if you'd like to hook them up with functional *Choose file...* and selected file name text.
+The file input is the most gnarly of the bunch and requires additional JavaScript if you'd like to hook them up with functional _Choose file..._ and selected file name text.
 
 {{< example >}}
 <div class="custom-file">
@@ -711,7 +710,6 @@ Bootstrap also provides a way to translate the "Browse" text in HTML with the `d
   <label class="custom-file-label" for="customFileLangHTML" data-browse="Bestand kiezen">Voeg je document toe</label>
 </div>
 {{< /example >}}
-
 
 <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
 <script>

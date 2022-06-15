@@ -1,5 +1,6 @@
 *.css
-*.min.js
-*.min.js.map
 *.html
+*.md
+*.min.*
+
 postcss.config.js

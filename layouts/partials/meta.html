@@ -9,8 +9,8 @@
 
 <meta name="color-scheme" content="light dark">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
-{{ $themeTogglejs := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
-<script src="{{ $themeTogglejs.RelPermalink }}" fetchpriority="high"></script>
+{{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
+<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
 
 <!-- Load Modus Layout -->
 {{- if .Params.loadModusLayout }}

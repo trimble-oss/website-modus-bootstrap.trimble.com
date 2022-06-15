@@ -22,20 +22,20 @@ a caret icon. The menu can contain any number of `.dropdown-item` links.
 
 {{< example id="example-dropdowns" class="d-flex" >}}
 <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Button
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>
     <a class="dropdown-item" href="#">Another action</a>
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
 <div class="dropdown ml-3">
-  <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Anchor tag
   </a>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>
     <a class="dropdown-item" href="#">Another action</a>
     <a class="dropdown-item" href="#">Something else here</a>
@@ -133,7 +133,7 @@ Button Dropdowns can be any variety of button style and color. Simply use the de
         </div>
       </div>
       <div class="dropdown ml-3">
-        <button class="btn btn-text-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+        <button class="btn btn-text-secondary dropdown-toggle" type="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           Button
         </button>
@@ -144,7 +144,7 @@ Button Dropdowns can be any variety of button style and color. Simply use the de
         </div>
       </div>
       <div class="dropdown ml-3">
-        <button class="btn btn-text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+        <button class="btn btn-text-dark dropdown-toggle" type="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           Button
         </button>
@@ -186,6 +186,7 @@ Dropdowns can be triggered in 4 different directions. Simply use `.dropdown` or
 `.dropup` on the parent container.
 
 {{< example id="example-dropdown-direction" class="d-flex flex-row">}}
+
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Down
@@ -234,10 +235,10 @@ Dropdown menu items don't <em>have to</em> be links. You also have the option of
 
 {{< example id="example-dropdown-menu" >}}
 <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  <div class="dropdown-menu">
     <button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -254,6 +255,7 @@ For niche cases, dropdown menus can be given a max-height using the following cl
 - `.dropdown-menu-lg` - 400px
 
 {{< example id="example-dropdown-sizes" >}}
+
 <div class="dropdown-menu dropdown-menu-sm">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
@@ -301,6 +303,7 @@ For niche cases, dropdown menus can be given a max-height using the following cl
 Add an `.active` class to items to style them as active.
 
 {{< example id="example-dropdown-active" >}}
+
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
@@ -313,6 +316,7 @@ Add an `.active` class to items to style them as active.
 Add an `.disabled` class to items to style them as disabled.
 
 {{< example id="example-dropdown-disabled" >}}
+
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item disabled" href="#">Active link</a>
@@ -325,6 +329,7 @@ Add an `.disabled` class to items to style them as disabled.
 Add a header to label sections of actions in any dropdown menu.
 
 {{< example id="example-dropdown-headers" >}}
+
 <div class="dropdown-menu">
   <h6 class="dropdown-header" id="dropdown-header">Dropdown header</h6>
   <a class="dropdown-item" href="#">Action</a>
@@ -354,6 +359,7 @@ Place any freeform text within a dropdown menu with text. **Note:** you'll likel
 need additional sizing styles to constrain the menu width.
 
 {{< example id="example-dropdown-text" >}}
+
 <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
   <p>
     Some example text that's free-flowing within the dropdown menu.
@@ -370,6 +376,7 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use
 <a href="/utilities/padding-and-margin/">margin or padding utilities</a> to give it the negative space you require.
 
 {{< example id="example-dropdown-form" >}}
+
 <div class="dropdown-menu">
   <form class="px-4 py-3">
     <div class="form-group">

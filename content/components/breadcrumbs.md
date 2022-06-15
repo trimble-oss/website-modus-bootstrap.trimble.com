@@ -71,8 +71,8 @@ For implementations with large numbers of sub-directories, make use of dropdown 
     <li class="breadcrumb-item"><a href="#">Home</a></li>
     <li class="breadcrumb-item">
       <div class="dropdown">
-        <button type="button" id="breadcrumbDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</button>
-        <div class="dropdown-menu" aria-labelledby="breadcrumbDropdown">
+        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</button>
+        <div class="dropdown-menu">
           <a href="#" class="dropdown-item">Link1</a>
           <a href="#" class="dropdown-item">Link2</a>
           <a href="#" class="dropdown-item">Link3</a>
