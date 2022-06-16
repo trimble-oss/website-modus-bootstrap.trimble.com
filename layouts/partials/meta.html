@@ -52,7 +52,7 @@
 {{- if not .Params.SamplePage -}}
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" fetchpriority="high">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{- hugo.Version -}}" fetchpriority="high">
 {{ end }}
 
 <!-- Displays Built with Hugo Meta Tag on homepage only-->
