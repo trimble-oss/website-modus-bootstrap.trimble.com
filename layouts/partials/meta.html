@@ -23,11 +23,8 @@
 {{- end -}}
 {{- end -}}
 
-<!-- Loads Modus from CDN -->
-{{- if not .Params.SamplePage -}}
-<link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{ .Site.Params.modusBootstrapVersion }}/dist/modus.min.css">
-{{ else }}
+<!-- Loads Modus for Sample Pages -->
+{{- if .Params.SamplePage -}}
 <script>
   // If `prefers-color-scheme` is not supported, fall back to light mode.
   // In this case, modus.css will be downloaded with `highest` priority.
@@ -43,44 +40,9 @@
 <link rel="stylesheet" href="{{ .Params.modusCSS }}modus-dark.css" media="(prefers-color-scheme: dark)">
 {{ end }}
 
-<!-- if URL param includes ?Next -->
-<script>
-    if (window.location.search.search(/[?&]next(?:$|&)/) !== -1) {
-    var $ = document; // shortcut
-    var cssId = 'next';  // you could encode the css path itself to generate id..
-    if (!$.getElementById(cssId))
-    {
-        var head  = $.getElementsByTagName('head')[0];
-        var link  = $.createElement('link');
-        link.id   = cssId;
-        link.rel  = 'stylesheet';
-      link.href = 'https://dev-modus-bootstrap.s3.amazonaws.com/css/modus.min.css';
-        head.appendChild(link);
-    }
-  }
-</script>
-
-<!-- if URL param includes ?Dark -->
-<script>
-  if (window.location.search.search(/[?&]dark(?:$|&)/) !== -1) {
-    var $ = document; // shortcut
-    var cssId = 'dark';  // you could encode the css path itself to generate id..
-    if (!$.getElementById(cssId)) {
-      var head = $.getElementsByTagName('head')[0];
-      var link = $.createElement('link');
-      link.id = cssId;
-      link.rel = 'stylesheet';
-      link.href = 'https://dev-modus-bootstrap.s3.amazonaws.com/css/modus-dark.min.css';
-      head.appendChild(link);
-    }
-  }
-</script>
-
 <!-- To speed up the homepage rendering time this CSS load on every page except homepage where they aren't used -->
 {{- if not .IsHome -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" fetchpriority="low">
-<link rel="stylesheet"
-  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css" fetchpriority="low">
 {{- end -}}
 
 <!-- IE11 Polyfills -->
