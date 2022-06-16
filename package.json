@@ -20,7 +20,7 @@
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "lint": "npm-run-all lint-css lint-html lint-js",
-    "lint-css": "stylelint \"assets/css/*.scss\"",
+    "lint-css": "stylelint \"assets/css/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\"",
     "lint-links": "npx linkinator build --recurse --silent --skip github.com",
