@@ -15,7 +15,7 @@
 
 html[data-theme="light"] {
   #TableOfContents li a {
-    color: #6a6976;
+    color: #585c65;
   }
 
   #TableOfContents li a:hover {
@@ -35,7 +35,6 @@ html[data-theme="dark"] {
 
 // sub-menu indenting
 .menu-right #TableOfContents li li a {
-  color: #888 !important;
   text-indent: 5px;
 }
 
@@ -46,7 +45,7 @@ html[data-theme="dark"] {
 
 // scrollspy color
 .menu-right #TableOfContents li .active {
-  color: #000 !important;
+  color: #000;
   border-left: 1px solid #0d6aa8 !important;
 }
 

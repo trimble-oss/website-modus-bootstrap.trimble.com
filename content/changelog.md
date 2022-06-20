@@ -37,7 +37,7 @@ main h2 em {
 
 - [Dark mode theme](/foundations/dark-mode-theme/) added
 - [Remove Internet Explorer 11](/device-support/) from browserslist config
-- Change focus-outline color from black to blue
+- Change focus-outline color from black {{< color-preview hex="#000">}} to blue {{< color-preview hex="#0063A3">}}
 - Remove background-color: from modus-header. This rule prevented the navbar-dark and navbar-blue from working as intended.
 
 ## v1.4.1 _2022-04-22_
