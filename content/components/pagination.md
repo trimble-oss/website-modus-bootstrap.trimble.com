@@ -102,7 +102,7 @@ Use `.disabled` to make links appear un-clickable and
 
 Add `.pagination-lg` to your `.pagination` for a larger size.
 
-{{< example id="example-pagination-sizing" >}}
+{{< example id="example-pagination-large" >}}
 <nav aria-label="Page navigation example">
   <ul class="pagination pagination-lg">
     <li class="page-item disabled">
@@ -142,14 +142,14 @@ Add `.pagination-lg` to your `.pagination` for a larger size.
 
 Add `.pagination-sm` to your `.pagination` for a smaller size.
 
-{{< example id="example-pagination-sizing" >}}
+{{< example id="example-pagination-small" >}}
 <nav aria-label="Page navigation example">
   <ul class="pagination pagination-sm">
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
     </li>
     <li class="page-item">
-      <a class="page-link" href="#">
+      <a class="page-link" href="#" aria-label="Previous">
         <i class="modus-icons">chevron_left</i>
       </a>
     </li>

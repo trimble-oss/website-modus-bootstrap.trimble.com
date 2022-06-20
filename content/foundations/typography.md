@@ -37,7 +37,7 @@ many type styles make a layout unbalanced and difficult to manage.
 
 #### Type Scale
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
     <thead class="thead-light">
       <tr>
         <th>Category</th>

@@ -25,6 +25,7 @@ components.
       <th>Example</th>
     </tr>
   </thead>
+  <tbody>
   <tr>
     <td>Level 1</td>
     <td>0.25</td>
@@ -65,6 +66,7 @@ components.
       <div class="d-inline-block pt-5 pr-5 bg-danger"></div>
     </td>
   </tr>
+ </tbody>
 </table>
 
 ### Notation
