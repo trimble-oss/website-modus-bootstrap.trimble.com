@@ -5,5 +5,9 @@ html[data-theme="light"] {
     color: #f1f1f1 !important;
   }
 
+  article h2:first-of-type {
+    margin-top: 1px !important;
+  }
+
   @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
 }

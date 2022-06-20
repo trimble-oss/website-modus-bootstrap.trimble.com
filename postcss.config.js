@@ -173,6 +173,9 @@ module.exports = {
       ],
       blocklist: [
         "btn-group",
+        "btn-outline-danger",
+        "btn-outline-secondary",
+        "btn-outline-tertiary",
         "carousel",
         "display-4",
         "jumbotron",
