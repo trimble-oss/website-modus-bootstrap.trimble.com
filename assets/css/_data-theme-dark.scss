@@ -8,10 +8,6 @@ html[data-theme="dark"] {
     color: #f1f1f1 !important;
   }
 
-  footer.footer a,
-  footer.footer p,
-  footer.footer small,
-  footer.footer .text-white,
   main h1,
   main h1 p,
   main p.lead {
@@ -28,12 +24,16 @@ html[data-theme="dark"] {
   }
 
   footer.footer {
-    background-color: #171c1e !important;
+    background-color: #171c1e;
     background-image: none !important;
   }
 
   .highlight {
-    background-color: #000 !important;
+    background-color: #171c1e !important;
+  }
+
+  .highlight .c1 {
+    color: #666;
   }
 
   .highlight pre code {
