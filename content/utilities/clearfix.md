@@ -18,7 +18,7 @@ The following example shows how the clearfix can be used. Without the clearfix, 
 
 {{< example id="example-clearfix-float" >}}
 <div class="bg-light clearfix">
-  <button class="btn btn-secondary float-left">Example Button Floated Left</button>
-  <button class="btn btn-secondary float-right">Example Button Floated Right</button>
+  <button class="btn btn-secondary float-left">Example button floated left</button>
+  <button class="btn btn-secondary float-right">Example button floated right</button>
 </div>
 {{< /example >}}

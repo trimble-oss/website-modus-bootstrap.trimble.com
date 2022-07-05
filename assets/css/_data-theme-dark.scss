@@ -94,5 +94,9 @@ html[data-theme="dark"] {
     display: none;
   }
 
+  .modus-body .modus-sidebar .nav-link {
+    color: #f1f1f6;
+  }
+
   @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
 }

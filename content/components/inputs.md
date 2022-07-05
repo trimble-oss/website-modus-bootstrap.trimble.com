@@ -88,7 +88,7 @@ classes, form layout, and more.
 
 States can be applied to all input types.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample bg-transparent">
     <div>
       <h5>On Focus</h5>

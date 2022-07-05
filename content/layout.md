@@ -63,7 +63,7 @@ After the `.modus-body`, the next element should be
 To help illustrate how all the layout elements look when displayed
 we have this interactive example.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample position-relative p-0 border bg-transparent" id="interactiveExample"
         style="height: 600px; z-index: 10;">
         <!-- Modus Layout Page Wrapper -->
@@ -277,7 +277,7 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
 <code>.modus-body</code> should also have a corresponding attribute of
 <code>data-modus-item="body"</code>.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
       <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 300px; z-index: 10;" id="sidebarExample">
         <!-- Modus Layout Page Wrapper -->
         <div class="modus-layout">
@@ -339,7 +339,7 @@ You can use our other components, such as buttons and form groups,
 inside `.modus-toolbar` to add functionality to your
 application.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample position-relative p-0 bg-transparent" style="z-index: 10;" id="example-block2">
     <!-- Modus Layout Page Wrapper -->
     <div class="modus-layout">
@@ -405,7 +405,7 @@ additional functionality.
 - `.panel-lg` (448px)
 - `.panel-xl` (544px)
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 400px; z-index: 10;" id="example-block3">
     <!-- Modus Layout Page Wrapper -->
     <div class="modus-layout">

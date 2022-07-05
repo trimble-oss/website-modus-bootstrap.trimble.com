@@ -48,7 +48,7 @@ a caret icon. The menu can contain any number of `.dropdown-item` links.
 Button Dropdowns can be any variety of button style and color. Simply use the desired
 `.btn-{theme-color}` class.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample bg-transparent">
     <div class="d-flex">
       <div class="dropdown">
@@ -341,7 +341,7 @@ Add a header to label sections of actions in any dropdown menu.
 
 Separate groups of related menu items with a divider.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample menu-example">
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Action</a>
