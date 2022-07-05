@@ -71,13 +71,7 @@
 }
 
 .guide-example-block {
-  display: flex;
   flex-direction: column;
-  position: relative;
-
-  .ether-page-layout {
-    height: 100%;
-  }
 
   .guide-content-sample {
     padding: 40px 100px;

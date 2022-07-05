@@ -47,7 +47,7 @@ Use one of the following classes to add shadow depth; `shadow-sm`,
 
 ### Shadow Depths
 
-<div class="guide-example-block shadow-none border-0">
+<div class="guide-example-block d-flex position-relative shadow-none border-0">
   <div class="row mt-2">
       <div class="col-12 col-md-4 mb-4">
         <div class="card shadow-sm">
@@ -87,7 +87,7 @@ Below are a few examples of shadows being used to create depth with our UI Eleme
 
 Use shadows to make card elements pop based on importance.
 
-<div class="guide-example-block shadow-none border-0">
+<div class="guide-example-block d-flex position-relative shadow-none border-0">
   <div class="row">
     <div class="col-12 col-md-4 mb-4">
     <div class="card p-2 shadow-sm">
@@ -132,7 +132,7 @@ Use shadows to make card elements pop based on importance.
 
 Use shadows to separate modal dialogs from the main content layer.
 
-<div class="guide-example-block">
+<div class="guide-example-block d-flex position-relative">
   <div class="guide-sample modal-static bg-light">
     <div class="modal d-inline position-relative" tabindex="-1" role="dialog">
       <div class="modal-dialog shadow-lg" role="document">
