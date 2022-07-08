@@ -33,6 +33,17 @@ main h2 em {
 }
 </style>
 
+
+## v1.5.2 _2022-07-08_
+
+- Fix for gray variables used in some components for dark mode
+
+## v1.5.1 _2022-07-07_
+
+- Fix for card header and footer border color in dark mode
+- Fix for Modus Layout for dark mode
+- Update Gray colors utility classes for dark mode
+
 ## v1.5.0 _2002-06-13_
 
 - [Dark mode theme](/foundations/dark-mode-theme/) added
