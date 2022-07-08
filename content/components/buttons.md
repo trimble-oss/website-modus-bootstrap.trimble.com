@@ -39,9 +39,9 @@ Solid buttons should only be used with the Primary, Secondary, and Tertiary them
 `class="btn-{theme-color}"`
 
 {{< example id="example-btn" >}}
-<button class="btn btn-primary">Button</button>
-<button class="btn btn-secondary">Button</button>
-<button class="btn btn-tertiary">Button</button>
+<button type="button" class="btn btn-primary">Button</button>
+<button type="button" class="btn btn-secondary">Button</button>
+<button type="button" class="btn btn-tertiary">Button</button>
 {{</ example >}}
 
 ### Outline Buttons
@@ -51,8 +51,8 @@ Outline buttons should only be used with the Primary, and Dark theme colors.
 `class="btn-outline-{theme-color}"`
 
 {{< example id="example-btn-outline">}}
-<button class="btn btn-outline-primary">Button</button>
-<button class="btn btn-outline-dark">Button</button>
+<button type="button" class="btn btn-outline-primary">Button</button>
+<button type="button" class="btn btn-outline-dark">Button</button>
 {{</ example >}}
 
 ### Text Buttons
@@ -81,11 +81,11 @@ Give the button a class of `.btn-icon-only` and give the icon a class of
 
 <!--prettier-ignore -->
 {{< example id="example-btn-icon" >}}
-<button class="btn btn-icon-only btn-text-dark">
+<button type="button" class="btn btn-icon-only btn-text-dark">
   <i class="modus-icon material-icons">settings</i>
 </button>
-  <button class="btn btn-icon-only btn-text-secondary">
-<i class="modus-icon material-icons">settings</i>
+<button type="button" class="btn btn-icon-only btn-text-secondary">
+  <i class="modus-icon material-icons">settings</i>
 </button>
 {{</ example >}}
 
@@ -99,19 +99,19 @@ Buttons default to "medium" size but there are also large and small options avai
 
 <!--prettier-ignore -->
 {{< example id="example-btn-small" >}}
-<button class="btn btn-sm btn-primary">Button</button>
-<button class="btn btn-sm btn-secondary">Button</button>
-<button class="btn btn-sm btn-tertiary">Button</button>
-<button class="btn btn-sm btn-outline-primary">Button</button>
-<button class="btn btn-sm btn-outline-dark">Button</button>
-<button class="btn btn-sm btn-text-primary">Button</button>
-<button class="btn btn-sm btn-primary">
+<button type="button" class="btn btn-sm btn-primary">Button</button>
+<button type="button" class="btn btn-sm btn-secondary">Button</button>
+<button type="button" class="btn btn-sm btn-tertiary">Button</button>
+<button type="button" class="btn btn-sm btn-outline-primary">Button</button>
+<button type="button" class="btn btn-sm btn-outline-dark">Button</button>
+<button type="button" class="btn btn-sm btn-text-primary">Button</button>
+<button type="button" class="btn btn-sm btn-primary">
   <i class="modus-icon material-icons left-icon">settings</i>Button
 </button>
-<button class="btn btn-sm btn-icon-only btn-text-dark">
+<button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
   <i class="modus-icon material-icons">settings</i>
 </button>
-<button class="btn btn-sm btn-icon-only btn-text-secondary">
+<button type="button" class="btn btn-sm btn-icon-only btn-text-secondary">
   <i class="modus-icon material-icons">settings</i>
 </button>
 {{</ example >}}
@@ -122,19 +122,19 @@ Buttons default to "medium" size but there are also large and small options avai
 
 <!--prettier-ignore -->
 {{< example id="example-btn-lg" >}}
-<button class="btn btn-lg btn-primary">Button</button>
-<button class="btn btn-lg btn-secondary">Button</button>
-<button class="btn btn-lg btn-tertiary">Button</button>
-<button class="btn btn-lg btn-outline-primary">Button</button>
-<button class="btn btn-lg btn-outline-dark">Button</button>
-<button class="btn btn-lg btn-text-primary">Button</button>
-<button class="btn btn-lg btn-primary">
+<button type="button" class="btn btn-lg btn-primary">Button</button>
+<button type="button" class="btn btn-lg btn-secondary">Button</button>
+<button type="button" class="btn btn-lg btn-tertiary">Button</button>
+<button type="button" class="btn btn-lg btn-outline-primary">Button</button>
+<button type="button" class="btn btn-lg btn-outline-dark">Button</button>
+<button type="button" class="btn btn-lg btn-text-primary">Button</button>
+<button type="button" class="btn btn-lg btn-primary">
   <i class="modus-icon material-icons left-icon">settings</i>Button
 </button>
-<button class="btn btn-lg btn-icon-only btn-text-dark">
+<button type="button" class="btn btn-lg btn-icon-only btn-text-dark">
   <i class="modus-icon material-icons">settings</i>
 </button>
-<button class="btn btn-lg btn-icon-only btn-text-secondary">
+<button type="button" class="btn btn-lg btn-icon-only btn-text-secondary">
   <i class="modus-icon material-icons">settings</i>
 </button>
 {{</ example >}}
@@ -144,9 +144,9 @@ Buttons default to "medium" size but there are also large and small options avai
 `class="btn-block"`
 
 {{< example id="example-btn-block" >}}
-<button class="btn btn-block btn-primary">Button</button>
-<button class="btn btn-block btn-outline-primary">Button</button>
-<button class="btn btn-block btn-text-primary">Button</button>
+<button type="button" class="btn btn-block btn-primary">Button</button>
+<button type="button" class="btn btn-block btn-outline-primary">Button</button>
+<button type="button" class="btn btn-block btn-text-primary">Button</button>
 {{</ example >}}
 
 ## Special Use Cases
@@ -223,12 +223,12 @@ A danger button should be used for permanent, destructive actions like delete.
 
 <!--prettier-ignore -->
 {{< example id="example-btn-danger" >}}
-<button class="btn btn-danger">Delete</button>
-<button class="btn btn-danger btn-icon-only ml-1 mr-3">
+<button type="button" class="btn btn-danger">Delete</button>
+<button type="button" class="btn btn-danger btn-icon-only ml-1 mr-3">
   <i class="modus-icons">trash</i>
 </button>
-<button class="btn btn-text-danger">Delete</button>
-<button class="btn btn-text-danger btn-icon-only ml-1 mr-3">
+<button type="button" class="btn btn-text-danger">Delete</button>
+<button type="button" class="btn btn-text-danger btn-icon-only ml-1 mr-3">
   <i class="modus-icons">trash</i>
 </button>
 {{</ example >}}
