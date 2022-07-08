@@ -44,7 +44,7 @@ collapsible elements that apply appropriate styling.
 {{< example id="example-collapsible-cards" >}}
 <div class="accordion" id="accordionCodeExample">
   <div class="card">
-    <div class="card-header" id="accordionHeadingOne" data-toggle="collapse" data-target="#codeCollapseOne" aria-expanded="true" aria-controls="codeCollapseOne">
+    <div class="card-header" role="button" id="accordionHeadingOne" data-toggle="collapse" data-target="#codeCollapseOne" aria-expanded="true" aria-controls="codeCollapseOne">
       <h6 class="mb-0" id="collapsible-group-item-1">
         Collapsible Group Item #1</h6>
     </div>
@@ -57,7 +57,7 @@ collapsible elements that apply appropriate styling.
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="accordionHeadingTwo" data-toggle="collapse" data-target="#codeCollapseTwo" aria-expanded="false" aria-controls="codeCollapseTwo">
+    <div class="card-header" role="button" id="accordionHeadingTwo" data-toggle="collapse" data-target="#codeCollapseTwo" aria-expanded="false" aria-controls="codeCollapseTwo">
       <h6 class="mb-0" id="collapsible-group-item-2">
         Collapsible Group Item #2</h6>
     </div>
@@ -70,7 +70,7 @@ collapsible elements that apply appropriate styling.
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="accordionHeadingThree" data-toggle="collapse" data-target="#codeCollapseThree" aria-expanded="false" aria-controls="codeCollapseThree">
+    <div class="card-header" role="button" id="accordionHeadingThree" data-toggle="collapse" data-target="#codeCollapseThree" aria-expanded="false" aria-controls="codeCollapseThree">
       <h6 class="mb-0" id="collapsible-group-item-3">
         Collapsible Group Item #3</h6>
     </div>
@@ -92,7 +92,7 @@ Add the `.accordion-sm` class to `.accordion` to create a smaller variant.
 {{< example id="example-collapsible-small" show_markup="false" >}}
 <div class="accordion accordion-sm" id="smallAccordionCodeExample">
   <div class="card">
-    <div class="card-header" id="smallAccordionHeadingOne" data-toggle="collapse" data-target="#smallCodeCollapseOne" aria-expanded="true" aria-controls="smallCodeCollapseOne">
+    <div class="card-header" role="button" id="smallAccordionHeadingOne" data-toggle="collapse" data-target="#smallCodeCollapseOne" aria-expanded="true" aria-controls="smallCodeCollapseOne">
       <h6 class="mb-0">Collapsible Group Item #1</h6>
     </div>
     <div id="smallCodeCollapseOne" class="collapse show" aria-labelledby="smallAccordionHeadingOne" data-parent="#smallAccordionCodeExample">
@@ -103,7 +103,7 @@ Add the `.accordion-sm` class to `.accordion` to create a smaller variant.
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="smallAccordionHeadingTwo" data-toggle="collapse" data-target="#smallCodeCollapseTwo" aria-expanded="false" aria-controls="smallCodeCollapseTwo">
+    <div class="card-header" role="button" id="smallAccordionHeadingTwo" data-toggle="collapse" data-target="#smallCodeCollapseTwo" aria-expanded="false" aria-controls="smallCodeCollapseTwo">
       <h6 class="mb-0">Collapsible Group Item #2</h6>
     </div>
     <div id="smallCodeCollapseTwo" class="collapse" aria-labelledby="smallAccordionHeadingTwo" data-parent="#smallAccordionCodeExample">
@@ -114,7 +114,7 @@ Add the `.accordion-sm` class to `.accordion` to create a smaller variant.
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="smallAccordionHeadingThree" data-toggle="collapse" data-target="#smallCodeCollapseThree" aria-expanded="false" aria-controls="smallCodeCollapseThree">
+    <div class="card-header" role="button" id="smallAccordionHeadingThree" data-toggle="collapse" data-target="#smallCodeCollapseThree" aria-expanded="false" aria-controls="smallCodeCollapseThree">
       <h6 class="mb-0">Collapsible Group Item #3</h6>
     </div>
     <div id="smallCodeCollapseThree" class="collapse" aria-labelledby="smallAccordionHeadingThree" data-parent="#smallAccordionCodeExample">
@@ -139,7 +139,7 @@ You can use the `.accordion` classes in combination with other UI Elements to cr
   <li class="list-group-item py-0">
     <div class="accordion borderless w-100" id="listAccordion">
       <div class="card">
-        <div class="card-header px-0" id="listAccordionHeading" data-toggle="collapse" data-target="#listAccordionOne" aria-expanded="false" aria-controls="listAccordionOne">
+        <div class="card-header px-0" role="button" id="listAccordionHeading" data-toggle="collapse" data-target="#listAccordionOne" aria-expanded="false" aria-controls="listAccordionOne">
           <h6 class="mb-0" id="collapsible-list-item">
             Collapsible List Item</h6>
         </div>
@@ -171,7 +171,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
 <div class="guide-sample bg-light">
     <div class="accordion">
       <div class="card">
-        <div class="card-header" id="headingOneEx" data-toggle="collapse" data-target="#One" aria-expanded="true" aria-controls="One">
+        <div class="card-header" role="button" id="headingOneEx" data-toggle="collapse" data-target="#One" aria-expanded="true" aria-controls="One">
           <h6 class="mb-0" id="collapsible-group-item-1-3">
             Collapsible Group Item #1</h6>
         </div>
@@ -189,7 +189,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
         </div>
       </div>
       <div class="card">
-        <div class="card-header" id="headingTwoEx" data-toggle="collapse" data-target="#Two" aria-expanded="false" aria-controls="Two">
+        <div class="card-header" role="button" id="headingTwoEx" data-toggle="collapse" data-target="#Two" aria-expanded="false" aria-controls="Two">
           <h6 class="mb-0" id="collapsible-group-item-2-3">
             Collapsible Group Item #2</h6>
         </div>
@@ -207,7 +207,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
         </div>
       </div>
       <div class="card">
-        <div class="card-header" id="headingThreeEx" data-toggle="collapse" data-target="#Three" aria-expanded="false" aria-controls="Three">
+        <div class="card-header" role="button" id="headingThreeEx" data-toggle="collapse" data-target="#Three" aria-expanded="false" aria-controls="Three">
           <h6 class="mb-0" id="collapsible-group-item-3-3">
             Collapsible Group Item #3</h6>
         </div>
