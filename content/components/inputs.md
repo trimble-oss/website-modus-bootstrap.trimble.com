@@ -3,7 +3,7 @@ title: "Inputs"
 layout: "single"
 description: "Input boxes gather information from users. Labels sit atop these elements."
 components: true
-keywords: forms, form
+keywords: forms, form, select
 aliases:
   - "/components/forms/"
 styleguideURL: "components/inputs/"
@@ -71,8 +71,8 @@ classes, form layout, and more.
     </div>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-    <select class="custom-select form-control" id="exampleFormControlSelect2">
+    <label for="exampleFormSelect1">Custom Select</label>
+    <select class="custom-select form-control" id="exampleFormSelect1">
       <option>Option 1</option>
       <option>Option 2</option>
       <option>Option 3</option>
@@ -210,8 +210,8 @@ For large input variants, add `.form-control-lg` to the input and
   </div>
 </div>
 <div class="form-group">
-  <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
-  <select class="custom-select form-control form-control-lg" id="exampleFormControlSelect2">
+  <label class="label-lg" for="exampleFormSelect2">Custom Select</label>
+  <select class="custom-select form-control form-control-lg" id="exampleFormSelect2">
     <option>Option 1</option>
     <option>Option 2</option>
     <option>Option 3</option>
