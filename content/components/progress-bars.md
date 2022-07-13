@@ -26,7 +26,7 @@ Put that all together, and you have the following example.
 
 {{< example id="example-progress" class="d-flex bg-light flex-column" >}}
 <div class="progress" aria-busy="true">
-  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Please wait until the operation is finished.">
+  <div class="progress-bar" role="progressbar" aria-label="Progress" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Please wait until the operation is finished.">
   </div>
 </div>
 <div class="text-left text-dark">
@@ -38,7 +38,7 @@ Put that all together, and you have the following example.
 
 {{< example id="example-progress-sm" class="d-flex bg-light flex-column" >}}
 <div class="progress progress-sm" aria-busy="true">
-  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Please wait until the operation is finished.">
+  <div class="progress-bar" role="progressbar" aria-label="Progress" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Please wait until the operation is finished.">
   </div>
 </div>
 {{</ example >}}
