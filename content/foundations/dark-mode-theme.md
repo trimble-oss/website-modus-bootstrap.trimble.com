@@ -3,7 +3,7 @@ title: "Dark Mode Theme"
 layout: "single"
 description: "Guidance for adding a dark mode theme to your site"
 foundations: true
-styleguideURL: "foundations/dark-mode-theme/"
+styleguideURL: "foundations/dark-mode/"
 ---
 
 ## Overview
