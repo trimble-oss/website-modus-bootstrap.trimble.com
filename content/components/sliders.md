@@ -14,7 +14,7 @@ StyleGuide: "components/sliders/"
 
 Create custom `<input type="range">` controls with `.custom-range`.
 
-Only IE and Firefox currently support "filling" in their track from the left
+Only Firefox currently support "filling" in their track from the left
 of the thumb so only those browsers show that styling.
 
 ### Basic range

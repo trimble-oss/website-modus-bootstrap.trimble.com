@@ -97,7 +97,7 @@ main h2 em {
 ## v1.1.0 _2021-08-12_
 
 - Change box-shadow color from blue to trimble gray <small>([ETHER-134](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/204/overview))</small>
-- Fix for SASS deprecation warnings for adjust-color() saturation <small>([#202](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/202/overview))</small>
+- Fix for Sass deprecation warnings for adjust-color() saturation <small>([#202](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/202/overview))</small>
 - Change `<small>` and `.small` font-size from 10.5px to 12px <small>([DDS-174](https://jira.trimble.tools/browse/DDS-174))</small>
 - Custom Switch CSS fix for IE11 <small>([ETHER-126](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-bootstrap/pull-requests/201/overview))</small>
 - Drop Edge Legacy support <small>([ETHER-132](https://jira.trimble.tools/browse/ETHER-132))</small>
@@ -107,7 +107,7 @@ main h2 em {
 
 - Update to [Bootstrap v4.6.0](https://github.com/twbs/bootstrap/releases/tag/v4.6.0)
 - Input Field Placeholder Shift fix <small>([DDS-133](https://jira.trimble.tools/browse/DDS-133))</small>
-- Address SASS deprecation warnings for adjust-color() <small>([ETHER-129](https://jira.trimble.tools/browse/ETHER-129))</small>
+- Address Sass deprecation warnings for adjust-color() <small>([ETHER-129](https://jira.trimble.tools/browse/ETHER-129))</small>
 - Fix for Indeterminate Checkbox SVG size /position <small>([DDS-107](https://jira.trimble.tools/browse/DDS-107))</small>
 
 ## v1.0.0 _2020-12-08_
