@@ -14,7 +14,7 @@ The Modus Front-end Framework is an HTML/CSS library developed as a common, open
 
 ## Background
 
-Modus Bootstrap is built upon and extends the Bootstrap 4 code framework. It is a responsive framework for web and mobile uses. You can use the CSS files as is, or integrate the SASS files into your own application if you wish to modify it further.
+Modus Bootstrap is built upon and extends the Bootstrap 4 code framework. It is a responsive framework for web and mobile uses. You can use the CSS files as is, or integrate the Sass files into your own application if you wish to modify it further.
 
 ## CDN
 
@@ -62,9 +62,9 @@ When using core Bootstrap components like Modals and Accordions, include [ngx-bo
 
 More information about component support of ngx-bootstrap can be found on the [Status page](/status/).
 
-## Customize using SASS
+## Customize using Sass
 
-The SASS files will be found in the `/scss` directory.
+The Sass files will be found in the `/scss` directory.
 
 ### File structure
 
@@ -93,7 +93,7 @@ You can also start to add parts of Bootstrap under the `// Optional` section as 
 
 The main file to focus on is the `_theme.scss` file (and/or `_theme-dark.scss` if you want a dark look).
 
-You should copy this file from `/node_modules/@trimbleinc/modus-bootstrap/scss/components` to your own SASS directory and import your copy instead of the Modus bootstrap version in your main SASS file.
+You should copy this file from `/node_modules/@trimbleinc/modus-bootstrap/scss/components` to your own Sass directory and import your copy instead of the Modus bootstrap version in your main Sass file.
 
 This example shows you how you should structure your main file. The order in which files are imported matters.
 

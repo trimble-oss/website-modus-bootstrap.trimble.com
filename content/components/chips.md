@@ -19,7 +19,6 @@ To specify the style, use one of these classes:
 
 - `.chip-solid`
 - `.chip-outline`
-- `.chip-reverse`
 
 ### Input Chips
 
