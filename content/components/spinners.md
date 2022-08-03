@@ -36,6 +36,11 @@ Expected ways to use spinners:
     </div>
   </div>
   <div class="px-3">
+    <div class="spinner-border text-secondary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div class="px-3">
     <div class="text-center text-primary">
       <div class="spinner-border"></div>
       <div class="h3 text-primary mt-3">Loading...</div>
