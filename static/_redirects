@@ -1,4 +1,0 @@
-# https://plausible.io/docs/proxy/guides/netlify
-
-/js/script.compat.outbound-links.js           https://plausible.io/js/script.compat.outbound-links.js 200
-/api/event                                    https://plausible.io/api/event 200

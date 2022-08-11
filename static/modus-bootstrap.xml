@@ -5,6 +5,45 @@
   <id>https://modus-bootstrap.trimble.com/modus-bootstrap.xml</id>
   <link type="text/html" href="https://modus-bootstrap.trimble.com/changelog/" rel="alternate"/>
   <entry>
+    <published>2022-08-05T09:00:00Z</published>
+    <updated>2022-08-05T09:00:00Z</updated>
+    <title>v1.5.3 - 2022-08-05</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2022-07-08T09:00:00Z</published>
+    <updated>2022-07-08T09:00:00Z</updated>
+    <title>v1.5.2 - 2022-07-08</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2022-07-07T09:00:00Z</published>
+    <updated>2022-07-07T09:00:00Z</updated>
+    <title>v1.5.1 - 2022-07-07</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
     <published>2022-06-13T09:00:00Z</published>
     <updated>2022-06-13T09:00:00Z</updated>
     <title>v1.5.0 - 2022-06-13</title>
