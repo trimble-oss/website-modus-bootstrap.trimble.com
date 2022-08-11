@@ -29,3 +29,6 @@ Thumbs.db
 /public/*
 /resources/
 .hugo_build.lock
+
+# Azure Static Web Apps Config
+!staticwebapp.config.json
