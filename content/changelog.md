@@ -33,6 +33,10 @@ main h2 em {
 }
 </style>
 
+## v1.5.3 - _2022-08-05_
+
+- Update to [Bootstrap v4.6.2](https://github.com/twbs/bootstrap/releases/tag/v4.6.2)
+- Updated style for [Chips active state](/components/chips/).
 
 ## v1.5.2 _2022-07-08_
 

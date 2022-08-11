@@ -8,7 +8,8 @@ hidden: true
 hideDate: true
 ---
 
-- [1.5.3](/sample-page/next/) <small class="text-muted">(Unreleased)</small>
+- [1.x.x](/sample-page/next/) <small class="text-muted">(Unreleased)</small>
+- [1.5.3](/sample-page/1.5.3/)
 - [1.5.2](/sample-page/1.5.2/)
 - [1.5.1](/sample-page/1.5.1/)
 - [1.5.0](/sample-page/1.5.0/)
