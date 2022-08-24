@@ -238,7 +238,7 @@ When using small variants of tables with icons and controls, don't forget to use
     </tr>
     <tr>
       <th scope="row" class="icon-only">
-        <div class="custom-control custom-control-sm custom-checkbox">
+        <div class="custom-control custom-checkbox">
           <input type="checkbox" checked="" class="custom-control-input" id="tableCheckbox6" name="example1">
           <label class="custom-control-label" for="tableCheckbox6"></label>
         </div>
@@ -261,7 +261,7 @@ When using small variants of tables with icons and controls, don't forget to use
     </tr>
     <tr>
       <th scope="row" class="icon-only">
-        <div class="custom-control custom-control-sm custom-radio">
+        <div class="custom-control custom-radio">
           <input type="radio" class="custom-control-input" id="tableRadio3" name="tableRadio" value="customEx">
           <label class="custom-control-label" for="tableRadio3"></label>
         </div>
@@ -284,7 +284,7 @@ When using small variants of tables with icons and controls, don't forget to use
     </tr>
     <tr>
       <th scope="row" class="icon-only">
-        <div class="custom-control custom-control-sm custom-switch">
+        <div class="custom-control custom-switch">
           <input type="checkbox" checked="" class="custom-control-input" id="tableSwitch3" name="example1">
           <label class="custom-control-label" for="tableSwitch3"></label>
         </div>
