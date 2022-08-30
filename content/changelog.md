@@ -33,6 +33,12 @@ main h2 em {
 }
 </style>
 
+## v1.5.4 - _2022-08-26_
+
+- Fix for radio button tap target area
+- Removed unused small checkboxes, small radios and small switches
+- Updated message background and text colors
+
 ## v1.5.3 - _2022-08-05_
 
 - Update to [Bootstrap v4.6.2](https://github.com/twbs/bootstrap/releases/tag/v4.6.2)
