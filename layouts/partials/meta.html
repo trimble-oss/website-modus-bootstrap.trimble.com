@@ -15,8 +15,8 @@
 <!-- Load Modus Layout -->
 {{- if .Params.loadModusLayout }}
 {{- if not .Params.SamplePage -}}
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusBootstrapVersion }}.css">
-<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusBootstrapVersion }}.js"></script>
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min.css">
+<script src="https://modus.trimble.com/css/modus-layout.min.js"></script>
 {{ else }}
 <link rel="stylesheet" href="{{ .Params.modusLayoutCSS }}">
 <script src="{{ .Params.modusLayoutJS }}"></script>
