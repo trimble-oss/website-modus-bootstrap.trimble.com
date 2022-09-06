@@ -28,7 +28,7 @@ If you'd like to give users the ability to switch the theme from your site then 
 
 ```scss
 html[data-theme="light"] {
-  color-scheme: dark;
+  color-scheme: light;
   @import "modus-bootstrap";
 }
 html[data-theme="dark"] {
