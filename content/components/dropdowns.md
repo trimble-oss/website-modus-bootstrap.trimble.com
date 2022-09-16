@@ -248,14 +248,17 @@ Dropdown menu items don't <em>have to</em> be links. You also have the option of
 
 ### Sizes
 
-For niche cases, dropdown menus can be given a max-height using the following classes:
+For niche cases, dropdown menus can be given a max-height using the following modifier classes:
 
 - `.dropdown-menu-sm`- 140px
 - `.dropdown-menu-md` - 240px
 - `.dropdown-menu-lg` - 400px
 
-{{< example id="example-dropdown-sizes" >}}
-
+{{< example id="example-dropdown-sizes" class="d-flex flex-row">}}
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu dropdown-menu-sm">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
@@ -266,6 +269,11 @@ For niche cases, dropdown menus can be given a max-height using the following cl
   <a class="dropdown-item" href="#">Another link</a>
   <a class="dropdown-item" href="#">Another link</a>
 </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu dropdown-menu-md">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
@@ -280,6 +288,11 @@ For niche cases, dropdown menus can be given a max-height using the following cl
   <a class="dropdown-item" href="#">Another link</a>
   <a class="dropdown-item" href="#">Another link</a>
 </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu dropdown-menu-lg">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
@@ -296,6 +309,7 @@ For niche cases, dropdown menus can be given a max-height using the following cl
   <a class="dropdown-item" href="#">Another link</a>
   <a class="dropdown-item" href="#">Another link</a>
 </div>
+</div>
 {{</ example >}}
 
 ### Active
@@ -303,11 +317,15 @@ For niche cases, dropdown menus can be given a max-height using the following cl
 Add an `.active` class to items to style them as active.
 
 {{< example id="example-dropdown-active" >}}
-
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
   <a class="dropdown-item" href="#">Another link</a>
+</div>
 </div>
 {{</ example >}}
 
@@ -316,11 +334,15 @@ Add an `.active` class to items to style them as active.
 Add an `.disabled` class to items to style them as disabled.
 
 {{< example id="example-dropdown-disabled" >}}
-
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
-  <a class="dropdown-item disabled" href="#">Active link</a>
+  <a class="dropdown-item disabled" href="#">Disabled link</a>
   <a class="dropdown-item" href="#">Another link</a>
+</div>
 </div>
 {{</ example >}}
 
@@ -329,11 +351,15 @@ Add an `.disabled` class to items to style them as disabled.
 Add a header to label sections of actions in any dropdown menu.
 
 {{< example id="example-dropdown-headers" >}}
-
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu">
   <h6 class="dropdown-header" id="dropdown-header">Dropdown header</h6>
   <a class="dropdown-item" href="#">Action</a>
   <a class="dropdown-item" href="#">Another action</a>
+</div>
 </div>
 {{</ example >}}
 
@@ -343,12 +369,17 @@ Separate groups of related menu items with a divider.
 
 <div class="guide-example-block d-flex position-relative">
   <div class="guide-sample menu-example">
+  <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Action</a>
       <a class="dropdown-item" href="#">Another action</a>
       <a class="dropdown-item" href="#">Something else here</a>
       <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#">Separated link</a>
+    </div>
     </div>
   </div>
 </div>
@@ -359,7 +390,10 @@ Place any freeform text within a dropdown menu with text. **Note:** you'll likel
 need additional sizing styles to constrain the menu width.
 
 {{< example id="example-dropdown-text" >}}
-
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
   <p>
     Some example text that's free-flowing within the dropdown menu.
@@ -367,6 +401,7 @@ need additional sizing styles to constrain the menu width.
   <p class="mb-0">
     And this is more example text.
   </p>
+</div>
 </div>
 {{</ example >}}
 
@@ -376,7 +411,10 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use
 <a href="/utilities/padding-and-margin/">margin or padding utilities</a> to give it the negative space you require.
 
 {{< example id="example-dropdown-form" >}}
-
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
 <div class="dropdown-menu">
   <form class="px-4 py-3">
     <div class="form-group">
@@ -398,8 +436,9 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use
     <button type="submit" class="btn btn-primary">Sign in</button>
   </form>
   <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">New around here? Sign up</a>
-  <a class="dropdown-item" href="#">Forgot password?</a>
+  <a class="dropdown-item small" href="#">New around here? Sign up</a>
+  <a class="dropdown-item small" href="#">Forgot password?</a>
+</div>
 </div>
 {{</ example >}}
 
