@@ -63,7 +63,7 @@ Text buttons should only be used with the Primary theme color.
 
 ## Icon Buttons
 
-Modus has built in support for both icon only buttons and buttons with both icons and text.
+Modus has built-in support for both icon only buttons and buttons with both icons and text.
 
 ### Text and Icons
 
