@@ -179,22 +179,10 @@ Learn more about [using the icons](/foundations/icons/).
 If you want to also use the Modus Framework layout (top nav, left nav, and content area) you will need to add these additional references:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap/{{< modus-bootstrap-version >}}/dist/modus-layout.css">
-<script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap/{{< modus-bootstrap-version >}}/dist/modus-layout.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{< modus-bootstrap-version >}}/dist/modus-layout.css">
+<script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{< modus-bootstrap-version >}}/dist/modus-layout.js"></script>
 <!-- For Internet Explorer compatibility -->
 <script nomodule src="https://polyfill.io/v3/polyfill.min.js"></script>
 ```
 
 Learn more about [using the layout CSS/JS](/layout/).
-
-<div class="row mt-5">
-
-{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com" header="react.svg" class="bg-react text-white py-4" >}}
-
-{{</ card-start >}}
-
-{{< card-start title="Modus Angular" header="angular.svg" class="bg-danger py-4 bg-coming-soon" >}}
-
-{{</ card-start >}}
-
-</div>
