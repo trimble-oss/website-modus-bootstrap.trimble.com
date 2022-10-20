@@ -20,9 +20,9 @@ div.modus-layout
         ├── div.modus-body
         |   ├── nav.modus-sidebar
         |   └── div.modus-content-rows
-        |       ├── div.modus-toolbar(optional)
+        |       ├── div.modus-toolbar (optional)
         |       └── div.modus-content-columns
-        |           ├── div.modus-panel(optional)
+        |           ├── div.modus-panel (optional)
         |           └── div.modus-content
         └── div.modus-footer
 ```
