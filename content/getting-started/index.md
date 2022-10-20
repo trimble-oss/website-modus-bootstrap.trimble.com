@@ -28,7 +28,7 @@ You do not (and should not) include additional references to Bootstrap CSS other
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 ## Install with npm
@@ -179,8 +179,8 @@ Learn more about [using the icons](/foundations/icons/).
 If you want to also use the Modus Framework layout (top nav, left nav, and content area) you will need to add these additional references:
 
 ```html
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{< modus-bootstrap-version >}}.css">
-<script src="https://modus.trimble.com/css/modus-layout.min-{{< modus-bootstrap-version >}}.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap/{{< modus-bootstrap-version >}}/dist/modus-layout.css">
+<script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap/{{< modus-bootstrap-version >}}/dist/modus-layout.js"></script>
 <!-- For Internet Explorer compatibility -->
 <script nomodule src="https://polyfill.io/v3/polyfill.min.js"></script>
 ```
