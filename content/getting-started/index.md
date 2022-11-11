@@ -1,8 +1,7 @@
 ---
 title: "Getting Started"
 layout: "single"
-description: "The Modus Front-end Framework is an HTML/CSS library developed as a common, open source platform for all
-of Trimble's web applications. The framework is designed and managed by the Trimble UX Council."
+description: "Modus Bootstrap is an HTML/CSS library developed as a common, open source platform for all of Trimble's web applications."
 start: true
 aliases:
   - "developers/"
@@ -10,11 +9,9 @@ aliases:
   - "start/"
 ---
 
-The Modus Front-end Framework is an HTML/CSS library developed as a common, open source platform for all of Trimble's web applications. The framework is designed and managed by the Trimble UX Council.
+Modus Bootstrap is an HTML/CSS library developed as a common, open source platform for all of Trimble's web applications and is built upon and extends the Bootstrap 4 code framework.
 
-## Background
-
-Modus Bootstrap is built upon and extends the Bootstrap 4 code framework. It is a responsive framework for web and mobile uses. You can use the CSS files as is, or integrate the Sass files into your own application if you wish to modify it further.
+It is a responsive framework for web and mobile uses. You can use the CSS files as is, or integrate the Sass files into your own application if you wish to modify it further.
 
 ## CDN
 
