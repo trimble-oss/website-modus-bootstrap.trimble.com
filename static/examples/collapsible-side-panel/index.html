@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang=en-us>
+
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>Modus Collapsible Side Panel | Modus Layout</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.4/dist/modus.min.css">
+  <link rel="preconnect" href=https://fonts.gstatic.com crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
+  <link rel="stylesheet" href=https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.css>
+  <link rel="stylesheet" href="/examples/collapsible-side-panel/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="description" content="Modus Layout Example">
+</head>
+
+<body class="overflow-hidden bg-white">
+  <nav class="navbar bg-primary shadow-sm">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand text-primary" href="#">
+          <img src=https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg width=107 height=25
+            class="img-fluid d-none d-sm-inline-block" alt="home">
+          <img src=https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg class="d-inline-block d-sm-none px-1"
+            height=25 width=25 alt="home">
+        </a>
+      </div>
+      <div id="buttonsGroup">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-sm-inline-block">
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+            title="Search">
+            <i class="modus-icon material-icons notranslate text-white">search</i>
+          </button>
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+            title="Notifications">
+            <i class="modus-icon material-icons notranslate text-white">notifications</i>
+          </button>
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+            title="Help">
+            <i class="modus-icons notranslate text-white">help</i>
+          </button>
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+            title="Applications">
+            <i class="modus-icons notranslate text-white">apps</i>
+          </button>
+        </ul>
+        <div class="dropdown d-inline-block d-sm-none">
+          <button class="btn btn-lg btn-icon-only border-0" type="button" data-toggle="dropdown" aria-expanded=false>
+            <i class="modus-icons notranslate text-white">more_vertical</i>
+          </button>
+          <ul class=dropdown-menu>
+            <li>
+              <a class="dropdown-item bg-transparent" href=#>
+                <button type=button class="btn btn-lg btn-icon-only border-0" data-toggle=tooltip
+                  data-placement="bottom" title="Search">
+                  <i class="modus-icon material-icons notranslate text-white">search</i>
+                </button></a>
+            </li>
+            <li>
+              <a class="dropdown-item bg-transparent" href=#>
+                <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip"
+                  data-placement="bottom" title="Notifications">
+                  <i class="modus-icon material-icons notranslate text-white">notifications</i>
+                </button></a>
+            </li>
+            <li>
+              <a class="dropdown-item bg-transparent" href=#>
+                <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip"
+                  data-placement="bottom" title="Help">
+                  <i class="modus-icons notranslate text-white">help</i>
+                </button></a>
+            </li>
+            <li>
+              <a class="dropdown-item bg-transparent" href=#>
+                <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip"
+                  data-placement="bottom" title="Applications">
+                  <i class="modus-icons notranslate text-white">apps</i>
+                </button></a>
+            </li>
+          </ul>
+        </div><button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white d-inline-block border-0"
+          data-toggle="tooltip" data-placement="bottom" data-html="true"
+          title="<div class=text-start>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
+          <i class="modus-icon material-icons rounded-circle text-white notranslate">account_circle</i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div
+        class="col col-auto px-0 collapse collapse-horizontal overflow-hidden bg-white border-top border-right min-vh-100"
+        id="sidebar">
+        <div class="list-group border-0 text-start border-top" id="sidebar-menu">
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none mt-2" data-parent="#sidebar">
+            Details
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Apply templates
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Project participants
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Manage bill rates
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Manage form types
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Manage permissions
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Permissions by user
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Process notification settings
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Sent items
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Project Level options
+          </a>
+          <a href=# class="list-group-item border-0 text-truncate text-decoration-none" data-parent=#sidebar>
+            Issues
+          </a>
+        </div>
+      </div>
+      <main class="col-sm col border-start ps-md-2 pt-2">
+
+        <button class="btn btn-expand d-inline-block border-0 mt-1" type="button" aria-label="Menu" data-target=#sidebar
+          data-toggle="collapse">
+          <div data-toggle="tooltip" data-placement="right" title="Expand side panel" class=""></div>
+        </button>
+
+        <div class=pt-3>
+          <h2>e-B Navigation</h2>
+        </div>
+        <p class=lead>A responsive offcanvas "push" vertical nav example.</p>
+        <hr>
+        <div class=row>
+          <div class=col-12>
+            <p>
+              Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia
+              salvia mustache 90's code editing brunch. Butcher polaroid VHS art
+              party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag
+              wolf squid tote bag. Tote bag donut semiotics, raw denim deep v
+              taxidermy messenger bag. Tofu Etsy, direct trade ethical Odd Future
+              jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street
+              art organic Bush wick artisan cliche semiotics ugh synth chill wave
+              meditation. Shabby chic plaid vinyl chambray Vice. Vice sustainable
+              cardigan, Williamsburg master cleanse hello DIY 90's blog.
+            </p>
+            <p>
+              Ethical Kick starter PBR asymmetrical lo-fi. Dream catcher street art
+              Carl, stump town gluten-free Kick starter artisan Wes Anderson wolf
+              pug. Godard sustainable you probably haven't heard of them, vegan
+              farm-to-table Williamsburg ready made disrupt deep v. Meg seitan Wes
+              Anderson semiotics, cliche American Apparel whatever. Helvetica cray
+              plaid, vegan brunch Bank leggings +1 direct trade. Wayfarers code
+              PBR selfies. Ban McSweeney's Shoreditch selfies, forage fingers tache
+              food truck occupy Pitchfork fix iPhone fanny pack art party
+              Portland.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+
+</body>
+
+</html>
