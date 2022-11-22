@@ -6,14 +6,14 @@
   <meta name=viewport content="width=device-width,initial-scale=1">
   <title>Modus Collapsible Side Panel | Modus Layout</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.4/dist/modus.min.css">
-  <link rel="preconnect" href=https://fonts.gstatic.com crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
-  <link rel="stylesheet" href=https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.css>
+  <link rel="stylesheet" href="https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.css">
   <link rel="stylesheet" href="/examples/collapsible-side-panel/style.css">
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  <meta name="description" content="Modus Layout Example">
+  <meta name="description" content="Modus Collapsible Side Panel Example">
 </head>
 
 <body class="overflow-hidden bg-white">
@@ -21,39 +21,39 @@
     <div class="container-fluid">
       <div>
         <a class="navbar-brand text-primary" href="#">
-          <img src=https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg width=107 height=25
+          <img src=https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg width="107" height="25"
             class="img-fluid d-none d-sm-inline-block" alt="home">
           <img src=https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg class="d-inline-block d-sm-none px-1"
-            height=25 width=25 alt="home">
+            height="25" width="25" alt="home">
         </a>
       </div>
       <div id="buttonsGroup">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-sm-inline-block">
-          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement="bottom"
             title="Search">
             <i class="modus-icon material-icons notranslate text-white">search</i>
           </button>
-          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement="bottom"
             title="Notifications">
             <i class="modus-icon material-icons notranslate text-white">notifications</i>
           </button>
-          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement="bottom"
             title="Help">
             <i class="modus-icons notranslate text-white">help</i>
           </button>
-          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement=bottom
+          <button type="button" class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip" data-placement="bottom"
             title="Applications">
             <i class="modus-icons notranslate text-white">apps</i>
           </button>
         </ul>
         <div class="dropdown d-inline-block d-sm-none">
-          <button class="btn btn-lg btn-icon-only border-0" type="button" data-toggle="dropdown" aria-expanded=false>
+          <button class="btn btn-lg btn-icon-only border-0" type="button" data-toggle="dropdown" aria-expanded="false">
             <i class="modus-icons notranslate text-white">more_vertical</i>
           </button>
           <ul class=dropdown-menu>
             <li>
               <a class="dropdown-item bg-transparent" href=#>
-                <button type=button class="btn btn-lg btn-icon-only border-0" data-toggle=tooltip
+                <button type=button class="btn btn-lg btn-icon-only border-0" data-toggle="tooltip"
                   data-placement="bottom" title="Search">
                   <i class="modus-icon material-icons notranslate text-white">search</i>
                 </button></a>
@@ -92,7 +92,7 @@
   <div class="container-fluid">
     <div class="row flex-nowrap">
       <div
-        class="col col-auto px-0 collapse collapse-horizontal overflow-hidden bg-white border-top border-right min-vh-100"
+        class="col col-auto px-0 collapse width overflow-hidden bg-white border-top border-right min-vh-100"
         id="sidebar">
         <div class="list-group border-0 text-start border-top" id="sidebar-menu">
           <a href=# class="list-group-item border-0 text-truncate text-decoration-none mt-2" data-parent="#sidebar">
