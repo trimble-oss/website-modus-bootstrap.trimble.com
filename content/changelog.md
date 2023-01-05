@@ -33,6 +33,13 @@ main h2 em {
 }
 </style>
 
+## v1.5.5 _2023-01-05_
+
+- Fix messages background and font colors in dark mode
+- Removed duplicated ruleset for `.btn-primary` active state (dark mode)
+- Fix border color for `.dark-alert`
+- Fix for `<pre>` text appears dark in dark mode
+
 ## v1.5.4 _2022-08-26_
 
 - Fix for [radio button](/components/radio-buttons/) tap target area
