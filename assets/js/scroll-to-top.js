@@ -1,16 +1,16 @@
-var target = document.querySelector("footer");
+let target = document.querySelector("footer");
 
-var scrollToTopBtn = document.querySelector(".btn-to-top");
-var rootElement = document.documentElement;
+let scrollToTopBtn = document.querySelector(".btn-to-top");
+let rootElement = document.documentElement;
 
 function callback(entries, observer) {
   entries.forEach((entry) => {
     window.onscroll = function (e) {
-    if (entry.isIntersecting) {
-      scrollToTopBtn.classList.add("btn-to-top-show");
-    } else {
-      scrollToTopBtn.classList.remove("btn-to-top-show");
-    }
+      if (entry.isIntersecting) {
+        scrollToTopBtn.classList.add("btn-to-top-show");
+      } else {
+        scrollToTopBtn.classList.remove("btn-to-top-show");
+      }
     };
   });
 }

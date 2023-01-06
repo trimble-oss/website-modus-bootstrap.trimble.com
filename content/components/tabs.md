@@ -15,7 +15,7 @@ styleguideURL: "components/tabs/"
 Tabs are a subset of `.nav` components. Simply add the
 `.nav-tabs` class to generate a tabbed interface. Use them to
 create tabbable regions with Bootstrap's tab
-<a href="https://getbootstrap.com/docs/4.6/components/navs/#javascript-behavior" target="_blank">JavaScript
+<a href="https://getbootstrap.com/docs/4.6/components/navs/#javascript-behavior" rel="noopener" target="_blank">JavaScript
 plugin</a>.
 
 ### Basic Tabs
