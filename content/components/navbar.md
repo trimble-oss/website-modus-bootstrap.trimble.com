@@ -15,7 +15,7 @@ The navbar or the app header provides context through globally accessible menu o
 <!-- prettier-ignore-start -->
 {{< example id="example-navbar" bg_select="false" class="p-0" >}}
 <nav class="navbar nav navbar-expand-sm modus-header">
-  <button class="btn btn-lg btn-icon-only" id="menuButton" href="#overview" data-toggle="#" type="button">
+  <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" href="#overview" data-toggle="#" type="button">
     <i class="modus-icons notranslate">menu</i>
   </button>
   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
@@ -24,24 +24,24 @@ The navbar or the app header provides context through globally accessible menu o
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
         <i class="modus-icon notranslate material-icons">notifications</i>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
         <i class="modus-icons notranslate">help</i>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
         <i class="modus-icons notranslate">apps</i>
       </button>
     </div>
   </div>
-  <button type="button" aria-label="" class="btn btn-lg btn-icon-only d-block d-sm-none">
+  <button type="button" aria-label="" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
     <i class="modus-icons notranslate">more_vertical</i>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-white ml-2 border-0"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
          <i class="modus-icon material-icons rounded-circle">account_circle</i>
