@@ -11,6 +11,9 @@
   transition: all 1s ease;
 }
 
+.btn-to-top svg {
+  fill: #fff;
+}
 .btn-to-top-show {
   opacity: 0.9;
   transform: translateY(0);

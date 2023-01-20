@@ -21,8 +21,5 @@
   "style-disabled": false,
   "tag-pair": false,
   "tag-self-close": false,
-  "tagname-lowercase": [
-    "clipPath"
-  ],
   "title-require": true
 }
