@@ -1,4 +1,3 @@
-baseurl: https://bootstrap-dev.trimblemaps.com/
 disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
 googleAnalytics: "disabled"
 
