@@ -6,7 +6,7 @@ description: "Tabs are used to quickly navigate between views within the same co
 components: true
 keywords: nav
 images:
-  - "/img/headers/components/tabs.png"
+  - "/img/components/headers/tabs.png"
 styleguideURL: "components/tabs/"
 ---
 
@@ -42,17 +42,17 @@ plugin</a>.
 {{< example id="example-tabs-icons" >}}
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="#"><i class="modus-icon material-icons">mood</i></a>
+    <a class="nav-link active" href="#"><i class="modus-icon modus-icons" aria-hidden="true">clipboard_check</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icon material-icons">face</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">calendar_check</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icon material-icons">sentiment_satisfied</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">calendar_check</i></a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-    <i class="modus-icon material-icons">sentiment_very_dissatisfied</i></a>
+    <i class="modus-icons" aria-hidden="true">check_circle</i></a>
   </li>
 </ul>
 {{</ example >}}
@@ -79,16 +79,16 @@ To use smaller variants of tabs, add the `.nav-tabs-sm` class.
 <br>
 <ul class="nav nav-tabs nav-tabs-sm">
   <li class="nav-item">
-    <a class="nav-link active" href="#"><i class="modus-icon material-icons">mood</i></a>
+    <a class="nav-link active" href="#"><i class="modus-icons" aria-hidden="true">wind</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icon material-icons">face</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">certificate</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icon material-icons">sentiment_satisfied</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">web</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="modus-icon material-icons">sentiment_very_dissatisfied</i></a>
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="modus-icons" aria-hidden="true">volume_down</i></a>
   </li>
 </ul>
 {{</ example >}}

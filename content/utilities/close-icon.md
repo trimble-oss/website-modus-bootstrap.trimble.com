@@ -9,6 +9,6 @@ utilities: true
 
 {{< example id="example-close-icon" >}}
 <button type="button" class="close" aria-label="Close">
-  <i class="modus-icon material-icons" aria-hidden="true">close</i>
+  <i class="modus-icon modus-icons" aria-hidden="true">close</i>
 </button>
 {{< /example >}}

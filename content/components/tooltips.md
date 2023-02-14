@@ -4,7 +4,7 @@ layout: "single"
 description: "Tooltips provide a short description of a page element or control."
 components: true
 images:
-  - "/img/headers/components/tooltips.png"
+  - "/img/components/headers/tooltips.png"
 styleguideURL: "components/tooltips/"
 ---
 
@@ -52,10 +52,10 @@ Tooltips can be used with a variety of different components.
 <div class="chip chip-solid chip-input ml-3" data-toggle="tooltip" data-placement="top" title="Chip Tooltip">
   <div class="chip-thumbnail"><img src="/img/headshot.png" alt=""></div>
   <div class="chip-text">Clifford</div>
-  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+  <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">close</i></div>
 </div>
 
-<i class="modus-icon material-icons ml-3" data-toggle="tooltip" data-placement="top" title="Icon Tooltip">settings</i>
+<i class="modus-icons ml-3" data-toggle="tooltip" data-placement="top" title="Icon Tooltip">settings</i>
 
 <p class="ml-3 mb-0">
   Tooltips can even be used with

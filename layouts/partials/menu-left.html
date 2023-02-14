@@ -11,7 +11,7 @@
     <div class="col-1 px-1 mx-auto">
       <button class="btn search-docs-toggle d-md-none mx-auto px-1" type="button" data-toggle="collapse"
         data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation">
-        {{ partial "icons/modus-outline/menu.svg" (dict "class" "" "width" "24" "height" "24") }}
+        {{ partial "icons/modus-outlined/menu.svg" (dict "class" "" "width" "24" "height" "24") }}
       </button>
     </div>
   </div>
@@ -42,8 +42,8 @@
       {{ if .Params.foundations -}}
       {{- range .Site.Menus.foundations -}}
       <li><a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "foundations" .) }} active{{end}}"
-          href="{{ .URL }}">
-          {{- .Name -}}
+          href="{{ .URL }}" {{ if eq .Params.external true }}target="_blank" rel="noopener"{{ end }}>
+          {{- .Name -}} {{ if eq .Params.external true }}{{ partial "icons/modus-outlined/launch.svg" (dict "class" "ml-2 mb-1 opacity-75" "width" "14" "height" "14") }}{{ end }}
         </a>
       </li>
       {{- end -}}

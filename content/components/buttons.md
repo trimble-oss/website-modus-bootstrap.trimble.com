@@ -82,10 +82,10 @@ Give the button a class of `.btn-icon-only` and give the icon a class of
 <!--prettier-ignore -->
 {{< example id="example-btn-icon" >}}
 <button type="button" class="btn btn-icon-only btn-text-dark">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 <button type="button" class="btn btn-icon-only btn-text-secondary">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 {{</ example >}}
 
@@ -106,13 +106,13 @@ Buttons default to "medium" size but there are also large and small options avai
 <button type="button" class="btn btn-sm btn-outline-dark">Button</button>
 <button type="button" class="btn btn-sm btn-text-primary">Button</button>
 <button type="button" class="btn btn-sm btn-primary">
-  <i class="modus-icon material-icons left-icon">settings</i>Button
+  <i class="modus-icons left-icon">settings</i>Button
 </button>
 <button type="button" class="btn btn-sm btn-icon-only btn-text-dark">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 <button type="button" class="btn btn-sm btn-icon-only btn-text-secondary">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 {{</ example >}}
 
@@ -129,13 +129,13 @@ Buttons default to "medium" size but there are also large and small options avai
 <button type="button" class="btn btn-lg btn-outline-dark">Button</button>
 <button type="button" class="btn btn-lg btn-text-primary">Button</button>
 <button type="button" class="btn btn-lg btn-primary">
-  <i class="modus-icon material-icons left-icon">settings</i>Button
+  <i class="modus-icons left-icon">settings</i>Button
 </button>
 <button type="button" class="btn btn-lg btn-icon-only btn-text-dark">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 <button type="button" class="btn btn-lg btn-icon-only btn-text-secondary">
-  <i class="modus-icon material-icons">settings</i>
+  <i class="modus-icons" aria-hidden="true">settings</i>
 </button>
 {{</ example >}}
 
@@ -225,10 +225,10 @@ A danger button should be used for permanent, destructive actions like delete.
 {{< example id="example-btn-danger" >}}
 <button type="button" class="btn btn-danger">Delete</button>
 <button type="button" class="btn btn-danger btn-icon-only ml-1 mr-3">
-  <i class="modus-icons">trash</i>
+  <i class="modus-icons" aria-hidden="true">delete</i>
 </button>
 <button type="button" class="btn btn-text-danger">Delete</button>
 <button type="button" class="btn btn-text-danger btn-icon-only ml-1 mr-3">
-  <i class="modus-icons">trash</i>
+  <i class="modus-icons" aria-hidden="true">delete</i>
 </button>
 {{</ example >}}

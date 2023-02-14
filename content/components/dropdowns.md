@@ -170,7 +170,7 @@ eliminate the caret icon.
 {{< example id="example-dropdown-icon-btn-dropdown" >}}
 <div class="dropdown">
   <button class="btn btn-lg btn-icon-only btn-text-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="modus-icon material-icons">settings</i>
+    <i class="modus-icons" aria-hidden="true">settings</i>
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>

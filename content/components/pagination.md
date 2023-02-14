@@ -115,7 +115,7 @@ Add `.pagination-lg` to your `.pagination` for a larger size.
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons">more_horizontal</i>
+        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -125,7 +125,7 @@ Add `.pagination-lg` to your `.pagination` for a larger size.
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons">more_horizontal</i>
+        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">
@@ -150,12 +150,12 @@ Add `.pagination-sm` to your `.pagination` for a smaller size.
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
-        <i class="modus-icons">chevron_left</i>
+        <i class="modus-icons" aria-hidden="true">chevron_left</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons">more_horizontal</i>
+        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -165,7 +165,7 @@ Add `.pagination-sm` to your `.pagination` for a smaller size.
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons">more_horizontal</i>
+        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">

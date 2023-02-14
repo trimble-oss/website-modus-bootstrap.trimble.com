@@ -31,7 +31,7 @@ For Input Chips, use the class `.chip-input`
   </div>
   <div class="chip-text">Solid</div>
   <div class="chip-delete-right">
-    <i class="material-icons">cancel</i>
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </div>
 </div>
 
@@ -41,7 +41,7 @@ For Input Chips, use the class `.chip-input`
   </div>
   <div class="chip-text">Outline</div>
   <div class="chip-delete-right">
-    <i class="material-icons">cancel</i>
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </div>
 </div>
 {{</ example >}}
@@ -52,7 +52,7 @@ For Filter Chips, use the class `.chip-filter`
 
 {{< example id="example-chips-filter" >}}
 <div class="chip chip-solid chip-filter">
-  <div class="chip-icon-left"><i class="material-icons">done</i></div>
+  <div class="chip-icon-left"><i class="modus-icons notranslate" aria-hidden="true">check</i></div>
   <div class="chip-text">Red fish</div>
 </div>
 
@@ -71,7 +71,7 @@ To use a small chip, just add the class `.chip-sm`
     <img src="/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
-  <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
+  <div class="chip-delete-right"><i class="modus-icons" aria-hidden="true">close</i></div>
 </div>
 
 <div class="chip chip-sm chip-outline chip-input">
@@ -79,11 +79,11 @@ To use a small chip, just add the class `.chip-sm`
     <img src="/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
-  <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
+  <div class="chip-delete-right"><i class="modus-icons" aria-hidden="true">close</i></div>
 </div>
 
 <div class="chip chip-sm chip-solid chip-filter active">
-  <div class="chip-icon-left"><i class="modus-icon material-icons">check</i></div>
+  <div class="chip-icon-left"><i class="modus-icons" aria-hidden="true">check</i></div>
   <div class="chip-text">Taxi</div>
 </div>
 

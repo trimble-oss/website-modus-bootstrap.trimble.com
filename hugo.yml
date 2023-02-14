@@ -11,7 +11,7 @@ params:
   title: Modus Bootstrap Developer Guide
   description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
   modusBootstrapVersion: "1.5.5"
-  modusIconsVersion: "0.5.1"
+  modusIconsVersion: "1.0.1"
   bootstrapVersion: "4.6"
   author: "Trimble"
 
@@ -86,8 +86,10 @@ menu:
     - name: Grid & Spacing
       url: /foundations/grid-and-spacing/
       weight: 4
-    - name: Icons
-      url: /foundations/icons/
+    - name: Modus Icons
+      url: "https://modus-icons.trimble.com/"
+      params:
+        external: true
       weight: 5
     - name: Dark Mode Theme
       url: /foundations/dark-mode-theme/
@@ -191,6 +193,12 @@ module:
       target: static/favicon.ico
     - source: assets/static/robots.txt
       target: static/robots.txt
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.css
+      target: static/css/modus-icons.css
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff
+      target: static/css/modus-icons.woff
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff2
+      target: static/css/modus-icons.woff2
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map

@@ -41,7 +41,7 @@
     {{ $js := slice $scrollToTop | resources.Concat "js/scroll-to-top.js" | resources.Minify }}
     <script src="{{ $js.RelPermalink }}" defer></script>
     <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
-    {{ partial "icons/modus-outline/arrow-up.svg" (dict "class" "mt-n1 opacity-50" "width" "24" "height" "24") }}
+    {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 opacity-50" "width" "24" "height" "24") }}
     </button>
 
   </body>

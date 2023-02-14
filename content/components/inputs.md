@@ -45,7 +45,7 @@ classes, form layout, and more.
     <div class="input-with-icon-right">
       <input class="form-control" placeholder="Placeholder Text" id="Input2">
       <div class="input-icon">
-        <i class="modus-icon material-icons">visibility</i>
+        <i class="modus-icons" aria-hidden="true">visibility</i>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ classes, form layout, and more.
     <div class="input-with-icon-left">
       <input class="form-control" placeholder="Placeholder Text" id="Input3">
       <div class="input-icon">
-        <i class="modus-icon material-icons">search</i>
+        <i class="modus-icons" aria-hidden="true">search</i>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ States can be applied to all input types.
         <div class="input-with-icon-left">
           <input class="form-control focus" value="Focus" id="Input1" />
           <div class="input-icon">
-            <i class="modus-icon material-icons">search</i>
+            <i class="modus-icons" aria-hidden="true">search</i>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ States can be applied to all input types.
         <div class="input-with-icon-right">
           <input class="form-control is-valid" value="Valid" id="Input2" />
           <div class="input-icon">
-            <i class="modus-icon material-icons">visibility</i>
+            <i class="modus-icons" aria-hidden="true">visibility</i>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ States can be applied to all input types.
         <div class="input-with-icon-left">
           <input class="form-control is-invalid" value="Invalid" id="Input3" />
           <div class="input-icon">
-            <i class="modus-icon material-icons">search</i>
+            <i class="modus-icons" aria-hidden="true">search</i>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ States can be applied to all input types.
         <div class="input-with-icon-right">
           <input class="form-control" value="Disabled" id="Input4" disabled />
           <div class="input-icon">
-            <i class="modus-icon material-icons">visibility</i>
+            <i class="modus-icons" aria-hidden="true">visibility</i>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ For large input variants, add `.form-control-lg` to the input and
   <div class="input-with-icon-right">
     <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input2">
     <div class="input-icon">
-      <i class="modus-icon material-icons">visibility</i>
+      <i class="modus-icons" aria-hidden="true">visibility</i>
     </div>
   </div>
 </div>
@@ -194,7 +194,7 @@ For large input variants, add `.form-control-lg` to the input and
   <div class="input-with-icon-left">
     <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input3">
     <div class="input-icon">
-      <i class="modus-icon material-icons">search</i>
+      <i class="modus-icons" aria-hidden="true">search</i>
     </div>
   </div>
 </div>

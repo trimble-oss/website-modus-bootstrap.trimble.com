@@ -103,7 +103,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
     <tr>
       <th scope="row" class="icon-only">
         <button class="btn btn-icon-only btn-text-dark rounded-circle">
-          <i class="modus-icons">folder</i>
+          <i class="modus-icons" aria-hidden="true">folder</i>
         </button>
       </th>
       <td>Mark</td>
@@ -112,7 +112,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -135,7 +135,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -158,7 +158,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -181,7 +181,7 @@ Add a class of `.table-hover` to enable a hover state on table rows within a `<t
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -217,7 +217,7 @@ When using small variants of tables with icons and controls, don't forget to use
     <tr>
       <th class="icon-only">
         <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle">
-          <i class="modus-icons">folder</i>
+          <i class="modus-icons" aria-hidden="true">folder</i>
         </button>
       </th>
       <td>Mark</td>
@@ -226,7 +226,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -249,7 +249,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -272,7 +272,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
@@ -295,7 +295,7 @@ When using small variants of tables with icons and controls, don't forget to use
       <td class="icon-only">
         <div class="dropdown">
           <button class="btn btn-sm btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons" aria-hidden="true">more_vertical</i>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="#">Action</a>
