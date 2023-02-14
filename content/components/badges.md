@@ -5,7 +5,7 @@ description: "Badges are labels which hold small amounts of information."
 components: true
 loadFontAwesome: true
 images:
-  - "/img/headers/components/badges.png"
+  - "/img/components/headers/badges.png"
 styleguideURL: "components/badges/"
 ---
 

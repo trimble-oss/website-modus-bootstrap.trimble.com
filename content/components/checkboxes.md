@@ -4,7 +4,7 @@ layout: "single"
 description: "Checkboxes are used for a list of options where the user may select multiple options, including all or none."
 components: true
 images:
-  - "/img/headers/components/checkboxes.png"
+  - "/img/components/headers/checkboxes.png"
 keywords: forms, form
 styleguideURL: "components/checkboxes/"
 ---

@@ -163,13 +163,13 @@ The following are framework add-ons currently in development. These can be used 
 
 ### Icons
 
-If you want to use the icons, include the following:
+If you want to use Modus Icons, include the following:
 
 ```html
-<link rel="stylesheet" href="https://modus.trimble.com/assets/{{< modus-icons-version >}}/fonts/modus-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@{{< modus-icons-version >}}/dist/modus-solid/fonts/modus-icons.css">
 ```
 
-Learn more about [using the icons](/foundations/icons/).
+Learn more about [Modus Icons](https://modus-icons.trimble.com/).
 
 ### Application Layout
 
