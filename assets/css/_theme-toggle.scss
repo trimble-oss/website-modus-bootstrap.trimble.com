@@ -1,3 +1,7 @@
+.sun-and-moon {
+  max-height: 24px;
+  max-width: 24px;
+}
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center center;
 }
@@ -94,7 +98,7 @@
 
 @media (hover: none) {
   .theme-toggle {
-    --size: 48px;
+    --size: 38px;
   }
 }
 
