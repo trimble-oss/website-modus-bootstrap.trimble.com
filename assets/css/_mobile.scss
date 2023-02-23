@@ -1,8 +1,18 @@
-/* iPhone 6/7/8 */
+/* iPhone 14 Pro Max */
+@media (max-width: 444px) {
+  .search-desktop {
+    max-width: 156px !important;
+  }
+}
+
+/* iPhone 11/12/13/14 */
 @media (max-width: 414px) {
   .navbar-nav .nav-item {
     font-size: 0.7rem !important;
     letter-spacing: -1px;
+  }
+  .search-desktop {
+    max-width: 106px !important;
   }
 }
 
@@ -11,6 +21,9 @@
   .navbar-nav .nav-item {
     font-size: 0.7rem !important;
     letter-spacing: -1px;
+  }
+  .search-desktop {
+    max-width: 96px !important;
   }
 }
 
