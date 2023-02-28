@@ -10,17 +10,9 @@
   fill: var(--icon-fill);
 }
 
-.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
-  fill: var(--icon-fill-hover);
-}
-
 .sun-and-moon > .sun-beams {
   stroke: var(--icon-fill);
   stroke-width: 2px;
-}
-
-.theme-toggle:is(:hover, :focus-visible) .sun-and-moon > .sun-beams {
-  stroke: var(--icon-fill-hover);
 }
 
 [data-theme="dark"] .sun-and-moon > .sun {
@@ -74,7 +66,6 @@
 .theme-toggle {
   --size: 2rem;
   --icon-fill: hsl(210deg 10% 30%);
-  --icon-fill-hover: hsl(210deg 10% 15%);
 
   inline-size: var(--size);
   block-size: var(--size);
@@ -93,7 +84,6 @@
 
 [data-theme="dark"] .theme-toggle {
   --icon-fill: hsl(210deg 10% 70%);
-  --icon-fill-hover: hsl(210deg 15% 90%);
 }
 
 @media (hover: none) {

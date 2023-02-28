@@ -170,7 +170,7 @@ eliminate the caret icon.
 {{< example id="example-dropdown-icon-btn-dropdown" >}}
 <div class="dropdown">
   <button class="btn btn-lg btn-icon-only btn-text-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>
@@ -419,11 +419,11 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use
   <form class="px-4 py-3">
     <div class="form-group">
       <label for="exampleDropdownFormEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+      <input type="email" autocomplete="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
     </div>
     <div class="form-group">
       <label for="exampleDropdownFormPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+      <input type="password" autocomplete="off" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
     </div>
     <div class="form-group">
       <div class="form-check">
