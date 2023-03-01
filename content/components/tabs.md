@@ -45,14 +45,14 @@ plugin</a>.
     <a class="nav-link active" href="#"><i class="modus-icon modus-icons" aria-hidden="true">clipboard_check</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">calendar_check</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons notranslate" aria-hidden="true">calendar_check</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">calendar_check</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons notranslate" aria-hidden="true">calendar_check</i></a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-    <i class="modus-icons" aria-hidden="true">check_circle</i></a>
+    <i class="modus-icons notranslate" aria-hidden="true">check_circle</i></a>
   </li>
 </ul>
 {{</ example >}}
@@ -79,16 +79,16 @@ To use smaller variants of tabs, add the `.nav-tabs-sm` class.
 <br>
 <ul class="nav nav-tabs nav-tabs-sm">
   <li class="nav-item">
-    <a class="nav-link active" href="#"><i class="modus-icons" aria-hidden="true">wind</i></a>
+    <a class="nav-link active" href="#"><i class="modus-icons notranslate" aria-hidden="true">wind</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">certificate</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons notranslate" aria-hidden="true">certificate</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="modus-icons" aria-hidden="true">web</i></a>
+    <a class="nav-link" href="#"><i class="modus-icons notranslate" aria-hidden="true">web</i></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="modus-icons" aria-hidden="true">volume_down</i></a>
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="modus-icons notranslate" aria-hidden="true">volume_down</i></a>
   </li>
 </ul>
 {{</ example >}}

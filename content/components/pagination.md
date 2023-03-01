@@ -32,12 +32,12 @@ Each `<a>` inside each list item should have a class of
   <ul class="pagination m-0">
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
-        <i class="modus-icons" aria-hidden="true">chevron_left</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">
@@ -65,12 +65,12 @@ Each `<a>` inside each list item should have a class of
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Next">
-        <i class="modus-icons" aria-hidden="true">chevron_right</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
       </a>
     </li>
   </ul>
@@ -110,12 +110,12 @@ Add `.pagination-lg` to your `.pagination` for a larger size.
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
-        <i class="modus-icons" aria-hidden="true">chevron_left</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -125,12 +125,12 @@ Add `.pagination-lg` to your `.pagination` for a larger size.
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Next">
-        <i class="modus-icons" aria-hidden="true">chevron_right</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
       </a>
     </li>
   </ul>
@@ -150,12 +150,12 @@ Add `.pagination-sm` to your `.pagination` for a smaller size.
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
-        <i class="modus-icons" aria-hidden="true">chevron_left</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -165,12 +165,12 @@ Add `.pagination-sm` to your `.pagination` for a smaller size.
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">
-        <i class="modus-icons" aria-hidden="true">more_horizontal</i>
+        <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
       </a>
     </li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Next">
-        <i class="modus-icons" aria-hidden="true">chevron_right</i>
+        <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
       </a>
     </li>
   </ul>

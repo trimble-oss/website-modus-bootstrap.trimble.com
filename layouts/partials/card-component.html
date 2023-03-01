@@ -9,7 +9,7 @@
       </h3>
       <p class="px-2 ml-n2">
         <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-muted">
-          {{- with .Description }}{{ . }}
+          {{- with .Description }}{{- . -}}
           {{ else }}{{ with .Summary }}{{ . | plainify | htmlUnescape }}
           {{- end -}}{{- end -}}
         </a>

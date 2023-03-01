@@ -36,9 +36,9 @@ For longer breadcrumb trails, use a `.dropdown` as one of your second list item 
 {{< example id="example-breadcrumbs-icons" >}}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><i class="modus-icons" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
     <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">local_library</i><a href="#">Library</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons" aria-hidden="true">clipboard</i>Data</li>
+    <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
   </ol>
 </nav>
 {{</ example >}}

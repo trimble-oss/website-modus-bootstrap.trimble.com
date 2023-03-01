@@ -44,7 +44,7 @@ The navbar or the app header provides context through globally accessible menu o
   <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons rounded-circle">account_circle</i>
+         <i class="modus-icons rounded-circle" aria-hidden="true">account_circle</i>
   </button>
 </nav>
 {{</ example >}}
@@ -81,7 +81,7 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
     </div>
   </div>
   <button type="button" class="btn btn-lg btn-icon-only d-block d-sm-none">
-    <i class="modus-icons" aria-hidden="true">more_vertical</i>
+    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
   </button>
   <button type="button" class="btn btn-lg btn-icon-only bg-transparent ml-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"

@@ -83,15 +83,15 @@ icons.
   </li>
   <li class="list-group-item disabled">List Item (disabled)</li>
   <li class="list-group-item list-item-left-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Left Icon</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Icon</span>
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
   </li>
   <li class="list-group-item list-item-leftright-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Both Icons</span>
     <i class="icon modus-icons">check</i>
   </li>
@@ -147,15 +147,15 @@ borderless variant.
     <span>Left Radio Button</span>
   </li>
   <li class="list-group-item list-item-left-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Left Icon</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Icon</span>
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
   </li>
   <li class="list-group-item list-item-leftright-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Both Icons</span>
     <i class="icon modus-icons">check</i>
   </li>
@@ -206,15 +206,15 @@ Add a class of `.list-group-condensed` for a smaller variant.
     <span>Left Radio Button</span>
   </li>
   <li class="list-group-item list-item-left-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Left Icon</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Icon</span>
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
   </li>
   <li class="list-group-item list-item-leftright-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Both Icons</span>
     <i class="icon modus-icons">check</i>
   </li>
@@ -265,15 +265,15 @@ Add the `.list-group-lg` modifier class for a larger variant.
     <span>Left Radio Button</span>
   </li>
   <li class="list-group-item list-item-left-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Left Icon</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Icon</span>
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
   </li>
   <li class="list-group-item list-item-leftright-control">
-    <i class="modus-icons" aria-hidden="true">settings</i>
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
     <span>Both Icons</span>
     <i class="icon modus-icons">check</i>
   </li>
