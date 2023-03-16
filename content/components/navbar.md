@@ -18,7 +18,7 @@ The navbar or the app header provides context through globally accessible menu o
   <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" href="#overview" data-toggle="#" type="button">
     <i class="modus-icons notranslate" aria-hidden="true">menu</i>
   </button>
-  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+  <a href="#overview" class="navbar-brand mr-auto ml-2">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
@@ -41,10 +41,10 @@ The navbar or the app header provides context through globally accessible menu o
   <button type="button" aria-label="" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
     <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only rounded-circle border-white ml-2 border-0"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons rounded-circle" aria-hidden="true">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
   </button>
 </nav>
 {{</ example >}}
@@ -60,7 +60,7 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
   <button class="btn btn-lg btn-icon-only" id="menuButton" href="#overview" data-toggle="#" type="button">
     <i class="modus-icons notranslate" aria-hidden="true">menu</i>
   </button>
-  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+  <a href="#blue-variant" class="navbar-brand mr-auto ml-2">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
@@ -83,10 +83,10 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
   <button type="button" class="btn btn-lg btn-icon-only d-block d-sm-none">
     <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only bg-transparent ml-2"
+  <button type="button" class="btn btn-lg btn-icon-only rounded-circle ml-2 border-0 bg-transparent"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons rounded-circle" aria-hidden="true">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
   </button>
 </nav>
 {{</ example >}}
@@ -120,10 +120,10 @@ You can omit the navbar menu button if it isn't needed.
   <button type="button" aria-label="" class="btn btn-lg btn-icon-only d-block d-sm-none">
     <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only border-white ml-2 border-0 bg-transparent"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons rounded-circle" aria-hidden="true">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
   </button>
 </nav>
 

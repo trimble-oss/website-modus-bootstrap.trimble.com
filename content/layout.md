@@ -71,7 +71,9 @@ we have this interactive example.
           <!-- Modus Header -->
           <nav class="navbar nav navbar-expand-lg modus-header" id="modusHeader">
             <!-- Menu Button -->
-            <a id="menuButton"><i class="modus-icons menu-btn notranslate" aria-hidden="true">menu</i></a>
+            <a id="menuButton" data-modus-item="menu-btn" class="btn btn-lg btn-icon-only btn-text-dark">
+              <i class="modus-icons menu-btn notranslate" aria-hidden="true">menu</i>
+            </a>
             <!-- Navbar Brand -->
             <a href="#interactive-example" class="navbar-brand">BRAND</a>
             <div class="navbar-nav mr-auto">
@@ -82,9 +84,9 @@ we have this interactive example.
             <!-- Navbar Nav -->
             <div class="collapse navbar-collapse">
               <div class="navbar-nav ml-auto">
-                <a href="#interactive-example" class="btn btn-lg btn-icon-only btn-text-primary"><i
-                    class="modus-icons notranslate" aria-hidden="true">account_circle</i></a>
-                <a href="#interactive-example" class="btn btn-lg btn-icon-only btn-text-primary"><i
+                <a href="#interactive-example" class="btn btn-lg btn-icon-only btn-text-dark"><i
+                    class="modus-icons notranslate" aria-hidden="true">account_person</i></a>
+                <a href="#interactive-example" class="btn btn-lg btn-icon-only btn-text-dark"><i
                     class="modus-icons notranslate" aria-hidden="true">apps</i></a>
               </div>
             </div>
@@ -121,18 +123,18 @@ we have this interactive example.
                     </select>
                   </div>
                 </form>
-                <button class="btn btn-text-dark btn-lg btn-icon-only">
+                <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Palette">
                   <i class="modus-icons notranslate" aria-hidden="true">palette</i>
                 </button>
-                <button class="btn btn-text-dark btn-lg btn-icon-only">
+                <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Calendar">
                   <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
                 </button>
-                <button class="btn btn-text-dark btn-lg btn-icon-only">
+                <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Settings">
                   <i class="modus-icons notranslate" aria-hidden="true">settings</i>
                 </button>
                 <form class="form-inline ml-5" onsubmit="return false;">
-                  <input type="text" class="form-control" placeholder="Search..." />
-                  <button class="btn btn-text-dark btn-lg btn-icon-only ml-2">
+                  <input type="search" class="form-control" placeholder="Search..." />
+                  <button class="btn btn-text-secondary btn-lg btn-icon-only ml-2" type="button" aria-label="Search">
                     <i class="modus-icons notranslate" aria-hidden="true">search</i>
                   </button>
                 </form>
@@ -278,12 +280,14 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
 <code>data-modus-item="body"</code>.
 
 <div class="guide-example-block d-flex position-relative">
-      <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 300px; z-index: 10;" id="sidebarExample">
+  <div class="guide-sample position-relative p-0 border bg-transparent" style="height: 300px; z-index: 10;" id="sidebarExample">
         <!-- Modus Layout Page Wrapper -->
         <div class="modus-layout">
           <!-- Modus Header -->
           <nav class="navbar navbar-expand-lg modus-header">
-            <a><i class="modus-icons menu-btn notranslate" aria-hidden="true">menu</i></a>
+            <a class="btn btn-lg btn-icon-only btn-text-dark" data-modus-item="menu-btn">
+              <i class="modus-icons menu-btn notranslate" aria-hidden="true">menu</i>
+            </a>
             <a href="#modus-sidebar" class="navbar-brand">BRAND</a>
           </nav>
           <!-- Modus Body Wrapper -->
@@ -292,8 +296,8 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
             <nav class="nav flex-column modus-sidebar">
               <ul>
                 <li>
-                  <a class="nav-link active" href="#modus-sidebar"><span class="left-nav-icon"><i
-                        class="modus-icons notranslate">home</i></span>
+                  <a class="nav-link active" href="#modus-sidebar">
+                  <span class="left-nav-icon"><i class="modus-icons notranslate" aria-hidden="true">home</i></span>
                     Nav Item (Icon Font)
                   </a>
                 </li>
@@ -358,18 +362,18 @@ application.
                 </select>
               </div>
             </form>
-            <button class="btn btn-text-dark btn-lg btn-icon-only">
+            <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Palette">
               <i class="modus-icons notranslate" aria-hidden="true">palette</i>
             </button>
-            <button class="btn btn-text-dark btn-lg btn-icon-only">
+            <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Calendar">
               <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
             </button>
-            <button class="btn btn-text-dark btn-lg btn-icon-only">
+            <button class="btn btn-text-secondary btn-lg btn-icon-only" type="button" aria-label="Settings">
               <i class="modus-icons notranslate" aria-hidden="true">settings</i>
             </button>
             <form class="form-inline ml-5" onsubmit="return false;">
-              <input type="text" class="form-control" placeholder="Search..." />
-              <button class="btn btn-text-dark btn-lg btn-icon-only ml-2">
+              <input type="search" class="form-control" placeholder="Search..." />
+              <button class="btn btn-text-secondary btn-lg btn-icon-only ml-2" type="button" aria-label="Search">
                 <i class="modus-icons notranslate" aria-hidden="true">search</i>
               </button>
             </form>
@@ -426,7 +430,7 @@ additional functionality.
                 </div>
                 <h5>Panel Header</h5>
                 <div class="right-items mr-2">
-                  <button class="btn btn-icon-only btn-text-dark">
+                  <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Orders">
                     <i class="modus-icons notranslate" aria-hidden="true">unloaded_orders</i>
                   </button>
                 </div>
@@ -436,24 +440,24 @@ additional functionality.
                 <!-- Static Container -->
                 <div class="static-container">
                   <div class="d-flex">
-                    <button class="btn btn-icon-only btn-text-dark">
+                    <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Filter">
                       <i class="modus-icons notranslate" aria-hidden="true">filter</i>
                     </button>
-                    <button class="btn btn-icon-only btn-text-dark">
+                    <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Layout">
                       <i class="modus-icons notranslate" aria-hidden="true">layout</i>
                     </button>
-                    <button class="btn btn-icon-only btn-text-dark">
+                    <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Add Route">
                       <i class="modus-icons notranslate" aria-hidden="true">route_add</i>
                     </button>
-                    <button class="btn btn-icon-only btn-text-dark disabled">
+                    <button class="btn btn-icon-only btn-text-dark disabled" type="button" aria-label="Route">
                       <i class="modus-icons notranslate" aria-hidden="true">finalize_route</i>
                     </button>
-                    <button class="btn btn-icon-only btn-text-dark disabled">
+                    <button class="btn btn-icon-only btn-text-dark disabled" type="button" aria-label="Trim Orders">
                       <i class="modus-icons notranslate" aria-hidden="true">trim_fake_orders</i>
                     </button>
                   </div>
                   <div class="d-flex">
-                    <button class="btn btn-icon-only btn-text-dark align-self-end">
+                    <button class="btn btn-icon-only btn-text-dark align-self-end" type="button" aria-label="Sort">
                       <i class="modus-icons notranslate" aria-hidden="true">sort</i>
                     </button>
                   </div>
