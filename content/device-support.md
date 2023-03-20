@@ -14,13 +14,13 @@ Trimble suite of products spans a plethora of sectors and devices. In order to e
 
 Software that is built to be viewed on a web-browser on a desktop, tablet, and/or other mobile device. The content adapts to different screen sizes. Modus provides a responsive grid and design patterns that reflect best usability practices for all breakpoints.
 
-The Modus Framework supports the following browsers:
+Modus Bootstrap supports the following browsers:
 
-- Chrome >= 60
-- Firefox >= 60
-- iOS >= 10
-- Safari >= 10
-- Android >= 6
+- Chrome >= 80
+- Edge >= 80
+- Firefox >= 80
+- iOS >= 12
+- Safari >= 12
 
 Note: As [Microsoft themselves have dropped support](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/) we no longer include that in our default browserlist config, but you can add easily add support by editing the browserlist config for your project.
 

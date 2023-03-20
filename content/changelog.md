@@ -33,6 +33,15 @@ main h2 em {
 }
 </style>
 
+## v1.5.6 _2023-03-20_
+
+- Fix Shadow Color RGB Values (now `rgba(37, 42, 46, 0.3)`)
+- Fix for Breadcrumb Active color (Light mode) (now `#252a2e`)
+- Fix for Accordion Header color hover state (light mode) (now `#e0e1e9`)
+- Fix for chip-solid (Dark Mode) background color (now `#019aeb`)
+- Fix for alert-dark (Dark Mode) border (now `#464B52`)
+- Reduce Switch transition from .15s to .1s
+
 ## v1.5.5 _2023-01-05_
 
 - Fix messages background and font colors in dark mode
