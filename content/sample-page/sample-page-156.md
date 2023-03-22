@@ -14,8 +14,8 @@ sitemap_exclude: true
 version: "1.5.6"
 date: "2023-03-20"
 modusCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.6/dist/"
-modusLayoutCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.5/dist/modus-layout.min.css"
-modusLayoutJS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.5/dist/modus-layout.min.js"
+modusLayoutCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.6/dist/modus-layout.min.css"
+modusLayoutJS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.6/dist/modus-layout.min.js"
 images:
   - "/icon.png"
 ---

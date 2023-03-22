@@ -4,6 +4,10 @@
  * Licensed under MIT
  */
 
+// remove the d-none class from the button
+const btn = document.querySelector('.btn-to-top');
+btn.classList.remove('d-none');
+
 let target = document.querySelector('footer');
 
 let scrollToTopBtn = document.querySelector('.btn-to-top');
