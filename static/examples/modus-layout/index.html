@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Modus Bootstrap - Layout</title>
 
+  <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
   <link rel="stylesheet"
@@ -16,8 +17,8 @@
   <meta name="color-scheme" content="light">
 
   <!-- Modus layout CSS must load before Modus Bootstrap CSS so that colors are overwritten -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.5/dist/modus-layout.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.5/dist/modus.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1/dist/modus-layout.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1/dist/modus.min.css">
 
   <!-- IE11 polyfill for Modus Layout-->
   <script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -28,7 +29,7 @@
     <nav class="navbar navbar-expand-sm flex-nowrap modus-header">
       <a data-modus-item="menu-btn">
         <i class="modus-icons menu-btn notranslate" aria-hidden="true">menu</i></a>
-      <a href="#" class="navbar-brand d-none d-md-block">
+      <a href="/examples/" class="navbar-brand d-none d-md-block">
         <img src="https://modus.trimble.com/img/trimble-logo.svg" width="128" height="30" alt="Trimble">
       </a>
       <div class="navbar-text text-truncate">
@@ -74,7 +75,7 @@
     </div><!-- .modus-footer -->
   </div><!-- .modus-layout -->
 
-  <script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.5.5/dist/modus-layout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1/dist/modus-layout.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"

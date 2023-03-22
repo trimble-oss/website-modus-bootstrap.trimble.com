@@ -10,6 +10,7 @@ on:
     branches:
       - main
       - "!dependabot/**"
+  workflow_dispatch:
 
 jobs:
   build_and_deploy_job:

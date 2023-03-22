@@ -8,12 +8,6 @@ images:
 styleguideURL: "components/tooltips/"
 ---
 
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
-
 ## Overview
 
 Things to know when using the tooltip plugin:
