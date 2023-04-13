@@ -24,27 +24,32 @@ The navbar or the app header provides context through globally accessible menu o
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
-        <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#notifications" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icons notranslate" aria-hidden="true">help</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#help" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icons notranslate" aria-hidden="true">apps</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#apps" /></svg>
       </button>
     </div>
   </div>
-  <button type="button" aria-label="" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
-    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
+  <button type="button" aria-label="Menu" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none p-2">
+    <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only rounded-circle border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only rounded-circle border-white ml-2 border-0 p-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
+         <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#person-account" /></svg>
   </button>
 </nav>
 {{</ example >}}
@@ -57,7 +62,7 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
 <!-- prettier-ignore-start -->
 {{< example id="example-navbar" bg_select="false" class="p-0" >}}
 <nav class="navbar navbar-blue nav navbar-expand-sm modus-header py-1">
-  <button class="btn btn-lg btn-icon-only" id="menuButton" href="#overview" data-toggle="#" type="button">
+  <button class="btn btn-lg btn-icon-only p-2" href="#overview" data-toggle="#" type="button">
     <i class="modus-icons notranslate" aria-hidden="true">menu</i>
   </button>
   <a href="#blue-variant" class="navbar-brand mr-auto ml-2">
@@ -66,27 +71,32 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
-        <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#notifications" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icons notranslate" aria-hidden="true">help</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#help" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icons notranslate" aria-hidden="true">apps</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#apps" /></svg>
       </button>
     </div>
   </div>
-  <button type="button" class="btn btn-lg btn-icon-only d-block d-sm-none">
-    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
+  <button type="button" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
+    <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only rounded-circle ml-2 border-0 bg-transparent"
+  <button type="button" class="btn btn-lg btn-icon-only rounded-circle ml-2 border-0 p-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
+         <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#person-account" /></svg>
   </button>
 </nav>
 {{</ example >}}
@@ -103,27 +113,32 @@ You can omit the navbar menu button if it isn't needed.
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
-        <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#notifications" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icons notranslate" aria-hidden="true">help</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#help" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icons notranslate" aria-hidden="true">apps</i>
+        <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#apps" /></svg>
       </button>
     </div>
   </div>
-  <button type="button" aria-label="" class="btn btn-lg btn-icon-only d-block d-sm-none">
-    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
+  <button type="button" aria-label="" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
+    <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
-  <button type="button" class="btn btn-lg btn-icon-only border-white ml-2 border-0 bg-transparent"
+  <button type="button" class="btn btn-lg btn-icon-only ml-2 border-0 p-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
+         <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#person-account" /></svg>
   </button>
 </nav>
 
