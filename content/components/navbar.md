@@ -88,7 +88,7 @@ An alternative blue variant is available. Add the classes `navbar-blue` to the n
       </button>
     </div>
   </div>
-  <button type="button" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
+  <button type="button" aria-label="Menu" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
     <svg width="32" height="32" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
@@ -130,7 +130,7 @@ You can omit the navbar menu button if it isn't needed.
       </button>
     </div>
   </div>
-  <button type="button" aria-label="" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
+  <button type="button" aria-label="Menu" class="btn btn-lg btn-icon-only d-block d-sm-none p-2">
     <svg width="32" height="32" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
