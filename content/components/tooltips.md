@@ -38,7 +38,7 @@ $(function () {
 
 Tooltips can be used with a variety of different components.
 
-{{< example id="example-tooltip" class="d-flex" >}}
+{{< example id="example-tooltip" class="d-block" >}}
 <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Button Tooltip">
   Button
 </button>
@@ -89,10 +89,10 @@ place your HTML in the `title` attribute.
 </button>
 {{</ example >}}
 
+
+<!-- enable tooltips everywhere -->
 <script>
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip({
-      container: ".guide-body"
-    });
-  });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
 </script>
