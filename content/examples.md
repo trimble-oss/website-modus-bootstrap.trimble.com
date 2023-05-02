@@ -12,3 +12,4 @@ hidden: true
 - [Table with Sticky Header](/examples/table-with-sticky-header/) <small class="text-muted"></small>
 - [Table with Sticky Header and First Column](/examples/table-with-sticky-header-and-column/) <small class="text-muted"></small>
 - [Collapsible Side Panel](/examples/collapsible-side-panel)
+- [Maps Webapp](/examples/maps-webapp)

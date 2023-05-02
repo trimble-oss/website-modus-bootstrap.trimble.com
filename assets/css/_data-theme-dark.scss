@@ -5,14 +5,13 @@ html[data-theme="dark"] {
   }
 
   header.container-fluid {
-    background-color: #585c65;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23353a40' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%23252a2e' d='M0 334V0h886z'/%3E%3Cpath fill='%23585c65' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
-    color: #f1f1f1;
+    background-color: #171c1e;
+    color: #f1f1f6;
   }
 
   header.container-fluid h1,
   header.container-fluid h2 {
-    color: #f1f1f1;
+    color: #f1f1f6;
   }
 
   main h1,
@@ -22,7 +21,7 @@ html[data-theme="dark"] {
   }
 
   main .bg-light {
-    background-color: #222 !important;
+    background-color: #252a2e !important;
   }
 
   svg.text-secondary {
@@ -66,7 +65,7 @@ html[data-theme="dark"] {
   }
 
   article footer {
-    color: #f1f1f1;
+    color: #f1f1f6;
   }
 
   .form-control {
