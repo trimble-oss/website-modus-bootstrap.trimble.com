@@ -15,5 +15,3 @@ Change the way in which the content is selected when the user interacts with it.
 <p class="user-select-auto">This paragraph has default select behavior.</p>
 <p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
 {{< /example >}}
-
-Note: `user-select-all` is not supported on Internet Explorer.

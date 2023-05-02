@@ -46,6 +46,7 @@ module.exports = {
         'col-lg-4',
         'col-md-4',
         'col',
+        'collapsing',
         'container-fluid',
         'container',
         'copy-to-clipboard',

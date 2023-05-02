@@ -22,7 +22,7 @@
     "lint": "npm-run-all lint-css lint-html lint-js",
     "lint-css": "stylelint \"assets/css/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
-    "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\"",
+    "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\" --fix",
     "lint-links": "npx linkinator ./",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
@@ -38,14 +38,14 @@
     "eslint": "8.39.0",
     "eslint-plugin-html": "7.1.0",
     "htmlhint": "1.1.4",
-    "hugo-bin": "^0.101.5",
+    "hugo-bin": "^0.102.0",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.21",
+    "postcss": "8.4.23",
     "postcss-cli": "10.1.0",
-    "prettier": "2.8.4",
+    "prettier": "2.8.8",
     "stylelint": "15.6.0",
-    "stylelint-config-standard-scss": "7.0.1"
+    "stylelint-config-standard-scss": "9.0.0"
   },
   "hugo-bin": {
     "buildTags": "extended"
