@@ -33,6 +33,15 @@ main h2 em {
 }
 </style>
 
+## v1.6.0 _2023-05-15_
+
+- Change Tooltips background color to Gray 4 (`#90939f`)
+- Add smaller progress-bar variant (4px)
+- Increase form-text size to 11px (from 10px) and add new `.form-text-lg` class (font size: 12px)
+- Add focus state for checkboxes, radios and switches
+- Blue navbar color change from `col_trimble_blue_dark` to `col_blue_dark`
+- Blue navbar button hover and active state color changes for improved accessibility
+
 ## v1.5.6 _2023-03-20_
 
 - Fix Shadow Color RGB Values (now `rgba(37, 42, 46, 0.3)`)
