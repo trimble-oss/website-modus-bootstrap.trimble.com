@@ -43,6 +43,15 @@ Put that all together, and you have the following example.
 </div>
 {{</ example >}}
 
+### Compact Variant
+
+{{< example id="example-progress-xs" class="d-flex bg-light flex-column" >}}
+<div class="progress progress-xs" aria-busy="true">
+  <div class="progress-bar" role="progressbar" aria-label="Progress" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Please wait until the operation is finished.">
+  </div>
+</div>
+{{</ example >}}
+
 <!-- {{< example id="example-progress" class="d-flex bg-light flex-column" >}}
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>

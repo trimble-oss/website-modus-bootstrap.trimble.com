@@ -18,9 +18,7 @@ Give the `<input>` a class of `.custom-control-input` and the `<label>` a class 
 ### Radios
 
 <!-- prettier-ignore-start -->
-
 {{< example id="example-radio" class="d-flex" >}}
-
 <div class="form-group">
   <div class="custom-control custom-radio">
     <input type="radio" checked="" class="custom-control-input" id="exampleRadio" name="exampleRadio" value="customEx">
