@@ -11,7 +11,7 @@ params:
   title: Modus Bootstrap Developer Guide
   description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
   modusBootstrapVersion: "1.6.0"
-  modusIconsVersion: "1.0.1"
+  modusIconsVersion: "1.2.0"
   bootstrapVersion: "4.6"
   author: "Trimble"
 
