@@ -40,7 +40,7 @@ To add an image to the top of the card, use `.card-img-top`
 
 {{< example id="example-card-image" >}}
 <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
+  <img class="card-img-top" src="https://placehold.co/286x150?text=Card+image" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title" id="card-title-1">Card Title</h4>
     <h5 class="card-subtitle mb-2 text-muted" id="card-subtitle-1">Card Subtitle</h5>
@@ -80,7 +80,7 @@ of customization
 
 {{< example id="example-card-custom" >}}
 <div class="card border-dark shadow" style="width: 18rem;">
-  <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
+  <img class="card-img-top" src="https://placehold.co/286x150?text=Card+image" alt="Card image cap">
   <div class="card-body">
     <h3 class="card-title" id="card-title-3">Card title</h3>
     <p class="card-text">
