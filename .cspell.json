@@ -273,6 +273,7 @@
     "depersist",
     "Deque",
     "derivedrouteroutepathdatasetdataset",
+    "desaturate",
     "deserialization",
     "devel",
     "devx",
@@ -1222,8 +1223,6 @@
     "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
     "\\[(\\*{2})?@\\w+?\\1\\]",
     "\\[`\\w+`\\]",
-    "ve{2,}r{2,}y",
-    "ve+r+y+long\\w*",
     "\\/.*?\\/",
     "\\_\\w+",
     "\\#\\w+"
