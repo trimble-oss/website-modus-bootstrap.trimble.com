@@ -24,6 +24,8 @@ To specify the style, use one of these classes:
 
 For Input Chips, use the class `.chip-input`
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+
 {{< example id="example-chips" >}}
 <div class="chip chip-solid chip-input">
   <div class="chip-thumbnail">
@@ -31,7 +33,7 @@ For Input Chips, use the class `.chip-input`
   </div>
   <div class="chip-text">Solid</div>
   <div class="chip-delete-right">
-    <i class="modus-icons notranslate" aria-hidden="true">close</i>
+    <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
   </div>
 </div>
 
@@ -41,7 +43,7 @@ For Input Chips, use the class `.chip-input`
   </div>
   <div class="chip-text">Outline</div>
   <div class="chip-delete-right">
-    <i class="modus-icons notranslate" aria-hidden="true">close</i>
+    <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
   </div>
 </div>
 {{</ example >}}
@@ -71,7 +73,7 @@ To use a small chip, just add the class `.chip-sm`
     <img src="/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
-  <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">close</i></div>
+  <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
 </div>
 
 <div class="chip chip-sm chip-outline chip-input">
@@ -79,7 +81,7 @@ To use a small chip, just add the class `.chip-sm`
     <img src="/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
-  <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">close</i></div>
+  <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
 </div>
 
 <div class="chip chip-sm chip-solid chip-filter active">
