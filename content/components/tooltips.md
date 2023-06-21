@@ -34,6 +34,20 @@ $(function () {
 });
 ```
 
+### Hide Tooltips on Escape
+
+```js
+// Hide Bootstrap tooltips when user presses Escape
+document.addEventListener('keyup', function (event) {
+  if (event.which === 27) {
+    const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]');
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+      $(tooltipTriggerEl).tooltip('hide');
+    });
+  }
+});
+```
+
 ### Tooltip Examples
 
 Tooltips can be used with a variety of different components.
@@ -88,11 +102,3 @@ place your HTML in the `title` attribute.
   Tooltip with HTML
 </button>
 {{</ example >}}
-
-
-<!-- enable tooltips everywhere -->
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-</script>
