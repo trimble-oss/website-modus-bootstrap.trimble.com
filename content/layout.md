@@ -98,11 +98,11 @@ we have this interactive example.
               <ul>
                 <li>
                   <a href="#interactive-example" class="nav-link active">
-                  <span class="left-nav-icon"><i class="modus-icons notranslate" aria-hidden="true">3d_buildings</i></span>Nav Item 1</a>
+                  <span class="left-nav-icon"><i class="modus-icons notranslate" aria-hidden="true">package</i></span>Nav Item 1</a>
                 </li>
                 <li>
                   <a href="#interactive-example" class="nav-link">
-                  <span class="left-nav-icon"><i class="modus-icons notranslate" aria-hidden="true">preview</i></span>Nav Item 2</a>
+                  <span class="left-nav-icon"><i class="modus-icons notranslate" aria-hidden="true">map</i></span>Nav Item 2</a>
                 </li>
                 <li>
                   <a href="#interactive-example" class="nav-link">
