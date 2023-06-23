@@ -71,6 +71,22 @@ Icons can be used within buttons by giving the icon a class of `.modus-icon` in
 addition to a class of either `.left-icon` or `.right-icon`, depending on
 the desired position.
 
+<!--prettier-ignore -->
+{{< example id="example-btn-icon-text" >}}
+<button type="button" class="btn btn-primary">
+  <i class="modus-icons notranslate left-icon" aria-hidden="true">add</i>Add
+</button>
+<button type="button" class="btn btn-secondary">
+  <i class="modus-icons notranslate left-icon" aria-hidden="true">remove</i>Remove
+</button>
+<button type="button" class="btn btn-outline-primary">
+  <i class="modus-icons notranslate left-icon" aria-hidden="true">add</i>Add
+</button>
+<button type="button" class="btn btn-outline-dark">
+  <i class="modus-icons notranslate left-icon" aria-hidden="true">remove</i>Remove
+</button>
+{{</ example >}}
+
 ### Icon Only Buttons
 
 When using Icon Only Buttons, **DO NOT** add any additional text inside the button.
