@@ -33,6 +33,13 @@ main h2 em {
 }
 </style>
 
+## v1.6.1 _2023-06-28_
+
+- Fix: [Current Tab](/components/tabs/) Text is now blue (dark mode)
+- Fix: [Alert Links](/components/alerts/#alerts-with-links) are now underlined #345
+- Fix: Removed box-shadow focus state from form-select
+- Fix: [Dropdown Menu](/components/dropdowns/) Items font-size is now 14px
+
 ## v1.6.0 _2023-05-15_
 
 - Change [Tooltips](/components/tooltips/) background color to Gray 4 (`#90939f`)
