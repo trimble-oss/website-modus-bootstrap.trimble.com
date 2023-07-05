@@ -66,7 +66,7 @@ any alert.
 
 {{< example id="example-alerts-links" >}}
 <div class="alert alert-primary" role="alert">
-  <i class="modus-icons notranslate" aria-hidden="true">info</i>
+  <i class="modus-icons notranslate mr-1" aria-hidden="true">info</i>
   <div>
     This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a
     click if you like.
@@ -81,7 +81,7 @@ alerts, use `.btn-sm`.
 
 {{< example id="example-alerts-buttons" class="d-block" >}}
 <div class="alert alert-primary" role="alert">
-  <i class="modus-icons notranslate" aria-hidden="true">info</i>
+  <i class="modus-icons notranslate mr-1" aria-hidden="true">info</i>
   <div>A basic primary alert with a button</div>
   <a href="#" class="btn btn-sm btn-text-primary">Button</a>
 </div>
@@ -96,7 +96,7 @@ To use this, please review [Bootstrap documentation](https://getbootstrap.com/do
 
 {{< example id="example-alerts-dismiss" >}}
 <div class="alert alert-primary fade show" role="alert">
-  <i class="modus-icons notranslate" aria-hidden="true">info</i>
+  <i class="modus-icons notranslate mr-1" aria-hidden="true">info</i>
   <div>A basic primary alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
     <i class="modus-icons notranslate" aria-hidden="true">close</i>
