@@ -34,7 +34,7 @@ Add `class="alert"` along with contextual classes and `role="alert"` to a div to
 </div>
 <div class="alert alert-dark" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">info</i>
-  <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
+  <div>A basic dark alert with <em>text formatting</em></div>
 </div>
 <div class="alert alert-success fade show" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">check_circle</i>
