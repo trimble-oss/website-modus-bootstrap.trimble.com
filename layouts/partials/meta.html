@@ -10,7 +10,7 @@
 <meta name="color-scheme" content="light dark">
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
-<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
+<script src="{{- $themeToggleJS.RelPermalink -}}" fetchpriority="high"></script>
 
 <!-- Load Modus Layout -->
 {{- if .Params.loadModusLayout }}
@@ -18,8 +18,8 @@
 <link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min.css">
 <script src="https://modus.trimble.com/css/modus-layout.min.js"></script>
 {{ else }}
-<link rel="stylesheet" href="{{ .Params.modusLayoutCSS }}">
-<script src="{{ .Params.modusLayoutJS }}"></script>
+<link rel="stylesheet" href="{{- .Params.modusLayoutCSS -}}">
+<script src="{{- .Params.modusLayoutJS -}}"></script>
 {{- end -}}
 {{- end -}}
 

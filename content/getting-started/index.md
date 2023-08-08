@@ -57,8 +57,6 @@ To use the compiled CSS files, add the following reference to angular.json.
 
 When using core Bootstrap components like Modals and Accordions, include [ngx-bootstrap](https://valor-software.com/ngx-bootstrap/) in your application.
 
-More information about component support of ngx-bootstrap can be found on the [Status page](/status/).
-
 ## Customize using Sass
 
 The Sass files will be found in the `/scss` directory.
