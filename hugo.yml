@@ -16,7 +16,7 @@ params:
   author: "Trimble"
 
 publishdir: "./build/"
-disableKinds: ["section", "taxonomy", "taxonomyTerm"]
+disableKinds: ["section", "taxonomy", "term"]
 
 taxonomies:
   tag: ""
