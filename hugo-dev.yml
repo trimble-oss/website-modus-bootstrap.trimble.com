@@ -1,4 +1,4 @@
-disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
+disableKinds: ["section", "taxonomy", "term", "404", "sitemap"]
 googleAnalytics: "disabled"
 
 module:
