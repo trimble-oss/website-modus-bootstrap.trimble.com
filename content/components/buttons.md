@@ -103,6 +103,12 @@ Give the button a class of `.btn-icon-only` and give the icon a class of
 <button type="button" class="btn btn-icon-only btn-text-secondary">
   <i class="modus-icons notranslate" aria-hidden="true">settings</i>
 </button>
+<button type="button" class="btn btn-icon-only btn-outline-primary">
+  <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+</button>
+<button type="button" class="btn btn-icon-only btn-outline-secondary">
+  <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+</button>
 {{</ example >}}
 
 ## Button Sizes
