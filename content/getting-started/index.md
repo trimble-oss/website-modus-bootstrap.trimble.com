@@ -155,13 +155,9 @@ This example shows you how you should structure your main file. The order in whi
 @import "your_custom_sass_directory/your_project_specific_sass_files";
 ```
 
-## Add-ons in Progress
-
-The following are framework add-ons currently in development. These can be used but should be considered as beta and are subject to changed.
-
 ### Icons
 
-If you want to use Modus Icons, include the following:
+If you'd like to use Modus Icons, include the following:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@{{< modus-icons-version >}}/dist/modus-solid/fonts/modus-icons.css">
