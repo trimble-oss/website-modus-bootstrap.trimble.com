@@ -5,6 +5,19 @@
   <id>https://modus-bootstrap.trimble.com/modus-bootstrap.xml</id>
   <link type="text/html" href="https://modus-bootstrap.trimble.com/changelog/" rel="alternate"/>
   <entry>
+    <published>2023-08-25T09:00:00Z</published>
+    <updated>2023-08-25T09:00:00Z</updated>
+    <title>v1.6.2 - 2023-08-25</title>
+    <content type="html">
+      <a href="https://modus-bootstrap.trimble.com/changelog/">Read changelog</a>
+    </content>
+    <link rel="alternate" type="text/html" href="https://modus-bootstrap.trimble.com/changelog/"/>
+    <id>https://modus-bootstrap.trimble.com/changelog/</id>
+    <author>
+      <name>Trimble</name>
+    </author>
+  </entry>
+  <entry>
     <published>2023-06-28T09:00:00Z</published>
     <updated>2023-06-28T09:00:00Z</updated>
     <title>v1.6.1 - 2023-06-28</title>
