@@ -33,6 +33,14 @@ main h2 em {
 }
 </style>
 
+## v1.6.2 - _2023-08-24_
+
+- FIX: Primary Button Hover state background color (is now `#217CBB` in light mode)
+- FIX: Chip font-size is now 12px (was 13px)
+- FIX: Always display `.btn-tertiary` text as `#252a2e` on active state
+- FIX: Disabled state buttons now have `pointer-events: none`
+- FIX: Remove erroneous background-color and restore box-shadow for Active/Focus states for `.btn-icon-only`
+
 ## v1.6.1 _2023-06-28_
 
 - Fix: [Current Tab](/components/tabs/) Text is now blue (dark mode)
