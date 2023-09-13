@@ -97,10 +97,16 @@ Give the button a class of `.btn-icon-only` and give the icon a class of
 
 <!--prettier-ignore -->
 {{< example id="example-btn-icon" >}}
-<button type="button" class="btn btn-icon-only btn-text-dark">
+<button type="button" class="btn btn-icon-only btn-text-dark" aria-label="Settings">
   <i class="modus-icons notranslate" aria-hidden="true">settings</i>
 </button>
-<button type="button" class="btn btn-icon-only btn-text-secondary">
+<button type="button" class="btn btn-icon-only btn-text-secondary" aria-label="Settings">
+  <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+</button>
+<button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="Settings">
+  <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+</button>
+<button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="Settings">
   <i class="modus-icons notranslate" aria-hidden="true">settings</i>
 </button>
 {{</ example >}}
