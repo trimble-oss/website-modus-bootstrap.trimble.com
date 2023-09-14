@@ -9,7 +9,6 @@
   "extends": ["eslint:recommended"],
   "plugins": ["html"],
   "rules": {
-    // override configuration set by extending "eslint:recommended"
     "no-undef": "off",
     "no-unused-vars": "off",
     "no-useless-escape": "off"
