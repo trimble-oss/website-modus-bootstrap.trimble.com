@@ -29,8 +29,7 @@ Add `class="alert"` along with contextual classes and `role="alert"` to a div to
 </div>
 <div class="alert alert-secondary" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">help</i>
-  <div>A basic secondary alert with a button</div>
-  <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
+  <div>A basic secondary alert</div>
 </div>
 <div class="alert alert-dark" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">info</i>
@@ -74,6 +73,8 @@ any alert.
 </div>
 {{</ example >}}
 
+<!--
+
 ### Alerts with Buttons
 
 You can add a button to an alert using any button style. For best results with single line
@@ -87,6 +88,8 @@ alerts, use `.btn-sm`.
 </div>
 {{</ example >}}
 
+-->
+
 ### Dismissible Alerts
 
 Add `class="fade show"` to the alert and add a button with attributes
@@ -98,7 +101,7 @@ To use this, please review [Bootstrap documentation](https://getbootstrap.com/do
 <div class="alert alert-primary fade show" role="alert">
   <i class="modus-icons notranslate mr-1" aria-hidden="true">info</i>
   <div>A basic primary alert with a dismiss icon</div>
-  <button type="button" class="close" data-dismiss="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </button>
 </div>

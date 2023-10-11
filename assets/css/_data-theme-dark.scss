@@ -72,6 +72,10 @@ html[data-theme="dark"] {
     font-size: inherit;
   }
 
+  .alert .alert-link {
+    color: #f1f1f6 !important;
+  }
+
   article table h3,
   article h2:first-of-type {
     margin-top: 1px !important;
