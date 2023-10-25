@@ -32,10 +32,10 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "@trimble-oss/modus-icons": "1.5.1",
+    "@trimble-oss/modus-icons": "1.7.0",
     "@trimbleinc/modus-bootstrap": "1.6.2",
     "autoprefixer": "10.4.16",
-    "eslint": "8.51.0",
+    "eslint": "8.52.0",
     "eslint-plugin-html": "7.1.0",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.115.0",
@@ -44,7 +44,7 @@
     "postcss": "8.4.31",
     "postcss-cli": "10.1.0",
     "prettier": "3.0.3",
-    "stylelint": "15.10.3",
+    "stylelint": "15.11.0",
     "stylelint-config-standard-scss": "11.0.0"
   },
   "hugo-bin": {
