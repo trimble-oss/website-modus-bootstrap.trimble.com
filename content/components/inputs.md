@@ -38,12 +38,12 @@ classes, form layout, and more.
 <form>
   <div class="form-group">
     <label for="Input1">Regular Input</label>
-    <input class="form-control" id="Input1" placeholder="Placeholder Text">
+    <input class="form-control" id="Input1">
   </div>
   <div class="form-group">
     <label for="Input2">Input with icon on right</label>
     <div class="input-with-icon-right">
-      <input class="form-control" placeholder="Placeholder Text" id="Input2">
+      <input class="form-control" id="Input2">
       <div class="input-icon">
         <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
       </div>
@@ -53,7 +53,7 @@ classes, form layout, and more.
   <div class="form-group">
     <label for="Input3">Input with icon on left</label>
     <div class="input-with-icon-left">
-      <input class="form-control" placeholder="Placeholder Text" id="Input3">
+      <input class="form-control" id="Input3">
       <div class="input-icon">
         <i class="modus-icons notranslate" aria-hidden="true">search</i>
       </div>
@@ -62,7 +62,7 @@ classes, form layout, and more.
   <div class="form-group">
     <label for="Input4">Input with a button</label>
     <div class="input-group">
-      <input class="form-control" placeholder="Placeholder Text" id="Input4">
+      <input class="form-control" id="Input4">
       <div class="input-group-append">
         <button class="btn btn-outline-secondary">
           Go
@@ -177,12 +177,12 @@ For large input variants, add `.form-control-lg` to the input and
 {{< example id="example-form-large" >}}
 <div class="form-group">
   <label class="label-lg" for="Input1">Regular Input</label>
-  <input class="form-control form-control-lg" id="Input1" placeholder="Placeholder Text">
+  <input class="form-control form-control-lg" id="Input1">
 </div>
 <div class="form-group">
   <label class="label-lg" for="Input2">Input with icon on right</label>
   <div class="input-with-icon-right">
-    <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input2">
+    <input class="form-control form-control-lg" id="Input2">
     <div class="input-icon">
       <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
     </div>
@@ -192,7 +192,7 @@ For large input variants, add `.form-control-lg` to the input and
 <div class="form-group">
   <label class="label-lg" for="Input3">Input with icon on left</label>
   <div class="input-with-icon-left">
-    <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input3">
+    <input class="form-control form-control-lg" id="Input3">
     <div class="input-icon">
       <i class="modus-icons notranslate" aria-hidden="true">search</i>
     </div>
@@ -201,7 +201,7 @@ For large input variants, add `.form-control-lg` to the input and
 <div class="form-group">
   <label class="label-lg" for="Input4">Input with a button</label>
   <div class="input-group">
-    <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input4">
+    <input class="form-control form-control-lg" id="Input4">
     <div class="input-group-append">
       <button class="btn btn-outline-secondary">
         Go
@@ -480,7 +480,7 @@ The example below uses a flexbox utility to vertically center the contents and c
   <div class="form-row align-items-center">
     <div class="col-auto">
       <label class="sr-only" for="inlineFormInput">Name</label>
-      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+      <input type="text" class="form-control mb-2" id="inlineFormInput">
     </div>
     <div class="col-auto">
       <label class="sr-only" for="inlineFormInputGroup">Username</label>
@@ -488,7 +488,7 @@ The example below uses a flexbox utility to vertically center the contents and c
         <div class="input-group-prepend">
           <div class="input-group-text">@</div>
         </div>
-        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+        <input type="text" class="form-control" id="inlineFormInputGroup">
       </div>
     </div>
     <div class="col-auto">
@@ -513,7 +513,7 @@ You can then remix that once again with size-specific column classes.
   <div class="form-row align-items-center">
     <div class="col-sm-3 my-1">
       <label class="sr-only" for="inlineFormInputName">Name</label>
-      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+      <input type="text" class="form-control" id="inlineFormInputName">
     </div>
     <div class="col-sm-3 my-1">
       <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
@@ -521,7 +521,7 @@ You can then remix that once again with size-specific column classes.
         <div class="input-group-prepend">
           <div class="input-group-text">@</div>
         </div>
-        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername">
       </div>
     </div>
     <div class="col-auto my-1">
