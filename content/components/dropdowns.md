@@ -419,11 +419,11 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use
   <form class="px-4 py-3">
     <div class="form-group">
       <label for="exampleDropdownFormEmail1">Email address</label>
-      <input type="email" autocomplete="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+      <input type="email" autocomplete="email" class="form-control" id="exampleDropdownFormEmail1">
     </div>
     <div class="form-group">
       <label for="exampleDropdownFormPassword1">Password</label>
-      <input type="password" autocomplete="off" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+      <input type="password" autocomplete="off" class="form-control" id="exampleDropdownFormPassword1">
     </div>
     <div class="form-group">
       <div class="form-check">
