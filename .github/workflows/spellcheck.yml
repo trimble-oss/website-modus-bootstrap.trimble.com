@@ -20,7 +20,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: streetsidesoftware/cspell-action@v4
+      - uses: streetsidesoftware/cspell-action@v5
         with:
           inline: warning
           strict: false
