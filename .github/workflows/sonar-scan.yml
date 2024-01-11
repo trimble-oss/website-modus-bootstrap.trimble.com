@@ -9,6 +9,7 @@ jobs:
   scan:
     name: Sonar Scan Runner
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'trimble-oss'
     permissions:
       contents: read
 
