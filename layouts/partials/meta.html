@@ -1,16 +1,19 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{- .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title -}}{{- end -}}</title>
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 
 <meta name="color-scheme" content="light dark">
+
+{{- if not .Params.SamplePage -}}
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
 <script src="{{- $themeToggleJS.RelPermalink -}}" fetchpriority="high"></script>
+{{ end }}
 
 <!-- Load Modus Layout -->
 {{- if .Params.loadModusLayout }}
@@ -89,7 +92,7 @@
 {{- end -}}
 
 {{- if or .Params.loadFontAwesome .Params.Samplepage }}
-<script src="https://kit.fontawesome.com/bbe67f2190.js" async fetchpriority="low"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" async fetchpriority="low"></script>
 {{- end -}}
 
 {{- if not .Params.hideSearch -}}
