@@ -145,14 +145,7 @@ You can use the `.accordion` classes in combination with other UI Elements to cr
         </div>
         <div id="listAccordionOne" class="collapse" aria-labelledby="listAccordionHeading" data-parent="#listAccordion">
           <div class="card-body">
-            Anim cliche, high life accusamus terry
-            richardson ad squid. 3 wolf moon official, non cupidatat skateboard dolor
-            brunch. Food truck quinoa. Brunch 3 wolf moon temper, sun
-            aliqua put a bird on it squid single-origin coffee null assume shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred sap
-            ea president. Ad vegan excepteur butcher vice. Leggings craft beer
-            farm-to-table, raw denim aesthetic synth you probably haven't heard of them
-            accusamus labore sustainable VHS.
+            We can dance, until we die, you and I, will be young forever. We can dance, until we die, you and I, will be young forever. I smell like a minibar, DJ's passed out in the yard. All this money can't buy me a time machine. Once you party with us you'll be falling in love, Ooh Oh Ooh! Passport stamps, she's cosmopolitan.
           </div>
         </div>
       </div>
@@ -177,14 +170,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
         </div>
         <div id="One" class="collapse show" aria-labelledby="headingOneEx">
           <div class="card-body">
-            Anim cliche, high life accusamus terry
-            richardson ad squid. 3 wolf moon official, non cupidatat skateboard dolor
-            brunch. Food truck quinoa. Brunch 3 wolf moon temper, sun
-            aliqua put a bird on it squid single-origin coffee null assume shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred sap
-            ea president. Ad vegan excepteur butcher vice. Leggings craft beer
-            farm-to-table, raw denim aesthetic synth you probably haven't heard of them
-            accusamus labore sustainable VHS.
+            Stinging like a bee I earned my stripes. California girls we're undeniable. So I sat quietly, agreed politely. Of anything and everything. You’re gonna hear me roar. Get ready 'cause I’ve had enough. Now I’m floating like a butterfly. I could have rewrite your addiction. Need some goose, to get loose, come on take a shot. This is transcendental, on another level, boy, you're my lucky star.
           </div>
         </div>
       </div>
@@ -195,14 +181,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
         </div>
         <div id="Two" class="collapse" aria-labelledby="headingTwoEx">
           <div class="card-body">
-            Anim cliche, high life accusamus terry
-            richardson ad squid. 3 wolf moon official, non cupidatat skateboard dolor
-            brunch. Food truck quinoa. Brunch 3 wolf moon temper, sun
-            aliqua put a bird on it squid single-origin coffee null assume shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred sap
-            ea president. Ad vegan excepteur butcher vice. Leggings craft beer
-            farm-to-table, raw denim aesthetic synth you probably haven't heard of them
-            accusamus labore sustainable VHS.
+            Like thunder gonna shake the ground. You think I'm funny when I tell the punchline wrong. California girls we're undeniable. And now it's time to let it through Unconditional, unconditionally. Even brighter than the moon, moon, moon. If you get the chance you better keep her.
           </div>
         </div>
       </div>
@@ -213,14 +192,7 @@ To have your collapsible elements operate mutually exclusively, simply remove th
         </div>
         <div id="Three" class="collapse" aria-labelledby="headingThreeEx">
           <div class="card-body">
-            Anim cliche, high life accusamus terry
-            richardson ad squid. 3 wolf moon official, non cupidatat skateboard dolor
-            brunch. Food truck quinoa. Brunch 3 wolf moon temper, sun
-            aliqua put a bird on it squid single-origin coffee null assume shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred sap
-            ea president. Ad vegan excepteur butcher vice. Leggings craft beer
-            farm-to-table, raw denim aesthetic synth you probably haven't heard of them
-            accusamus labore sustainable VHS.
+            After a hurricane comes a rainbow. I feel like I'm already there. Mark my words. Kiss her, touch her, squeeze her buns. You could travel the world but nothing comes close to the golden coast. Yeah, you take me to utopia. So make a wish, I'll make it like your birthday everyday. Tone, tan fit and ready, turn it up cause its getting heavy. Baby, you're a firework. We can dance, until we die, you and I, will be young forever.
           </div>
         </div>
       </div>

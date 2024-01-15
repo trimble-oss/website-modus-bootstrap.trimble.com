@@ -76,6 +76,7 @@
         <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
         <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
       </div>
+    </div>
   </nav>
 
   <div class="modus-body sidebar-closed position-static" data-modus-item="body">
@@ -628,9 +629,8 @@
                       href="#" class="btn btn-sm btn-reverse-secondary">Button</a>
                   </div>
                   <div class="alert alert-tertiary" role="alert">
-                    <i class="modus-icons alert-icon" aria-hidden="true">help</i> A tertiary alert with <a href="#"> an
-                      example
-                      link.</a>
+                    <i class="modus-icons alert-icon" aria-hidden="true">help</i> A tertiary alert with <a href="#" class="alert-link ml-1"> an
+                      example link.</a>
                   </div>
                   <div class="alert alert-success" role="alert">
                     <i class="modus-icons alert-icon" aria-hidden="true">check_circle</i>
@@ -1991,49 +1991,49 @@
                 <h3>Input - States</h3>
                 <div class="d-flex flex-column spaced-bottom">
                   <strong>On Focus</strong>
-                  <label for="Input1" class="sr-only">Label</label>
+                  <label for="InputState1" class="sr-only">Label</label>
                   <div class="input-with-icon-left">
-                    <input class="form-control focus" value="Focus" id="Input1">
+                    <input class="form-control focus" value="Focus" id="InputState1">
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">search</i>
                     </div>
                   </div>
                   <strong>Is Valid</strong>
-                  <label for="Input2" class="sr-only">Label</label>
+                  <label for="InputState2" class="sr-only">Label</label>
                   <div class="input-with-icon-right">
-                    <input class="form-control is-valid" value="Valid" id="Input2">
+                    <input class="form-control is-valid" value="Valid" id="InputState2">
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
                     </div>
                   </div>
                   <strong>Is Invalid</strong>
-                  <label for="Input3" class="sr-only">Label</label>
+                  <label for="InputState3" class="sr-only">Label</label>
                   <div class="input-with-icon-left">
-                    <input class="form-control is-invalid" value="Invalid" id="Input3">
+                    <input class="form-control is-invalid" value="Invalid" id="InputState3">
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">search</i>
                     </div>
                   </div>
                   <strong>Disabled</strong>
-                  <label for="Input4" class="sr-only">Label</label>
+                  <label for="InputState4" class="sr-only">Label</label>
                   <div class="input-with-icon-right">
-                    <input class="form-control" value="Disabled" id="Input4" disabled>
+                    <input class="form-control" value="Disabled" id="InputState4" disabled>
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
                     </div>
                   </div>
                   <strong>Readonly</strong>
-                  <label for="Input5" class="sr-only">Label</label>
+                  <label for="InputState5" class="sr-only">Label</label>
                   <div class="input-with-icon-right">
-                    <input class="form-control" value="Readonly" id="Input5" readonly>
+                    <input class="form-control" value="Readonly" id="InputState5" readonly>
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
                     </div>
                   </div>
                   <strong>Disabled Readonly</strong>
-                  <label for="Input6" class="sr-only">Label</label>
+                  <label for="InputState6" class="sr-only">Label</label>
                   <div class="input-with-icon-right">
-                    <input class="form-control" value="Disabled Readonly" id="Input6" disabled readonly>
+                    <input class="form-control" value="Disabled Readonly" id="InputState6" disabled readonly>
                     <div class="input-icon">
                       <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
                     </div>
@@ -2046,31 +2046,31 @@
                 <h3>Inputs - Large</h3>
                 <div class="d-flex flex-column spaced-bottom">
                   <div class="form-group">
-                    <label class="label-lg" for="Input1">Input</label>
-                    <input class="form-control form-control-lg" id="Input1" placeholder="Placeholder Text">
+                    <label class="label-lg" for="InputLarge1">Input</label>
+                    <input class="form-control form-control-lg" id="InputLarge1" placeholder="Placeholder Text">
                   </div>
                   <div class="form-group">
-                    <label class="label-lg" for="Input2">Input with icon on right</label>
+                    <label class="label-lg" for="InputLarge2">Input with icon on right</label>
                     <div class="input-with-icon-right">
-                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input2">
+                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="InputLarge2">
                       <div class="input-icon">
                         <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="label-lg" for="Input3">Input with icon on left</label>
+                    <label class="label-lg" for="InputLarge3">Input with icon on left</label>
                     <div class="input-with-icon-left">
-                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input3">
+                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="InputLarge3">
                       <div class="input-icon">
                         <i class="modus-icons notranslate" aria-hidden="true">search</i>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="label-lg" for="Input4">Input with a button</label>
+                    <label class="label-lg" for="InputLarge4">Input with a button</label>
                     <div class="input-group">
-                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input4">
+                      <input class="form-control form-control-lg" placeholder="Placeholder Text" id="InputLarge4">
                       <div class="input-group-append">
                         <button type="button" class="btn btn-reverse-secondary">
                           Go
@@ -2553,51 +2553,39 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam distinctio
-                          laudantium, rerum nobis quo sunt debitis facilis. Deleniti, necessitatibus culpa? Ducimus quis
-                          dicta, totam quia velit expedita possimus impedit.</p>
-                        <p>Dolorem, explicabo ullam reiciendis non vitae eius vero quaerat quibusdam soluta eum quasi
-                          sapiente omnis nesciunt consequuntur mollitia magnam quia maxime ad, eaque, animi pariatur
-                          minus eos. Voluptatem, doloribus ex.</p>
-                        <p>Cumque incidunt pariatur reiciendis. Nemo fugit molestiae numquam error, tempore cupiditate
-                          eos, explicabo cumque dolorum ad ullam veritatis facilis minima ipsam nulla quaerat dicta
-                          similique distinctio. Eligendi nulla dignissimos ad?</p>
-                        <p>Magnam quia id iusto est exercitationem rem ab officiis placeat reiciendis a eum blanditiis
-                          porro numquam totam alias, expedita dolor maxime tenetur ipsam! Ad, sequi repellat officia
-                          voluptas architecto commodi!</p>
-                        <p>Libero voluptatum nihil ipsa et aspernatur quam illum incidunt enim eum? Suscipit,
-                          exercitationem aut animi debitis dolorum vitae. Tenetur quibusdam molestias blanditiis ab
-                          mollitia cumque fugit accusantium atque, delectus assumenda.</p>
-                        <p>Dolore eos unde atque asperiores voluptatum. Obcaecati odio consequuntur modi, sunt aut
-                          facere! Quasi blanditiis harum tenetur alias eveniet aliquam. Sunt tenetur, nisi sed assumenda
-                          voluptates in excepturi vitae sit?</p>
-                        <p>Ipsam eos, numquam repellat, ab adipisci magnam iure cupiditate maiores illum architecto
-                          reprehenderit, repellendus non laborum vitae sapiente aperiam provident nesciunt! Dolore fugit
-                          incidunt, placeat blanditiis cumque dolores maxime velit!</p>
-                        <p>Labore iusto corrupti asperiores quaerat eligendi ullam distinctio, inventore quibusdam,
-                          numquam minima impedit quas magnam exercitationem dolore eveniet qui illum soluta delectus in
-                          et? Nobis repellat vitae excepturi rerum totam!</p>
-                        <p>Perferendis ut ea cupiditate tempora quam, totam accusamus commodi, omnis aspernatur adipisci
-                          nulla molestiae libero. Aliquam vitae dicta natus, voluptas amet sequi totam eius corporis
-                          aspernatur quas ratione minus odio.</p>
-                        <p>Aspernatur incidunt doloribus quo numquam delectus quaerat, rem itaque dolorum? Eligendi,
-                          similique? Totam dolores temporibus, tempore illum amet in delectus unde quaerat, quibusdam
-                          quasi maiores eos at aperiam ea dolorum!</p>
-                        <p>Corrupti quo, aliquam iste veniam ad aperiam ut voluptate velit vel eum. Facere nostrum
-                          recusandae omnis vel neque magnam. Quasi minus repudiandae, placeat maxime labore ullam modi.
-                          Nemo, a provident?</p>
-                        <p>Ea quae suscipit alias dignissimos rem quisquam praesentium laboriosam impedit deserunt illo
-                          fugit ipsum id provident eos enim doloremque, tempore est natus expedita voluptates labore!
-                          Optio atque sint assumenda harum.</p>
-                        <p>Voluptatibus voluptas sequi rerum ut ea numquam iste sapiente aliquam qui reiciendis eum
-                          vitae nostrum officiis quibusdam repellendus provident facere unde saepe deserunt harum,
-                          expedita minus mollitia ipsam! Qui, ipsum!</p>
-                        <p>Culpa laudantium expedita aliquam corporis voluptatibus quas quasi atque harum architecto
-                          exercitationem! Odio, voluptatum, eos optio repellat voluptatem magnam adipisci corrupti vel
-                          ut fuga error voluptas excepturi veritatis doloribus dolorem!</p>
-                        <p>Amet aliquam, facere veritatis possimus dolore quo, suscipit quam repellendus assumenda
-                          eligendi labore quos blanditiis natus molestias corporis velit at ratione nobis ducimus maxime
-                          officiis eos in? Dolores, placeat soluta!</p>
+                        <p>You're so supersonic, wanna feel your powers, stun me with your lasers. Open up your heart.
+                          You think I'm funny when I tell the punchline wrong. Are you brave enough to let me see your peacock?
+                          Can't be your savior, I don't have the power. Suiting up for my crowning battle.
+                          Should've been my team mate, could've changed your fate.</p>
+                        <p>You say you have to write your rhymes, whatever helps you sleep at night. You give a hundred reasons why,
+                          and you say you're really gonna try. So you wanna play with magic. I can't ignore this war. If you only
+                          knew what the future holds. I can see the heavens but I still hear the flames. Catch her if you can.
+                          And here you are. Summer after high school when we first met. Never one without the other, we made a pact.</p>
+                        <p>You're so hypnotizing, could you be the devil? Could you be an angel? I need your strength to handle the pressure.
+                          Oh oh! This is how we do, yeah, chilling, laid back. All your insecurities. I could have rewrite your addiction.
+                          Heard it's beautiful, be the judge and my girls gonna take a vote. Heavy is the head that wears the crown.
+                          Kiss her, touch her, squeeze her buns. Need some goose, to get loose, come on take a shot.
+                          You fall asleep during foreplay, 'Cause the pills you take, are more your forte.</p>
+                        <p>I know you like it sweet. I will love you unconditionally. All my girls vintage Chanel baby.
+                          Suiting up for my crowning battle. 'Cause I will love you unconditionally (oh yeah).
+                          Sun-kissed skin so hot we'll melt your popsicle. But in another life I would be your girl.
+                          Stinging like a bee I earned my stripes.</p>
+                        <p>Respect. This love will make you levitate. Yes, we make angels cry, raining down on earth from up above.
+                          You think I'm pretty without any makeup on. So you wanna play with magic.
+                          My heart stops when you look at me just one touch now baby I believe. If you only knew what the future holds.
+                          So très chic, yeah, she's a classic. She's got that international smile, oh yeah, she's got that one international smile.
+                          Yeah, we maxed our credit cards and got kicked out of the bar. I feel like I'm already there. That girl’s a trip, a one way ticket.</p>
+                        <p>Playing ping pong all night long, everything's all neon and hazy. You're original, cannot be replaced.
+                          'Cause, baby, you're a firework. Fine, fresh, fierce, we got it on lock.
+                          Skip the talk, heard it all, time to walk the walk. Scared to rock the boat and make a mess. After a hurricane comes a rainbow.
+                          Yo, this goes out to all you kids that still have their cars at the club valet and it's Tuesday.!</p>
+                        <p>Oh oh oh oh oh oh, Oh oh oh oh oh oh. This is how we do, do do do do, this is how we do. There’s no going back.
+                            She'll turn cold as a freezer. Kiss her, touch her, squeeze her buns. Heaven is jealous of our love, angels are crying from up above.</p>
+                        <p>Boy, you should know what you're falling for. Day drinking at the Wildcats, sucking real bad at Carey-oke.
+                          I mean the ones, I mean like she's the one. Passport stamps, she's cosmopolitan. 'Cause I will love you unconditionally (oh yeah).
+                          Katy my lady, look here baby, I'm all up on ya, cuz you're representing California.
+                               You brought me to life, now every February you'll be my Valentine, Valentine. Oh oh oh oh oh oh, Oh oh oh oh oh oh.
+                               Can't replace you with a million rings. So open up your heart and just let it begin. I am so unprepared.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -2624,51 +2612,39 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde similique tempora deserunt
-                          explicabo harum, numquam impedit blanditiis quaerat quos pariatur veritatis nam placeat
-                          libero. Quae asperiores unde velit odio ad!</p>
-                        <p>Eius, tempora ut optio molestiae modi amet placeat et. Ullam amet cupiditate aspernatur,
-                          corporis cumque alias mollitia quis omnis, facilis at reprehenderit? Eius cum ratione quisquam
-                          optio earum dolor enim.</p>
-                        <p>Reiciendis eaque, non eum quae delectus minima veniam optio obcaecati quibusdam voluptate
-                          nulla debitis tenetur omnis minus pariatur ipsam fugit soluta repellat, quaerat vitae sint.
-                          Quas corrupti est nobis voluptatum!</p>
-                        <p>Cupiditate exercitationem ut consequatur, illo nemo iusto ipsum earum nulla veritatis
-                          doloremque laboriosam cum, odit adipisci velit. Sed, vitae impedit corrupti atque fugiat
-                          facilis ab expedita, quaerat suscipit voluptates perspiciatis.</p>
-                        <p>Quaerat doloremque expedita veritatis omnis deserunt atque maiores tenetur eaque nemo sed.
-                          Accusamus at explicabo quasi debitis ullam quos sed quis sapiente, quae reiciendis quaerat.
-                          Fugit voluptates sunt neque ratione!</p>
-                        <p>Quo, sit ipsum. Vero, voluptatibus laudantium vitae sunt sapiente temporibus, maxime
-                          voluptatem soluta tempore fugit, facilis eveniet? Neque at similique porro in, ducimus
-                          repudiandae expedita deleniti? Consequatur nulla assumenda provident?</p>
-                        <p>Fugiat nobis est eum quas voluptatum asperiores voluptas hic sapiente dolore deserunt facere
-                          saepe soluta sed ad sit unde quibusdam ipsa rerum voluptate nemo commodi quaerat vel, cumque
-                          ipsam! Ad.</p>
-                        <p>Enim, corporis deserunt, ut magni provident ex nemo deleniti suscipit nostrum ad blanditiis
-                          quasi nam aperiam fugit cum ipsa numquam consequuntur dolorem fugiat nulla! Doloribus,
-                          perspiciatis tempore. Rem, dolorum quaerat!</p>
-                        <p>Laudantium exercitationem, porro inventore a ipsam earum obcaecati nesciunt repudiandae,
-                          officiis commodi id. Praesentium aspernatur totam unde incidunt similique! Sapiente dolore
-                          excepturi aspernatur quia corporis, delectus eos nulla ullam dolorem.</p>
-                        <p>Voluptatem, beatae ab aliquam commodi corporis quod incidunt sunt totam provident eaque quos
-                          officia? Sint recusandae delectus non, dolorem quis nulla consectetur est ullam labore
-                          impedit. Reprehenderit, neque! Minima, quo?</p>
-                        <p>Voluptates in rem, dolorum fugiat ad porro libero dolor labore consectetur deleniti
-                          distinctio vel magnam assumenda impedit eum amet reiciendis exercitationem! Voluptas, id.
-                          Voluptates repellat tempora officia cupiditate ex sint.</p>
-                        <p>Odit quae commodi eos ratione consequatur voluptatum expedita porro. Dolore voluptatem fugit
-                          maiores, error soluta libero nam. Eligendi eaque itaque possimus, vero provident aperiam quod
-                          quae aut voluptas, dolor incidunt.</p>
-                        <p>Reiciendis commodi tempora molestiae voluptatem enim praesentium minus. Repellat optio at
-                          animi suscipit, soluta magni harum ad, eaque excepturi voluptas accusantium reprehenderit
-                          dolorem nesciunt rerum blanditiis illo culpa omnis consequatur!</p>
-                        <p>Totam vel hic libero, laudantium nisi temporibus itaque facilis, praesentium, ipsum nulla
-                          nemo reiciendis voluptate ratione eveniet neque architecto numquam repellendus iure? Velit
-                          quaerat natus dolorum vel tempore at modi?</p>
-                        <p>Qui expedita nihil alias id voluptatem natus esse cum aliquam modi temporibus amet rerum sunt
-                          at ducimus quia adipisci necessitatibus, omnis deserunt debitis dignissimos. A dolore deleniti
-                          quidem vero. Quis.</p>
+                        <p>You're so supersonic, wanna feel your powers, stun me with your lasers. Open up your heart.
+                          You think I'm funny when I tell the punchline wrong. Are you brave enough to let me see your peacock?
+                          Can't be your savior, I don't have the power. Suiting up for my crowning battle.
+                          Should've been my team mate, could've changed your fate.</p>
+                        <p>You say you have to write your rhymes, whatever helps you sleep at night. You give a hundred reasons why,
+                          and you say you're really gonna try. So you wanna play with magic. I can't ignore this war. If you only
+                          knew what the future holds. I can see the heavens but I still hear the flames. Catch her if you can.
+                          And here you are. Summer after high school when we first met. Never one without the other, we made a pact.</p>
+                        <p>You're so hypnotizing, could you be the devil? Could you be an angel? I need your strength to handle the pressure.
+                          Oh oh! This is how we do, yeah, chilling, laid back. All your insecurities. I could have rewrite your addiction.
+                          Heard it's beautiful, be the judge and my girls gonna take a vote. Heavy is the head that wears the crown.
+                          Kiss her, touch her, squeeze her buns. Need some goose, to get loose, come on take a shot.
+                          You fall asleep during foreplay, 'Cause the pills you take, are more your forte.</p>
+                        <p>I know you like it sweet. I will love you unconditionally. All my girls vintage Chanel baby.
+                          Suiting up for my crowning battle. 'Cause I will love you unconditionally (oh yeah).
+                          Sun-kissed skin so hot we'll melt your popsicle. But in another life I would be your girl.
+                          Stinging like a bee I earned my stripes.</p>
+                        <p>Respect. This love will make you levitate. Yes, we make angels cry, raining down on earth from up above.
+                          You think I'm pretty without any makeup on. So you wanna play with magic.
+                          My heart stops when you look at me just one touch now baby I believe. If you only knew what the future holds.
+                          So très chic, yeah, she's a classic. She's got that international smile, oh yeah, she's got that one international smile.
+                          Yeah, we maxed our credit cards and got kicked out of the bar. I feel like I'm already there. That girl’s a trip, a one way ticket.</p>
+                        <p>Playing ping pong all night long, everything's all neon and hazy. You're original, cannot be replaced.
+                          'Cause, baby, you're a firework. Fine, fresh, fierce, we got it on lock.
+                          Skip the talk, heard it all, time to walk the walk. Scared to rock the boat and make a mess. After a hurricane comes a rainbow.
+                          Yo, this goes out to all you kids that still have their cars at the club valet and it's Tuesday.!</p>
+                        <p>Oh oh oh oh oh oh, Oh oh oh oh oh oh. This is how we do, do do do do, this is how we do. There’s no going back.
+                            She'll turn cold as a freezer. Kiss her, touch her, squeeze her buns. Heaven is jealous of our love, angels are crying from up above.</p>
+                        <p>Boy, you should know what you're falling for. Day drinking at the Wildcats, sucking real bad at Carey-oke.
+                          I mean the ones, I mean like she's the one. Passport stamps, she's cosmopolitan. 'Cause I will love you unconditionally (oh yeah).
+                          Katy my lady, look here baby, I'm all up on ya, cuz you're representing California.
+                               You brought me to life, now every February you'll be my Valentine, Valentine. Oh oh oh oh oh oh, Oh oh oh oh oh oh.
+                               Can't replace you with a million rings. So open up your heart and just let it begin. I am so unprepared.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
