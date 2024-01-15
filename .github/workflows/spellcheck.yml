@@ -1,4 +1,4 @@
-name: 'Check spelling'
+name: "Check spelling"
 on: # rebuild any PRs and main branch changes
   pull_request:
   push:
@@ -7,7 +7,7 @@ on: # rebuild any PRs and main branch changes
 
 env:
   FORCE_COLOR: 2
-  NODE: 16
+  NODE: 18
 
 permissions:
   contents: read
@@ -23,5 +23,4 @@ jobs:
       - uses: streetsidesoftware/cspell-action@v5
         with:
           inline: warning
-          strict: false
           incremental_files_only: true

@@ -189,11 +189,7 @@ we have this interactive example.
                         <div class="card-body">
                           <h5 class="card-title">Panel Content</h5>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Explicabo asperiores doloremque dolorum qui
-                            ducimus quae eius alias perspiciatis, quod, libero
-                            fuga recusandae quidem molestias nobis non soluta.
-                            Doloremque, in iusto?
+                            Like thunder gonna shake the ground. You think I'm funny when I tell the punchline wrong. California girls we're undeniable. And now it's time to let it through Unconditional, unconditionally. Even brighter than the moon, moon, moon. If you get the chance you better keep her.
                           </p>
                         </div>
                       </div>
@@ -201,11 +197,7 @@ we have this interactive example.
                         <div class="card-body">
                           <h5 class="card-title">Panel Content</h5>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Explicabo asperiores doloremque dolorum qui
-                            ducimus quae eius alias perspiciatis, quod, libero
-                            fuga recusandae quidem molestias nobis non soluta.
-                            Doloremque, in iusto?
+                            Stinging like a bee I earned my stripes. California girls we're undeniable. So I sat quietly, agreed politely. Of anything and everything. You’re gonna hear me roar. Get ready 'cause I’ve had enough. Now I’m floating like a butterfly. I could have rewrite your addiction. Need some goose, to get loose, come on take a shot. This is transcendental, on another level, boy, you're my lucky star. But you better choose carefully.
                           </p>
                         </div>
                       </div>
