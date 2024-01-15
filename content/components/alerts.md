@@ -23,8 +23,8 @@ Add `class="alert"` along with contextual classes and `role="alert"` to a div to
 <div class="alert alert-primary" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">info</i>
   <div>A basic Primary alert</div>
-  <button type="button" class="close" data-dismiss="toast">
-    <i class="modus-icons notranslate">close</i>
+  <button type="button" class="close" data-dismiss="toast" aria-label="Close">
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </button>
 </div>
 <div class="alert alert-secondary" role="alert">
@@ -39,21 +39,21 @@ Add `class="alert"` along with contextual classes and `role="alert"` to a div to
   <i class="modus-icons mr-1" aria-hidden="true">check_circle</i>
   <div>Success! A basic success alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons notranslate">close</i>
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </button>
 </div>
 <div class="alert alert-danger fade show" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">warning</i>
   <div>Error! A basic error alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons notranslate">close</i>
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </button>
 </div>
 <div class="alert alert-warning text-dark fade show" role="alert">
   <i class="modus-icons mr-1" aria-hidden="true">warning</i>
   <div>Warning! A basic warning alert with dark text and a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons notranslate">close</i>
+    <i class="modus-icons notranslate" aria-hidden="true">close</i>
   </button>
 </div>
 {{</ example >}}
