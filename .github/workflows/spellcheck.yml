@@ -23,5 +23,4 @@ jobs:
       - uses: streetsidesoftware/cspell-action@v5
         with:
           inline: warning
-          strict: false
           incremental_files_only: true
