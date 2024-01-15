@@ -497,13 +497,13 @@
                 <h3>Accordion - Small</h3>
                 <div class="accordion accordion-sm" id="smallAccordionExample">
                   <div class="card">
-                    <div class="card-header" role="button" id="headingFour" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingSmallFour" data-toggle="collapse"
                       data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                       <h6 class="mb-0">
                         Collapsible Group Item #1
                       </h6>
                     </div>
-                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+                    <div id="collapseFour" class="collapse show" aria-labelledby="headingSmallFour"
                       data-parent="#smallAccordionExample">
                       <div class="card-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the
@@ -515,13 +515,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" role="button" id="headingFive" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingSmallFive" data-toggle="collapse"
                       data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                       <h6 class="mb-0">
                         Collapsible Group Item #2
                       </h6>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingSmallFive"
                       data-parent="#smallAccordionExample">
                       <div class="card-body">
                         This is the second item's accordion body. It is hidden by default, until the collapse plugin
@@ -535,13 +535,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" role="button" id="headingSix" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingSmallSix" data-toggle="collapse"
                       data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                       <h6 class="mb-0">
                         Collapsible Group Item #3
                       </h6>
                     </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSmallSix"
                       data-parent="#smallAccordionExample">
                       <div class="card-body">
                         This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
@@ -560,13 +560,13 @@
                 <h3>Accordion - Borderless</h3>
                 <div class="accordion borderless" id="accordionBorderless">
                   <div class="card">
-                    <div class="card-header" role="button" id="headingOne" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingBorderlessOne" data-toggle="collapse"
                       data-target="#borderlessOne" aria-expanded="true" aria-controls="borderlessOne">
                       <h6 class="mb-0">
                         Collapsible Group Item #1
                       </h6>
                     </div>
-                    <div id="borderlessOne" class="collapse show" aria-labelledby="headingOne"
+                    <div id="borderlessOne" class="collapse show" aria-labelledby="headingBorderlessOne"
                       data-parent="#accordionBorderless">
                       <div class="card-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the
@@ -578,13 +578,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" role="button" id="headingTwo" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingBorderlessTwo" data-toggle="collapse"
                       data-target="#borderlessTwo" aria-expanded="false" aria-controls="borderlessTwo">
                       <h6 class="mb-0">
                         Collapsible Group Item #2
                       </h6>
                     </div>
-                    <div id="borderlessTwo" class="collapse" aria-labelledby="headingTwo"
+                    <div id="borderlessTwo" class="collapse" aria-labelledby="headingBorderlessTwo"
                       data-parent="#accordionBorderless">
                       <div class="card-body">
                         This is the second item's accordion body. It is hidden by default, until the collapse plugin
@@ -597,13 +597,13 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" role="button" id="headingThree" data-toggle="collapse"
+                    <div class="card-header" role="button" id="headingBorderlessThree" data-toggle="collapse"
                       data-target="#borderlessThree" aria-expanded="false" aria-controls="borderlessThree">
                       <h6 class="mb-0">
                         Collapsible Group Item #3
                       </h6>
                     </div>
-                    <div id="borderlessThree" class="collapse" aria-labelledby="headingThree"
+                    <div id="borderlessThree" class="collapse" aria-labelledby="headingBorderlessThree"
                       data-parent="#accordionBorderless">
                       <div class="card-body">
                         This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
@@ -636,16 +636,18 @@
                     <i class="modus-icons alert-icon" aria-hidden="true">check_circle</i>
                     <div><strong>Success!</strong> A success alert with text formatting </div>
                   </div>
-                  <div class="alert alert-danger alert-dismissable fade show" role="alert" data-original-title="">
+                  <div class="alert alert-danger alert-dismissable fade show" role="alert">
                     <i class="modus-icons alert-icon" aria-hidden="true">alert</i>
                     <div> <strong>Error!</strong> A error alert with a dismiss icon </div>
-                    <button type="button" class="close" data-dismiss="alert"><i class="modus-icons notranslate"
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <i class="modus-icons notranslate"
                         aria-hidden="true">close</i></button>
                   </div>
                   <div class="alert alert-warning" role="alert">
                     <i class="modus-icons alert-icon">warning</i>
                     A warning alert with a dismiss icon
-                    <button type="button" class="close" data-dismiss="alert"><i class="modus-icons notranslate"
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <i class="modus-icons notranslate"
                         aria-hidden="true">close</i></button>
                   </div>
                 </div>
@@ -2826,15 +2828,15 @@
                     <div class="collapse navbar-collapse">
                       <div class="navbar-nav ml-auto">
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Notifications">
-                          <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
+                          data-placement="bottom" title="Notifications" aria-label="notifications">
+                          <i class="modus-icons notranslate" aria-hidden="true">Notifications</i>
                         </button>
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Help">
+                          data-placement="bottom" title="Help" aria-label="Help">
                           <i class="modus-icons notranslate" aria-hidden="true">help</i>
                         </button>
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Applications">
+                          data-placement="bottom" title="Applications" aria-label="Apps">
                           <i class="modus-icons notranslate" aria-hidden="true">apps</i>
                         </button>
                       </div>
@@ -2863,15 +2865,15 @@
                     <div class="collapse navbar-collapse">
                       <div class="navbar-nav ml-auto">
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Notifications">
+                          data-placement="bottom" title="Notifications" aria-label="notifications">
                           <i class="modus-icons text-white">notifications</i>
                         </button>
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Help">
+                          data-placement="bottom" title="Help" aria-label="Help">
                           <i class="modus-icons text-white">help</i>
                         </button>
                         <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-                          data-placement="bottom" title="Applications">
+                          data-placement="bottom" title="Applications" aria-label="Apps">
                           <i class="modus-icons text-white">apps</i>
                         </button>
                       </div>
