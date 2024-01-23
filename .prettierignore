@@ -3,4 +3,6 @@
 *.md
 *.min.*
 
+layouts/index.json
+package-lock.json
 postcss.config.js
