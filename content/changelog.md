@@ -33,13 +33,18 @@ main h2 em {
 }
 </style>
 
+## v1.6.3 _2024-01-24_
+
+- Fix: Update border-radius from 2px to 4px for most components
+- Fix: Bottom-border width for (valid/invalid state) selects changed to 2px
+
 ## v1.6.2 _2023-08-24_
 
-- FIX: Primary Button Hover state background color (is now {{< color-preview hex="#217CBB">}} in light mode)
-- FIX: Chip font-size is now 12px (was 13px)
-- FIX: Always display `.btn-tertiary` text as {{< color-preview hex="#252a2e">}} on active state
-- FIX: Disabled state buttons now have `pointer-events: none`
-- FIX: Remove erroneous background-color and restore box-shadow for Active/Focus states for `.btn-icon-only`
+- Fix: Primary Button Hover state background color (is now {{< color-preview hex="#217CBB">}} in light mode)
+- Fix: Chip font-size is now 12px (was 13px)
+- Fix: Always display `.btn-tertiary` text as {{< color-preview hex="#252a2e">}} on active state
+- Fix: Disabled state buttons now have `pointer-events: none`
+- Fix: Remove erroneous background-color and restore box-shadow for Active/Focus states for `.btn-icon-only`
 
 ## v1.6.1 _2023-06-28_
 
