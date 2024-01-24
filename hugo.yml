@@ -10,8 +10,8 @@ googleAnalytics: "G-T2EGGYVY8J"
 params:
   title: Modus Bootstrap Developer Guide
   description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
-  modusBootstrapVersion: "1.6.2"
-  modusIconsVersion: "1.3.2"
+  modusBootstrapVersion: "1.6.3"
+  modusIconsVersion: "1.9.0"
   bootstrapVersion: "4.6"
   author: "Trimble"
 
