@@ -101,5 +101,9 @@ html[data-theme="dark"] {
     color: #f1f1f6;
   }
 
+  .dark-mode-invert {
+    filter: invert(1);
+  }
+
   @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
 }
