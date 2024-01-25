@@ -23,7 +23,7 @@
     "lint-css": "stylelint \"assets/css/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\" \"layouts/**/*.html\" --fix",
-    "lint-links": "npx linkinator ./build -r",
+    "lint-links": "npx linkinator ./build --recurse --silent",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "prettier": "prettier --write \"**/*.{json,scss,yml}\"",

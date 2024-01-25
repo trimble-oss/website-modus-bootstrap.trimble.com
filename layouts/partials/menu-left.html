@@ -1,14 +1,6 @@
 <div class="container">
   <div class="row mt-n4 d-md-none">
-    <div class="col px-0">
-      <form class="form-group px-0" name="search">
-        <label for="search-by" class="sr-only">Search</label>
-        <input data-search-input="" autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
-          class="form-control search-mobile" aria-label="Search" name="query" placeholder="Search..." autocomplete="off"
-          title="" required>
-      </form>
-    </div>
-    <div class="col-1 px-1 mx-auto">
+    <div class="col-1 px-1 ml-auto">
       <button class="btn search-docs-toggle d-md-none mx-auto px-1" type="button" data-toggle="collapse"
         data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation">
         {{ partial "icons/modus-outlined/menu.svg" (dict "class" "" "width" "24" "height" "24") }}
@@ -22,7 +14,7 @@
     <ul class="list-unstyled" id="menu-left">
       {{ if .Params.start -}}
       {{- range .Site.Menus.start -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link text-dark" href="{{- .URL -}}">
           {{- .Name -}}
         </a>
       </li>
@@ -31,7 +23,7 @@
 
       {{ if .Params.sectionLayout -}}
       {{- range .Site.Menus.layout -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link text-dark" href="{{- .URL -}}">
           {{- .Name -}}
         </a>
       </li>
@@ -42,7 +34,7 @@
       {{ if .Params.foundations -}}
       {{- range .Site.Menus.foundations -}}
       <li><a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "foundations" .) }} active{{end}}"
-          href="{{ .URL }}" {{ if eq .Params.external true }}target="_blank" rel="noopener"{{ end }}>
+          href="{{- .URL -}}" {{ if eq .Params.external true }}target="_blank" rel="noopener"{{ end }}>
           {{- .Name -}} {{ if eq .Params.external true }}{{ partial "icons/modus-outlined/launch.svg" (dict "class" "ml-2 mb-1 opacity-75" "width" "14" "height" "14") }}{{ end }}
         </a>
       </li>
@@ -51,7 +43,7 @@
 
       {{ if .Params.components -}}
       {{- range .Site.Menus.components -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link text-dark" href="{{- .URL -}}">
           {{- .Name -}}
         </a>
       </li>
@@ -60,7 +52,7 @@
 
       {{ if .Params.utilities -}}
       {{- range .Site.Menus.utilities -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link text-dark" href="{{- .URL -}}">
           {{- .Name -}}
         </a>
       </li>

@@ -23,9 +23,9 @@
   {{- if eq $show_preview true -}}
   {{- if not $bg_select -}}
   <div class="sample-bg-select">
-    <label class="mr-2 mb-0 text-nowrap text-gray-8" for="{{ with .Get "id" }}{{ . }}{{ end }}-select">Sample
+    <label class="mr-2 mb-0 text-nowrap text-gray-8" for="{{ with .Get "id" }}{{- . -}}{{ end }}-select">Sample
       Background</label>
-    <select class="custom-select flex-grow-0 w-auto" {{ with .Get "id" }} id="{{ . }}-select" {{ end }}>
+    <select class="custom-select flex-grow-0 w-auto" {{ with .Get "id" }} id="{{- . -}}-select" {{- end -}}>
       <option value="white">White</option>
       <option value="light">Light Gray</option>
       <!-- <option value="dark text-white">Dark Gray</option> -->
@@ -35,13 +35,13 @@
   {{- end -}}
   <script>
     $(function () {
-      $('#{{ with .Get "id" }}{{ . }}{{ end }}-select').change(function () {
-        jQuery('#{{ with .Get "id" }}{{ . }}{{ end }}').removeClass('bg-light bg-white text-white');
-        jQuery('#{{ with .Get "id" }}{{ . }}{{ end }}').addClass('bg-' + $(this).val());
+      $('#{{ with .Get "id" }}{{- . -}}{{ end }}-select').change(function () {
+        jQuery('#{{ with .Get "id" }}{{- . -}}{{ end }}').removeClass('bg-light bg-white text-white');
+        jQuery('#{{ with .Get "id" }}{{- . -}}{{ end }}').addClass('bg-' + $(this).val());
       });
     });
   </script>
-  <button class="btn btn-outline-primary btn-sm ml-auto" data-clipboard-text="{{- $input | htmlUnescape -}}">
+  <button type="button" class="btn btn-outline-primary btn-sm ml-auto" data-clipboard-text="{{- $input | htmlUnescape -}}">
     <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="margin-top: -3px;">
       <path d="M0 0h24v24H0V0z" fill="none" />
       <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
