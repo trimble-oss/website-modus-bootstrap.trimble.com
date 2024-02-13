@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "@trimble-oss/modus-icons": "1.9.0",
+    "@trimble-oss/modus-icons": "1.10.0",
     "@trimbleinc/modus-bootstrap": "1.6.3",
     "autoprefixer": "10.4.17",
     "eslint": "8.56.0",
