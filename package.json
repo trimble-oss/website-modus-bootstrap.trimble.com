@@ -35,7 +35,7 @@
     "@trimble-oss/modus-icons": "1.10.0",
     "@trimbleinc/modus-bootstrap": "1.6.3",
     "autoprefixer": "10.4.17",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-plugin-html": "7.1.0",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.119.0",
