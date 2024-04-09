@@ -26,6 +26,7 @@
     "lint-links": "npx linkinator ./build --recurse --silent",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
+    "pa11y": "npx pa11y https://modus-bootstrap.trimble.com/",
     "prettier": "prettier --write \"**/*.{json,scss,yml}\"",
     "serve": "npm run lint-js && hugo serve --port 5000 --disableFastRender --navigateToChanged",
     "svgo": "npx svgo --folder=\"static/img/headers\""
@@ -34,18 +35,18 @@
     "@fullhuman/postcss-purgecss": "6.0.0",
     "@trimble-oss/modus-icons": "1.12.0",
     "@trimbleinc/modus-bootstrap": "1.6.3",
-    "autoprefixer": "10.4.17",
-    "eslint": "8.56.0",
+    "autoprefixer": "10.4.19",
+    "eslint": "8.57.0",
     "eslint-plugin-html": "8.0.0",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.121.0",
+    "hugo-bin": "0.121.1",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.33",
+    "postcss": "8.4.38",
     "postcss-cli": "11.0.0",
     "prettier": "3.2.5",
     "stylelint": "16.3.1",
-    "stylelint-config-standard-scss": "13.0.0"
+    "stylelint-config-standard-scss": "13.1.0"
   },
   "hugo-bin": {
     "buildTags": "extended"
