@@ -7,8 +7,14 @@ on:
     branches-ignore:
       - "dependabot/**"
 
+permissions:
+  contents: read
+
 jobs:
   build:
+    permissions:
+      contents: read
+      statuses: write
     name: Lint Code Base
     runs-on: ubuntu-latest
 
@@ -19,7 +25,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        uses: github/super-linter/slim@v5
+        uses: github/super-linter/slim@v6
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
