@@ -48,7 +48,7 @@
 {{- end -}}
 
 <!-- IE11 Polyfills -->
-<script nomodule src="https://polyfill.io/v3/polyfill.min.js"></script>
+<script nomodule src="https://polyfill-fastly.io/v3/polyfill.min.js"></script>
 
 <!-- Compiles and minifies the sites SASS files from /assets/css/ -->
 {{- if not .Params.SamplePage -}}
@@ -69,10 +69,9 @@
 
 <!-- OpenGraph Meta tags using Hugo's own built-in template -->
 {{ template "_internal/opengraph.html" . }}
-<meta property="og:locale" content="en_US">
 
-<!-- no need to define additional Twitter card meta tags as fallback to OpenGraph -->
-<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
+<!-- no need to define additional X (Twitter) card meta tags as fallback to OpenGraph -->
+<!-- https://developer.x.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
 
 <!-- Theme Color is used for the tab color on Chrome for Android -->
 <meta name="theme-color" content="#005f9e">
