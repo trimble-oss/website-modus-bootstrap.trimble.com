@@ -439,6 +439,7 @@
     "hjsv",
     "hljs",
     "hodgeman",
+    "holo",
     "homepage",
     "hornung",
     "horz",
@@ -746,6 +747,7 @@
     "overlines",
     "overrides",
     "Pagespeed",
+    "pagestyle",
     "pageview",
     "paginations",
     "pandoc",
@@ -1168,15 +1170,8 @@
     "hte",
     "whitelist"
   ],
-  "language": "en,en-US",
-  "ignoreRegExpList": [
-    "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
-    "\\[(\\*{2})?@\\w+?\\1\\]",
-    "\\[`\\w+`\\]",
-    "\\/.*?\\/",
-    "\\_\\w+",
-    "\\#\\w+"
-  ],
+  "language": "en,en-US,lorem",
+  "ignoreRegExpList": ["\\#\\w+"],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",
