@@ -172,8 +172,6 @@ If you want to also use the Modus Framework layout (top nav, left nav, and conte
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{< modus-bootstrap-version >}}/dist/modus-layout.css">
 <script src="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@{{< modus-bootstrap-version >}}/dist/modus-layout.js"></script>
-<!-- For Internet Explorer compatibility -->
-<script nomodule src="https://polyfill.io/v3/polyfill.min.js"></script>
 ```
 
 Learn more about [using the layout CSS/JS](/layout/).
