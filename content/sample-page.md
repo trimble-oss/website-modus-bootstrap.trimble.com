@@ -2,13 +2,16 @@
 title: "Sample Pages"
 layout: "single"
 description: ""
-sitemap_exclude: true
+sitemap:
+  disable: true
 private: true
 hidden: true
 hideDate: true
 ---
 
 - [1.x.x](/sample-page/next/) <small class="text-muted">(Unreleased)</small>
+- [1.6.4](/sample-page/1.6.4/)
+- [1.6.3](/sample-page/1.6.2/)
 - [1.6.2](/sample-page/1.6.2/)
 - [1.6.1](/sample-page/1.6.1/)
 - [1.6.0](/sample-page/1.6.0/)

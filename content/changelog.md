@@ -33,6 +33,12 @@ main h2 em {
 }
 </style>
 
+## v1.6.4 - _2024-07-12_
+
+- Improved support for [Windows High Contrast Mode](https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/)
+- Changed alerts left-border from 8px to 12px
+- Changed toasts max-width from 350px to 370px
+
 ## v1.6.3 _2024-01-24_
 
 - Fix: Update border-radius from 2px to 4px for most components

@@ -2,7 +2,8 @@
 title: "Examples"
 layout: "single"
 description: ""
-sitemap_exclude: true
+sitemap:
+  disable: true
 private: true
 hidden: true
 ---
