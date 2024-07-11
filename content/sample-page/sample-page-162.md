@@ -10,7 +10,8 @@ loadModusLayout: true
 hideNav: true
 hideSearch: true
 hideFooter: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 version: "1.6.2"
 date: "2023-08-24"
 modusCSS: "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.6.2/dist/"

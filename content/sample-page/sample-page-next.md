@@ -10,7 +10,8 @@ loadModusLayout: true
 hideNav: true
 hideSearch: true
 hideFooter: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 version: "Next"
 modusCSS: "https://dev-modus-bootstrap.s3.amazonaws.com/css/"
 modusLayoutCSS: "https://dev-modus-bootstrap.s3.amazonaws.com/css/modus-layout.min.css"
