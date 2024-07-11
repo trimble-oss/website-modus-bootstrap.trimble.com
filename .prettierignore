@@ -2,6 +2,7 @@
 *.html
 *.md
 *.min.*
+CODEOWNERS
 
 layouts/index.json
 package-lock.json

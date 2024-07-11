@@ -132,6 +132,7 @@
     "browsersync",
     "btn",
     "bugfix",
+    "builddeploy",
     "Cabazon",
     "Cadsawan",
     "callout",
@@ -158,6 +159,7 @@
     "clearfix",
     "cloakemail",
     "Cloneable",
+    "closepullrequest",
     "cloudflare",
     "cloudfront",
     "cloudinary",
@@ -170,6 +172,7 @@
     "codemirror",
     "CODEOWNERS",
     "codepen",
+    "codeql",
     "cognito",
     "cognitoi",
     "coliff",
@@ -388,6 +391,7 @@
     "globalresources",
     "globby",
     "GMBH",
+    "gogradle",
     "goldmark",
     "goliad",
     "gomocha",
@@ -714,6 +718,7 @@
     "Nuevo",
     "nuget",
     "numtrucks",
+    "nupkg",
     "nyberg",
     "oanimationend",
     "offcanvas",
@@ -778,6 +783,7 @@
     "pilot",
     "pingback",
     "pinterest",
+    "Pipenv",
     "pixelated",
     "placeset",
     "plainify",
@@ -1171,7 +1177,9 @@
     "whitelist"
   ],
   "language": "en,en-US,lorem",
-  "ignoreRegExpList": ["\\#\\w+"],
+  "ignoreRegExpList": [
+    "\\#\\w+"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",
