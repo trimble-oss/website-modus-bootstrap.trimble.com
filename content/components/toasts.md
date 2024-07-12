@@ -51,12 +51,6 @@ div to create an toast.
     <i class="modus-icon modus-icons" aria-hidden="true">close</i>
   </button>
 </div>
-<div class="toast toast-warning show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a warning toast.
-  <button type="button" class="close" data-dismiss="toast" aria-label="Close">
-    <i class="modus-icon modus-icons" aria-hidden="true">close</i>
-  </button>
-</div>
 <div class="toast toast-success show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a success toast.
   <button type="button" class="close" data-dismiss="toast" aria-label="Close">
