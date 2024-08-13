@@ -33,7 +33,7 @@ main h2 em {
 }
 </style>
 
-## v1.6.4 - _2024-07-12_
+## v1.6.4 _2024-07-12_
 
 - Improved support for [Windows High Contrast Mode](https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/)
 - Changed alerts left-border from 8px to 12px
