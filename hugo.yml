@@ -5,7 +5,6 @@ locale: en-US
 
 enableInlineShortcodes: true
 enableGitInfo: true
-googleAnalytics: "G-T2EGGYVY8J"
 
 params:
   title: Modus Bootstrap Developer Guide
@@ -14,6 +13,10 @@ params:
   modusIconsVersion: "1.14.0"
   bootstrapVersion: "4.6"
   author: "Trimble"
+
+services:
+  googleAnalytics:
+    id: G-T2EGGYVY8J
 
 publishdir: "./build/"
 disableKinds: ["section", "taxonomy", "term"]

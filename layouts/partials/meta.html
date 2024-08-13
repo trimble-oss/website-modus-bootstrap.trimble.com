@@ -119,7 +119,7 @@
 {{- end -}}
 
 <!-- Show custom 'LOC' favicon for serving locally -->
-{{- if .Site.IsServer -}}
+{{- if hugo.IsServer -}}
 {{ $favicon := resources.Get "/static/favicon-loc.ico" }}
 <link rel="alternate icon" href="{{ $favicon.RelPermalink }}">
 {{ else }}
