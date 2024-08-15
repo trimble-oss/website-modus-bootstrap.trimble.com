@@ -640,6 +640,7 @@
     "mkdocs",
     "mlabel",
     "mlabels",
+    "modernizr",
     "Molineux",
     "monokai",
     "monospace",
@@ -1178,9 +1179,7 @@
     "whitelist"
   ],
   "language": "en,en-US,lorem",
-  "ignoreRegExpList": [
-    "\\#\\w+"
-  ],
+  "ignoreRegExpList": ["\\#\\w+"],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",

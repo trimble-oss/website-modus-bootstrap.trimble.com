@@ -15,6 +15,7 @@
       {
         "listitem": "off"
       }
-    ]
+    ],
+    "compat-api/html": "off"
   }
 }
