@@ -511,6 +511,7 @@
     "jquery",
     "jsdelivr",
     "jsesc",
+    "jsmrcaga",
     "jsonify",
     "jsonp",
     "jssdk",
@@ -1179,7 +1180,9 @@
     "whitelist"
   ],
   "language": "en,en-US,lorem",
-  "ignoreRegExpList": ["\\#\\w+"],
+  "ignoreRegExpList": [
+    "\\#\\w+"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",
