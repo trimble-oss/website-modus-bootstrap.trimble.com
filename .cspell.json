@@ -511,6 +511,7 @@
     "jquery",
     "jsdelivr",
     "jsesc",
+    "jsmrcaga",
     "jsonify",
     "jsonp",
     "jssdk",
@@ -891,6 +892,7 @@
     "saenz",
     "safelist",
     "Salai",
+    "SAMEORIGIN",
     "sandboxing",
     "Sanyo",
     "savio",
@@ -1188,8 +1190,7 @@
     "**/node_modules/**",
     "*.min.*",
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
-    "*.{log,svg,snap}",
-    "test.*"
+    "*.{log,svg,snap}"
   ],
   "useGitignore": true
 }
