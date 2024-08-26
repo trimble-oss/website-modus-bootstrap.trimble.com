@@ -42,6 +42,7 @@
     "allowfullscreen",
     "anchorize",
     "androidmanifest",
+    "Anfield",
     "anim",
     "animatedcollapse",
     "anonymization",
@@ -142,6 +143,7 @@
     "cardless",
     "cargas",
     "carrierweb",
+    "Carrow",
     "casestudy",
     "CCFS",
     "cdn",
@@ -313,6 +315,7 @@
     "ETAETD",
     "ettl",
     "Evented",
+    "Everton",
     "exchangeability",
     "extrabold",
     "extrahead",
@@ -723,6 +726,7 @@
     "numtrucks",
     "nupkg",
     "nyberg",
+    "Oakwell",
     "oanimationend",
     "offcanvas",
     "offwhite",
@@ -1121,6 +1125,7 @@
     "walkthrough",
     "walkthroughs",
     "watercove",
+    "Watford",
     "Watonwan",
     "wayfinding",
     "waypoint",
@@ -1181,7 +1186,9 @@
     "whitelist"
   ],
   "language": "en,en-US,lorem",
-  "ignoreRegExpList": ["\\#\\w+"],
+  "ignoreRegExpList": [
+    "\\#\\w+"
+  ],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",
