@@ -307,13 +307,13 @@ attribute of <code>data-modus-item="menu-btn"</code>. The
                 </li>
                 <li>
                   <a class="nav-link" href="#modus-sidebar"><span class="left-nav-icon">
-                  <img src="/img/route.svg" height="24" width="24" alt="" /></span>
+                  <img src="/docs/v1/img/route.svg" height="24" width="24" alt="" /></span>
                     Nav Item (SVG Image)
                   </a>
                 </li>
                 <li>
                   <a class="nav-link" href="#modus-sidebar"><span class="left-nav-icon">
-                  <img src="/img/check-mark-orange.png" height="24" width="24"
+                  <img src="/docs/v1/img/check-mark-orange.png" height="24" width="24"
                         style="min-width: 24px;" alt="" /></span>
                     Nav Item (PNG Image, 24x24)
                   </a>

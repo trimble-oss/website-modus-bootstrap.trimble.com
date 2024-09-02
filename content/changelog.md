@@ -54,18 +54,18 @@ main h2 em {
 
 ## v1.6.1 _2023-06-28_
 
-- Fix: [Current Tab](/components/tabs/) Text is now blue (dark mode)
-- Fix: [Alert Links](/components/alerts/#alerts-with-links) are now underlined #345
+- Fix: [Current Tab](/docs/v1/components/tabs/) Text is now blue (dark mode)
+- Fix: [Alert Links](/docs/v1/components/alerts/#alerts-with-links) are now underlined #345
 - Fix: Removed box-shadow focus state from form-select
-- Fix: [Dropdown Menu](/components/dropdowns/) Items font-size is now 14px
+- Fix: [Dropdown Menu](/docs/v1/components/dropdowns/) Items font-size is now 14px
 
 ## v1.6.0 _2023-05-15_
 
-- Change [Tooltips](/components/tooltips/) background color to Gray 4 (`#90939f`)
-- Add smaller [progress-bar](/components/progress-bars/) variant (4px)
+- Change [Tooltips](/docs/v1/components/tooltips/) background color to Gray 4 (`#90939f`)
+- Add smaller [progress-bar](/docs/v1/components/progress-bars/) variant (4px)
 - Increase form-text size to 11px (from 10px) and add new `.form-text-lg` class (font size: 12px)
 - Add focus state for checkboxes, radios and switches
-- Blue [navbar](/components/navbar/#blue-variant) color change from `col_trimble_blue_dark` to `col_blue_dark`
+- Blue [navbar](/docs/v1/components/navbar/#blue-variant) color change from `col_trimble_blue_dark` to `col_blue_dark`
 - Blue navbar button hover and active state color changes for improved accessibility
 
 ## v1.5.6 _2023-03-20_
@@ -86,14 +86,14 @@ main h2 em {
 
 ## v1.5.4 _2022-08-26_
 
-- Fix for [radio button](/components/radio-buttons/) tap target area
+- Fix for [radio button](/docs/v1/components/radio-buttons/) tap target area
 - Removed unused small checkboxes, small radios and small switches
-- Updated [message](/components/messages/) background and text colors
+- Updated [message](/docs/v1/components/messages/) background and text colors
 
 ## v1.5.3 _2022-08-05_
 
 - Update to [Bootstrap v4.6.2](https://github.com/twbs/bootstrap/releases/tag/v4.6.2)
-- Updated style for [Chips active state](/components/chips/).
+- Updated style for [Chips active state](/docs/v1/components/chips/).
 
 ## v1.5.2 _2022-07-08_
 
@@ -107,14 +107,14 @@ main h2 em {
 
 ## v1.5.0 _2002-06-13_
 
-- [Dark mode theme](/foundations/dark-mode-theme/) added
-- [Remove Internet Explorer 11](/device-support/) from browserslist config
+- [Dark mode theme](/docs/v1/foundations/dark-mode-theme/) added
+- [Remove Internet Explorer 11](/docs/v1/device-support/) from browserslist config
 - Change focus-outline color from black {{< color-preview hex="#000">}} to blue {{< color-preview hex="#0063A3">}}
 - Remove background-color: from modus-header. This rule prevented the navbar-dark and navbar-blue from working as intended.
 
 ## v1.4.1 _2022-04-22_
 
-- Add [Progress Bar small variant](/components/progress-bars/)
+- Add [Progress Bar small variant](/docs/v1/components/progress-bars/)
 - Fix for list-group sizes (now use min-height instead of height)
 - Remove duplicated body background color
 - Removed a couple of duplicated rules for alerts
@@ -174,27 +174,25 @@ main h2 em {
 ## v1.0.0 _2020-12-08_
 
 - Update to [Bootstrap v4.5.3](https://github.com/twbs/bootstrap/releases/tag/v4.5.3)
-- Improved [Checkbox](/components/checkboxes/) indeterminate state styling <small>([ETHER-112](https://jira.trimble.tools/browse/ETHER-112))</small>
-- Improved [Breadcrumb](/components/breadcrumbs/) chevron style <small>([ETHER-114](https://jira.trimble.tools/browse/ETHER-114))</small>
+- Improved [Checkbox](/docs/v1/components/checkboxes/) indeterminate state styling <small>([ETHER-112](https://jira.trimble.tools/browse/ETHER-112))</small>
+- Improved [Breadcrumb](/docs/v1/components/breadcrumbs/) chevron style <small>([ETHER-114](https://jira.trimble.tools/browse/ETHER-114))</small>
 - Added `breadcrumb-underline` class (with underlined links)
-- Changed background-color of form-control [Checkboxes](/components/checkboxes/) from transparent to white for greater contrast on non-white backgrounds
-- Add 1px bottom border to form-controls [inputs](/components/inputs/)
+- Changed background-color of form-control [Checkboxes](/docs/v1/components/checkboxes/) from transparent to white for greater contrast on non-white backgrounds
+- Add 1px bottom border to form-controls [inputs](/docs/v1/components/inputs/)
 - Reduce label size of forms from 13px to 12px
-- Increase font size of small [Buttons](/components/buttons/) from 11px to 12px
+- Increase font size of small [Buttons](/docs/v1/components/buttons/) from 11px to 12px
 - Add `code` color {{< color-preview hex="#cc3377">}} (previously it used Bootstrap default)
-- Change [Pagination](/components/pagination/) active color to {{< color-preview hex="#07599B">}}
-- Change [Pagination](/components/pagination/) active background to {{< color-preview hex="#E5F0F8">}}
-- Reduce [Card](/components/cards/) padding to 16px
-- Change [Progress](/components/progress-bars/) colors and add 1px {{< color-preview hex="#8C8B96">}} border
-- Change [Slider](/components/sliders/) color to `$col_blue`
-- Change [Shadow](/foundations/shadows-and-depth/#shadow-depths) depth and colors
-- Change [Close](/utilities/close-icon/) button
-- Change [Toast](/components/toasts/) colors
-- Change [Badge](/components/badges/) Warning text color to `$col_trimble_gray`
+- Change [Pagination](/docs/v1/components/pagination/) active color to {{< color-preview hex="#07599B">}}
+- Change [Pagination](/docs/v1/components/pagination/) active background to {{< color-preview hex="#E5F0F8">}}
+- Reduce [Card](/docs/v1/components/cards/) padding to 16px
+- Change [Progress](/docs/v1/components/progress-bars/) colors and add 1px {{< color-preview hex="#8C8B96">}} border
+- Change [Slider](/docs/v1/components/sliders/) color to `$col_blue`
+- Change [Shadow](/docs/v1/foundations/shadows-and-depth/#shadow-depths) depth and colors
+- Change [Close](/docs/v1/utilities/close-icon/) button
+- Change [Toast](/docs/v1/components/toasts/) colors
+- Change [Badge](/docs/v1/components/badges/) Warning text color to `$col_trimble_gray`
 - Improved contrast, consistency with custom scrollbars which apply to all elements except body <small>([ETHER-125](https://jira.trimble.tools/browse/ETHER-125))</small>
 - Revised Supported Browser <small>([ETHER-120](https://jira.trimble.tools/browse/ETHER-120))</small>
-
-<!-- - Add Sass Source Maps? <small>([ETHER-119](https://jira.trimble.tools/browse/ETHER-119))</small>   -->
 
 ## v0.9.5 _2020-04-23_
 
