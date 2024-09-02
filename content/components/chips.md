@@ -29,7 +29,7 @@ For Input Chips, use the class `.chip-input`
 {{< example id="example-chips" >}}
 <div class="chip chip-solid chip-input">
   <div class="chip-thumbnail">
-    <img src="/img/headshot.png" alt="">
+    <img src="/docs/v1/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Solid</div>
   <div class="chip-delete-right">
@@ -39,7 +39,7 @@ For Input Chips, use the class `.chip-input`
 
 <div class="chip chip-outline chip-input">
   <div class="chip-thumbnail">
-    <img src="/img/headshot.png" alt="">
+    <img src="/docs/v1/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Outline</div>
   <div class="chip-delete-right">
@@ -70,7 +70,7 @@ To use a small chip, just add the class `.chip-sm`
 {{< example id="example-chips-small" >}}
 <div class="chip chip-sm chip-solid chip-input">
   <div class="chip-thumbnail">
-    <img src="/img/headshot.png" alt="">
+    <img src="/docs/v1/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
   <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
@@ -78,7 +78,7 @@ To use a small chip, just add the class `.chip-sm`
 
 <div class="chip chip-sm chip-outline chip-input">
   <div class="chip-thumbnail">
-    <img src="/img/headshot.png" alt="">
+    <img src="/docs/v1/img/headshot.png" alt="">
   </div>
   <div class="chip-text">Jane</div>
   <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>

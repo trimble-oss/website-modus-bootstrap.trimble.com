@@ -58,7 +58,7 @@ Tooltips can be used with a variety of different components.
 </button>
 
 <div class="chip chip-solid chip-input ml-3" data-toggle="tooltip" data-placement="top" title="Chip Tooltip">
-  <div class="chip-thumbnail"><img src="/img/headshot.png" alt=""></div>
+  <div class="chip-thumbnail"><img src="/docs/v1/img/headshot.png" alt=""></div>
   <div class="chip-text">Clifford</div>
   <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">close</i></div>
 </div>
