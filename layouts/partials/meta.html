@@ -11,7 +11,7 @@
 {{- if not .Params.SamplePage -}}
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
-<script src="{{- $themeToggleJS.RelPermalink -}}" fetchpriority="high"></script>
+<script src="{{- $themeToggleJS.RelPermalink | relURL -}}" fetchpriority="high"></script>
 {{ end }}
 
 <!-- Load Modus Layout -->
@@ -20,8 +20,8 @@
 <link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min.css">
 <script src="https://modus.trimble.com/css/modus-layout.min.js"></script>
 {{ else }}
-<link rel="stylesheet" href="{{- .Params.modusLayoutCSS -}}">
-<script src="{{- .Params.modusLayoutJS -}}"></script>
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min.css">
+<script src="https://modus.trimble.com/css/modus-layout.min.js"></script>
 {{- end -}}
 {{- end -}}
 
@@ -38,13 +38,15 @@
     );
   }
 </script>
-<link rel="stylesheet" href="{{ .Params.modusCSS }}modus.css" media="(prefers-color-scheme: light)">
-<link rel="stylesheet" href="{{ .Params.modusCSS }}modus-dark.css" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-dark.css" media="(prefers-color-scheme: dark)">
 {{ end }}
+
+
 
 <!-- To speed up the homepage rendering time this CSS load on every page except homepage where they aren't used -->
 {{- if not .IsHome -}}
-<link rel="stylesheet" href="/css/modus-icons.css">
+<link rel="stylesheet" href="{{.Site.BaseURL}}css/modus-icons.css">
 {{- end -}}
 
 <!-- IE11 Polyfills -->
@@ -54,7 +56,7 @@
 {{- if not .Params.SamplePage -}}
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{- hugo.Version -}}" fetchpriority="high">
+<link rel="stylesheet" href="{{ $styles.RelPermalink | relURL }}?v{{- hugo.Version -}}" fetchpriority="high">
 {{ end }}
 
 <!-- Displays Built with Hugo Meta Tag on homepage only-->
@@ -80,10 +82,10 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>');</script>
 
-<link rel="canonical" href="{{- .Permalink -}}">
+<link rel="canonical" href="{{.Site.BaseURL}}{{- .Permalink | relURL -}}">
 
-<link rel="alternate" type="application/rss+xml" title="Modus Bootstrap Releases"
-  href="https://modus-bootstrap.trimble.com/modus-bootstrap.xml">
+<!-- <link rel="alternate" type="application/rss+xml" title="Modus Bootstrap Releases"
+  href="https://modus-bootstrap.trimble.com/modus-bootstrap.xml"> -->
 
 {{- with .OutputFormats.Get "rss" -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -107,7 +109,7 @@
 </script>
 
 <script>
-  var baseurl = "{{.Site.BaseURL}}";
+  var baseurl = "{{- .Site.BaseURL -}}";
 </script>
 
 <!-- Combines and minifies the 3x JS files which are used for the Search -->

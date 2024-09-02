@@ -1,4 +1,4 @@
-baseurl: https://modus-bootstrap.trimble.com
+baseurl: https://modus-bootstrap.trimble.com/docs/v1/
 title: Trimble Modus Bootstrap Developer Guide
 languageCode: en-US
 locale: en-US
@@ -10,7 +10,7 @@ params:
   title: Modus Bootstrap Developer Guide
   description: "The Trimble Modus Bootstrap CSS & JavaScript Framework Developer Guide"
   modusBootstrapVersion: "1.6.4"
-  modusIconsVersion: "1.14.0"
+  modusIconsVersion: "1.15.0"
   bootstrapVersion: "4.6"
   author: "Trimble"
 
@@ -30,51 +30,39 @@ pygmentsUseClasses: true
 outputs:
   home: ["HTML", "JSON"]
 
-privacy:
-  googleAnalytics:
-    anonymizeIP: true
-    respectDoNotTrack: true
-  twitter:
-    enableDNT: true
-  youtube:
-    privacyEnhanced: true
-
 menu:
   main:
     - name: Getting Started
-      url: "/getting-started/"
+      url: "getting-started/"
       weight: 1
     - name: Layout
-      url: "/layout/"
+      url: "layout/"
       weight: 2
     - name: Foundations
-      url: "/foundations/typography/"
+      url: "foundations/typography/"
       weight: 3
     - name: Components
-      url: "/components/"
+      url: "components/"
       weight: 4
     - Name: Utilities
-      url: "/utilities/borders/"
+      url: "utilities/borders/"
       weight: 5
 
   start:
     - name: Getting Started
-      url: "/getting-started/"
+      url: "getting-started/"
       weight: 1
     - name: Device Support
-      url: "/device-support/"
+      url: "device-support/"
       weight: 2
     - Name: Changelog
-      url: "/changelog/"
+      url: "changelog/"
       weight: 3
 
   layout:
     - name: Layout
-      url: "/layout/"
+      url: "/#"
       weight: 1
-    - name: Starter Projects
-      url: "/layout/starter-projects/"
-      weight: 2
 
   foundations:
     - name: Typography
@@ -192,24 +180,28 @@ module:
   mounts:
     - source: static/
       target: static/
-    - source: assets/static/favicon.ico
-      target: static/favicon.ico
-    - source: assets/static/robots.txt
-      target: static/robots.txt
+
     - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.css
       target: static/css/modus-icons.css
+
     - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.woff
       target: static/css/modus-icons.woff
+
     - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.woff2
       target: static/css/modus-icons.woff2
+
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
+
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
       target: static/js/bootstrap.bundle.min.js.map
+
     - source: node_modules/list.js/dist/list.min.js
       target: static/js/list.min.js
+
     - source: node_modules/list.js/dist/list.min.js.map
       target: static/js/list.min.js.map
+
     - source: node_modules/@trimble-oss/modus-icons/dist/modus-solid/sprites/modus-icons.svg
       target: static/modus-solid-icons.svg
 

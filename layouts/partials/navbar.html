@@ -2,7 +2,7 @@
   {{ partial "skippy" . }}
   <nav class="navbar navbar-blue navbar-main text-white">
     <div class="container flew-row justify-content px-0 pl-sm-1">
-      <a class="navbar-brand ml-0 font-weight-bold px-sm-1" href="/">
+      <a class="navbar-brand ml-0 font-weight-bold px-sm-1" href="{{- .Site.BaseURL -}}">
         {{ partial "logos/trimble.svg" (dict "class" "img-fluid" "width" "115" "height" "26") }}
         <div>Modus Bootstrap</div>
       </a>
@@ -27,7 +27,7 @@
           <div class="dropdown-menu d-lg-none" style="left:-112px">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-            <a class="dropdown-item {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+            <a class="dropdown-item {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{- .URL }}">
               {{- .Name -}}
             </a>
             {{- end -}}

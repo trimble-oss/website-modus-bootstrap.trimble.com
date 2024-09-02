@@ -17,10 +17,10 @@
           Page can not be found
         </h2>
         <picture>
-          <source srcset="/img/headers/404-a.svg" media="(max-width: 400px)">
-          <source srcset="/img/headers/404-b.svg" media="(max-width: 700px)">
-          <source srcset="/img/headers/404-c.svg" media="(max-width: 1700px)">
-          <img src="/img/headers/404-a.svg" srcset="/img/headers/404-b.svg" class="mx-auto text-center img-fluid mb-1"
+          <source srcset="{{ .Site.BaseURL }}img/headers/404-a.svg" media="(max-width: 400px)">
+          <source srcset="{{ .Site.BaseURL }}img/headers/404-b.svg" media="(max-width: 700px)">
+          <source srcset="{{ .Site.BaseURL }}img/headers/404-c.svg" media="(max-width: 1700px)">
+          <img src="img/headers/404-a.svg" srcset="/img/headers/404-b.svg" class="mx-auto text-center img-fluid mb-1"
             width="400" height="400" alt="">
         </picture>
       </div>

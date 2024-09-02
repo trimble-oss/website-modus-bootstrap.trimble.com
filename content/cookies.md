@@ -2,7 +2,6 @@
 title: "Cookies Policy"
 layout: "single"
 description: ""
-url: /cookies/
 private: true
 hidden: true
 hideToc: true

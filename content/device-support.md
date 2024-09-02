@@ -2,7 +2,6 @@
 title: "Device Support"
 layout: "single"
 description: "Modus supports design patterns, best usability and accessibility practices for products built across platforms."
-url: "/device-support/"
 start: true
 ---
 

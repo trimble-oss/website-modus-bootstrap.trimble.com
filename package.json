@@ -28,7 +28,7 @@
     "lint-spell": "npx cspell \"content/**/*.*\" --no-progress",
     "pa11y": "npx pa11y https://modus-bootstrap.trimble.com/",
     "prettier": "prettier --write \"**/*.{json,scss,yml}\"",
-    "serve": "npm run lint-js && hugo serve --port 5000 --disableFastRender --navigateToChanged",
+    "serve": "npx hugo serve --disableFastRender --navigateToChanged",
     "svgo": "npx svgo --folder=\"static/img/headers\""
   },
   "devDependencies": {
