@@ -313,14 +313,14 @@ When using small variants of tables with icons and controls, don't forget to use
 
 Add the `.sticky-top` class to the `thead` `th` for sticky header.
 
-[View Example](/examples/table-with-sticky-header/)
+[View Example](/docs/v1/examples/table-with-sticky-header/)
 <br><br>
 
 ### Tables with sticky header and First Column
 
 Add the `.sticky-top` class to the thead th for sticky header and some additional custom CSS for the sticky first column.
 
-[View Example](/examples/table-with-sticky-header-and-column/)
+[View Example](/docs/v1/examples/table-with-sticky-header-and-column/)
 <br><br>
 
 ### Grid.js Data Table Integration
@@ -329,7 +329,7 @@ Add the `.sticky-top` class to the thead th for sticky header and some additiona
 It supports pagination, sorting, filtering, resizable columns and more.
 Modus Bootstrap CSS classes can be added at render-time.
 
-[View Example](/examples/gridjs-table/)
+[View Example](/docs/v1/examples/gridjs-table/)
 
 <script>
 $("a[href^='/examples/']").attr('target','_blank_');

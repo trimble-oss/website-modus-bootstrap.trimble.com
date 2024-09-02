@@ -33,30 +33,30 @@ outputs:
 menu:
   main:
     - name: Getting Started
-      url: "getting-started/"
+      url: "/getting-started/"
       weight: 1
     - name: Layout
-      url: "layout/"
+      url: "/layout/"
       weight: 2
     - name: Foundations
-      url: "foundations/typography/"
+      url: "/foundations/typography/"
       weight: 3
     - name: Components
-      url: "components/"
+      url: "/components/"
       weight: 4
     - Name: Utilities
-      url: "utilities/borders/"
+      url: "/utilities/borders/"
       weight: 5
 
   start:
     - name: Getting Started
-      url: "getting-started/"
+      url: "/getting-started/"
       weight: 1
     - name: Device Support
-      url: "device-support/"
+      url: "/device-support/"
       weight: 2
     - Name: Changelog
-      url: "changelog/"
+      url: "/changelog/"
       weight: 3
 
   layout:
