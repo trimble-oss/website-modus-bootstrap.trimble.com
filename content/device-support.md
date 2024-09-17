@@ -32,9 +32,3 @@ A desktop application runs on a computer or device locally and is built to be in
 ### Mobile Applications
 
 Modus supports native, hybrid, and web-based apps designed to run on a mobile device such as a phone or a tablet. Currently, we do not support watch patterns.
-
-## Future Support
-
-Modus currently does not provide support for software run on **in-cab hardware** and **mixed-reality** devices, such as the Microsoft HoloLens.
-
-Please, visit the Trimble Digital Design System [backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning&issueLimit=100) in Jira or [sign up for the Modus updates](mailto:modus-ug+subscribe@trimble.com) to learn more.
