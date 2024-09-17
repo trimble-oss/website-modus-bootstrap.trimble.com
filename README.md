@@ -8,14 +8,6 @@ To build: `npm run build`
 
 To run tests: `npm run test`
 
-## Useful Links
-
-| Resource          | Link                                                         |
-| ----------------- | ------------------------------------------------------------ |
-| Modus Style Guide | https://modus.trimble.com/                                   |
-| Jira              | https://jira.trimble.tools/projects/DDS/summary              |
-| Netlify           | https://app.netlify.com/sites/modus-bootstrap-guide/overview |
-
 ## Testing and Audits
 
 | Resource           | Link                                                                                                        |
