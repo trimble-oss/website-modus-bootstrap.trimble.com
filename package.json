@@ -13,9 +13,6 @@
   },
   "license": "private",
   "author": "Trimble",
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
@@ -36,7 +33,7 @@
     "@trimble-oss/modus-icons": "1.15.0",
     "@trimbleinc/modus-bootstrap": "1.6.4",
     "autoprefixer": "10.4.20",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "eslint-plugin-html": "8.1.1",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.131.2",
@@ -47,6 +44,9 @@
     "prettier": "3.3.3",
     "stylelint": "16.9.0",
     "stylelint-config-standard-scss": "13.1.0"
+  },
+  "engines": {
+    "node": ">=20.17.0"
   },
   "hugo-bin": {
     "buildTags": "extended"
