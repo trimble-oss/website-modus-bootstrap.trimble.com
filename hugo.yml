@@ -19,7 +19,7 @@ services:
     id: G-T2EGGYVY8J
 
 publishdir: "./build/"
-disableKinds: ["section", "taxonomy", "term"]
+disableKinds: ["section", "taxonomy", "term", "sitemap"]
 
 taxonomies:
   tag: ""

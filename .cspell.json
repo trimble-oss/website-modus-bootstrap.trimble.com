@@ -26,18 +26,6 @@
     "aldi",
     "alertable",
     "alertdialog",
-    "alexa",
-    "algolia",
-    "alk",
-    "alkdirect",
-    "alkmap",
-    "alkmaps",
-    "alkmsg",
-    "alks",
-    "alksdk",
-    "alksso",
-    "alktech",
-    "alktest",
     "alloc",
     "allowfullscreen",
     "anchorize",
@@ -49,8 +37,6 @@
     "anonymize",
     "anonymized",
     "antimeridian",
-    "apacheta",
-    "appian",
     "Applebees",
     "applicationsettings",
     "appstore",
@@ -1187,9 +1173,7 @@
     "whitelist"
   ],
   "language": "en,en-US,lorem",
-  "ignoreRegExpList": [
-    "\\#\\w+"
-  ],
+  "ignoreRegExpList": ["\\#\\w+"],
   "ignorePaths": [
     ".cspell.json",
     "**/inputs.md",
