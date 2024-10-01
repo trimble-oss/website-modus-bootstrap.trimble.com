@@ -34,7 +34,7 @@
     "@trimbleinc/modus-bootstrap": "1.6.4",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
-    "eslint-plugin-html": "8.1.1",
+    "eslint-plugin-html": "8.1.2",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.132.0",
     "list.js": "2.3.1",
