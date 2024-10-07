@@ -2,7 +2,7 @@
 title: "Sample Page - 1.5.5"
 layout: "sample-page"
 description: "All components"
-url: "/sample-page/1.5.5/"
+url: "/docs/v1/sample-page/1.5.5/"
 private: true
 hideToc: true
 SamplePage: true

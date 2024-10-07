@@ -2,7 +2,7 @@
 title: "Sample Page - Next"
 layout: "sample-page"
 description: "All components"
-url: "/sample-page/next/"
+url: "/docs/v1/sample-page/next/"
 private: true
 hideToc: true
 SamplePage: true
