@@ -2,7 +2,7 @@
   "name": "modus-bootstrap-guide",
   "version": "1.0.0",
   "private": true,
-  "description": "static website built with Hugo",
+  "description": "static website for Modus Bootstrap v1 built with Hugo",
   "homepage": "https://modus-bootstrap.trimble.com",
   "bugs": {
     "url": "https://github.com/trimble-oss/website-modus-bootstrap.trimble.com/issues/"
@@ -36,17 +36,20 @@
     "eslint": "8.57.1",
     "eslint-plugin-html": "8.1.2",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.132.0",
+    "hugo-bin": "0.133.5",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
     "postcss": "8.4.47",
     "postcss-cli": "11.0.0",
     "prettier": "3.3.3",
-    "stylelint": "16.9.0",
+    "stylelint": "16.10.0",
     "stylelint-config-standard-scss": "13.1.0"
   },
   "engines": {
     "node": ">=20.17.0"
+  },
+  "volta": {
+    "node": "20.18.0"
   },
   "hugo-bin": {
     "buildTags": "extended"

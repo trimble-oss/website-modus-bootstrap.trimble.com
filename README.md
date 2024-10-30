@@ -1,4 +1,4 @@
-# Modus Bootstrap Developer Guide Site
+# Modus Bootstrap v1 Developer Guide Site
 
 Static site built with Hugo Extended.
 
