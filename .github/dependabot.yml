@@ -15,6 +15,6 @@ updates:
     reviewers:
       - coliff
     schedule:
-      interval: weekly
+      interval: monthly
     labels:
       - github-actions

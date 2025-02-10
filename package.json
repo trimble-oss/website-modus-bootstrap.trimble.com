@@ -29,19 +29,19 @@
     "svgo": "npx svgo --folder=\"static/img/headers\""
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "6.0.0",
-    "@trimble-oss/modus-icons": "1.15.0",
+    "@fullhuman/postcss-purgecss": "7.0.2",
+    "@trimble-oss/modus-icons": "1.16.0",
     "@trimbleinc/modus-bootstrap": "1.6.4",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-plugin-html": "8.1.2",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.136.2",
+    "hugo-bin": "0.140.1",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.49",
+    "postcss": "8.5.1",
     "postcss-cli": "11.0.0",
-    "prettier": "3.4.2",
+    "prettier": "3.5.0",
     "stylelint": "16.14.1",
     "stylelint-config-standard-scss": "14.0.0"
   },
@@ -49,7 +49,7 @@
     "node": ">=20.17.0"
   },
   "volta": {
-    "node": "20.18.0"
+    "node": "20.18.3"
   },
   "hugo-bin": {
     "buildTags": "extended"
