@@ -1,5 +1,5 @@
+const autoprefixer = require('autoprefixer')
 const purgeImport = require('@fullhuman/postcss-purgecss');
-
 const purgeCSSPlugin =
   purgeImport.purgeCSSPlugin || purgeImport.default || purgeImport;
 
