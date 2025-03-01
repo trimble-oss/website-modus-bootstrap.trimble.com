@@ -39,7 +39,7 @@
     "hugo-bin": "0.141.1",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.5.2",
+    "postcss": "8.5.3",
     "postcss-cli": "11.0.0",
     "prettier": "3.5.1",
     "stylelint": "16.14.1",
