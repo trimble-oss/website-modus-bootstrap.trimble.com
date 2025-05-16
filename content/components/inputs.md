@@ -706,7 +706,7 @@ Bootstrap also provides a way to translate the "Browse" text in HTML with the `d
 
 <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
 <script>
-$(document).ready(function () {
+$(function () {
   bsCustomFileInput.init()
 });
 </script>
