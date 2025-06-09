@@ -15,6 +15,8 @@
   "id-unique": false,
   "inline-script-disabled": false,
   "inline-style-disabled": false,
+  "meta-charset-require": true,
+  "meta-viewport-require": true,
   "space-tab-mixed-disabled": false,
   "spec-char-escape": false,
   "src-not-empty": true,
